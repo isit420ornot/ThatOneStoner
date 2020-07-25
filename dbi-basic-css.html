@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>That One Basic Stoner...</title>
+  <script>
+    function testVariable() {
+      var basicName = document.getElementById("your-name").value;
+      var basicYouSmoke = document.getElementById("ddlist").value;
+      var basicISmoke = document.getElementsByName("strain-radio");
+      for (i = 0; i < basicISmoke.length; i++) {
+        if (basicISmoke[i].checked)
+          newISmoke = basicISmoke[i].value;
+      }
+      var basicAllDay = ""
+      if (allday.checked) {
+        basicAllDay = "All Day!!!";
+      }
+      var basicEveryDay = ""
+      if (everyday.checked) {
+        basicEveryDay = "Every Day!!!";
+      }
+      var basicTherefor = ""
+      if (therefor.checked) {
+        basicTherefor = "and Therefor I am!!!";
+      }
+      var basicFontColor = document.getElementById("fontColor").value;
+      var basicBGColor = document.getElementById("bgColor").value;
+      var basicNote = "Note: Some simple JavaScript... (not yet covered by this course)... was used to create the output below:";
+      var result = "Hello... My name is " + basicName + "... and... " + basicYouSmoke + "... if/when I smoke... I typically opt for... " + newISmoke + " " + basicAllDay + ' ' + basicEveryDay + ' ' + basicTherefor;
+      var colorChoices = "You chose... " + basicFontColor + "... for the font color... and... " + basicBGColor + "... for the background color...";
+      var stayTuned = "Stay tuned and I'll do something with these colors as soon as I complete the CSS portion of this course..."
+      document.getElementById('spanResult1').textContent = basicNote;
+      document.getElementById('spanResult2').textContent = result;
+      document.getElementById('spanResult3').textContent = colorChoices;
+      document.getElementById('spanResult4').textContent = stayTuned;
+      var x = document.getElementById("resultDiv");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+
+    }
+
+    var loadFile = function(event) {
+      var image = document.getElementById('output');
+      image.src = URL.createObjectURL(event.target.files[0]);
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <img src="images/potphotoheader.jpg" alt="Pot Photos as a Header">
+  </header>
+
+  <h1>That One Basic Stoner...</h1>
+  <h3>...who's moved on to learn some basic CSS...</h3>
+  <h2>...as part of a <em>full stack</em> <strong>Django Bootcamp</strong>!!!</h2>
+
+  <br>
+  <p>Below are several basic HTML challenges from the first several lessons of the above
+    mentioned Django Bootcamp... Please make sure to complete the form at the bottom of the
+    page in order to see how this all looks with the help from some much needed CSS... Let
+    see if I can pull this off this time... without getting too caught up in any creative
+    ideas that may come to mind during the learning process!!! </p>
+
+  <h2>Top Ten Strains...</h2>
+  <h5>A lesson about organized lists:</h5>
+  <ol>
+    <li>Alison Wonderland</li>
+    <li>White Widow</li>
+    <li>North Lights</li>
+    <li>Bubba's Gift</li>
+    <li>Purple Urkle</li>
+    <li>Blue Cheese</li>
+    <li>Girl Scout Cookies</li>
+    <li>Strawberry Banana Cough</li>
+    <li>OG Kush</li>
+    <li>Gorrila Glue</li>
+  </ol>
+  <br>
+  <h2>Projects and Future Projects...</h2>
+  <h5>A lesson about unordered lists and links:</h5>
+  <ul>
+    <li><a href="https://isit420ornot.com/">IsIt420OrNot.com</a></li>
+    <li><a href="http://thewickerbreaker.com/">TheWickerBreaker.com</a></li>
+    <li><a href="http://fubunker.com/">fubunker.com</a></li>
+    <li><a href="http://isochronia.com/">Isochronia.com</a></li>
+    <li><a href="https://potheadpicasso.com/">PotheadPicasso.com</a></li>
+  </ul>
+
+  <br>
+  <h2>Tic Tac Table</h2>
+  <h5>I don't use tables all that often...<br>...so...<br>...I will play a game of
+    Tic Tac Toe...<br>...to show that I know how to build one if needed!!!</h5>
+
+  <table border="1">
+    <thead>
+      <th>Tic</th>
+      <th>Tac</th>
+      <th>Table</th>
+    </thead>
+    <tr>
+      <td>X</td>
+      <td>O</td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td>O</td>
+      <td>X</td>
+      <td>O</td>
+    </tr>
+    <tr>
+      <td>X</td>
+      <td>O</td>
+      <td>X</td>
+    </tr>
+    <tr>
+      <td><img src="images/tic.gif" alt="Tic Image"></td>
+      <td><img src="images/tac.gif" alt="Tac Image"></td>
+      <td><img src="images/table.gif" alt="Table Image"></td>
+    </tr>
+  </table>
+
+
+  <h6>Okay... no game of Tic Tac Toe could ever look like this...</h6>
+
+  <h2>Front-End Form</h2>
+  <h5>The task at hand for this lesson is to create a nonfunctioning login form...
+    <br>...since I'm not sure if this site will ever require users to need to login...
+    <br>and plan to make each and every project fully functional...
+    <br>...please enjoy this front-end fun and functional form!!!</h5>
+
+  <form id="basic-form">
+
+
+
+    <label for="your-name">Hello:</label>
+    <input id="your-name" type="text" name="name" placeholder="What's your name my pothead friend???" size="32">
+    <br><br>
+
+    <label for="ddList">Do you smoke weed:</label>
+    <select id="ddlist" name="do-you">
+      <option selected="true" disabled="disabled">Select One</option>
+      <option value="of course I smoke weed... it's the only way 2020 makes any sense at all">Yes</option>
+      <option value="I don't smoke weed... I'm not a fan of fun...">No</option>
+      <option value="I don't know... who's asking...">IDK</option>
+      <option value="I only smoke sometimes... but mainly because I'm broke...">Sometimes</option>
+      <option value="maybe I'll smoke... why... are you holding???">Maybe</option>
+      <option value="what???">What???</option>
+    </select>
+
+    <p>What's your strain:</p>
+    <label for="indica">Indica:</label>
+    <input id="indica" type="radio" name="strain-radio" value="Indica... ">
+    <label for="sativa">Sativa:</label>
+    <input id="sativa" type="radio" name="strain-radio" value="Sativa... ">
+    <label for="hybrid">Hybrid:</label>
+    <input id="hybrid" type="radio" name="strain-radio" value="Hybrids... ">
+    <br><br>
+
+    <label for="I-smoke">I smoke:</label>
+    <input type="checkbox" id="allday" name="smoker-type" value="All Day">
+    <label for="all-day">All Day...</label>
+    <input type="checkbox" id="everyday" name="smoker-type">
+    <label for="every-day"> Every Day...</label>
+    <input type="checkbox" id="therefor" name="smoker-type">
+    <label for="therefor"> Therefor I am!!!</label><br>
+    <br>
+
+    <label for="formimage">Now let's see that stoner smile:</label>
+    <br><br>
+    <input type="file" accept="image/*" name="image" id="imageFile" onchange="loadFile(event)"></p>
+
+    <p>... and finally...</p>
+    <label for="font-color">Pick a font color:</label>
+    <input id="fontColor" type="color" name="font" value="#d3be3e">
+    <label for="bgColor"> and a background color:</label>
+    <input id="bgColor" type="color" name="background-color" value="#649c37">
+    <br><br>
+    <button id="basicButton" type="button" name="basic-submit" onclick="testVariable(); showImage();">Let's see what happens???</button>
+
+  </form>
+  <br>
+  <div id="resultDiv" style="display:none">
+    <span id="spanResult1"></span>
+    <br><br>
+    <span id="spanResult2"></span>
+    <br><br>
+    <img id="output" />
+    <br><br>
+    <span id="spanResult3"></span>
+    <br><br>
+    <span id="spanResult4"></span>
+    <br><br>
+    <button type="button" name="button" onclick="window.location.href='dbi-basic-css.html';">With that... let's see how this page looks with a little help from the above mentioned CSS training!!!</button>
+  </div>
+  <footer>
+    <a href="index.html"><img src="images\basicpotheadfooter.jpg" alt="Pothead Footer"></a>
+  </footer>
+</body>
+
+</html>
