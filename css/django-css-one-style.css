@@ -1,0 +1,383 @@
+/*GLOBAL*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+footer{
+  width: 100%;
+}
+
+input:focus {
+  outline: none !important;
+  border: 1px solid greenyellow;
+  box-shadow: 0 0 10px #3a7235;
+}
+
+label {
+  vertical-align: middle;
+}
+
+main {
+  padding-top: 10%;
+
+}
+
+select:focus {
+  outline: none !important;
+  border: 1px solid greenyellow;
+  box-shadow: 0 0 10px #3a7235;
+}
+
+/*CLASSES*/
+.content-tagline {
+
+  text-decoration: underline;
+}
+
+.footerImage{
+  width: 100%;
+}
+
+.header-image {
+  width: 100%;
+}
+
+.header-text-group {
+  color: #faea19;
+  text-shadow: 3px 2px 0px #b1a62a;
+  -webkit-text-stroke: .1px #;
+  text-align: center;
+  margin-top: -20%;
+  font-size: 2vw;
+}
+
+.page-title {}
+
+.title-course {
+  font-size: 3.5vw;
+  font-family: 'Chewy', cursive;
+}
+
+.title-course-line {
+  font-size: 3.5vw;
+  font-family: 'Special Elite', cursive;
+}
+
+.title-main {
+  font-size: 5vw;
+  font-family: 'Chewy', cursive;
+}
+
+.title-tagline {
+  font-size: 3vw;
+  font-family: 'Special Elite', cursive;
+}
+
+/*ID*/
+
+
+
+#basicButton {
+  background: #7ca427;
+    background-image: -webkit-linear-gradient(top, #7ca427, #1f211b);
+    background-image: -moz-linear-gradient(top, #7ca427, #1f211b);
+    background-image: -ms-linear-gradient(top, #7ca427, #1f211b);
+    background-image: -o-linear-gradient(top, #7ca427, #1f211b);
+    background-image: linear-gradient(to bottom, #7ca427, #1f211b);
+    font-family: 'Chewy', cursive;
+    color: #e6ff00;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+#basicButton:hover {
+  background: #1f211b;
+   background-image: -webkit-linear-gradient(top, #1f211b, #7ca427);
+   background-image: -moz-linear-gradient(top, #1f211b, #7ca427);
+   background-image: -ms-linear-gradient(top, #1f211b, #7ca427);
+   background-image: -o-linear-gradient(top, #1f211b, #7ca427);
+   background-image: linear-gradient(to bottom, #1f211b, #7ca427);
+   text-decoration: none;
+}
+
+#buttonDiv{
+  width: 500px;
+  margin: 0 auto;
+}
+
+#checkboxDiv label {
+  color: whitesmoke;
+  font-family: 'Special Elite', cursive;
+  font-size: 16px;
+  text-shadow: 1px 1px 0px black;
+  margin-right: 5px;
+}
+
+#colorPickDiv label {
+  color: whitesmoke;
+  font-family: 'Special Elite', cursive;
+  font-size: 14px;
+  text-shadow: 1px 1px 0px black;
+  margin-right: 5px;
+}
+
+#cssLevelTwoButton{
+
+background: #e6ff00;
+background-image: -webkit-linear-gradient(top, #e6ff00, #737839);
+background-image: -moz-linear-gradient(top, #e6ff00, #737839);
+background-image: -ms-linear-gradient(top, #e6ff00, #737839);
+background-image: -o-linear-gradient(top, #e6ff00, #737839);
+background-image: linear-gradient(to bottom, #e6ff00, #737839);
+font-family: 'Chewy', cursive;
+color: black;
+font-size: 15px;
+padding: 10px 20px 10px 20px;
+text-decoration: none;
+margin: 25px 0px 50px 25px;
+
+}
+
+#cssLevelTwoButton:hover {
+  background: #737839;
+  background-image: -webkit-linear-gradient(top, #737839, #e6ff00);
+  background-image: -moz-linear-gradient(top, #737839, #e6ff00);
+  background-image: -ms-linear-gradient(top, #737839, #e6ff00);
+  background-image: -o-linear-gradient(top, #737839, #e6ff00);
+  background-image: linear-gradient(to bottom, #737839, #e6ff00);
+  text-decoration: none;
+}
+
+#cssMain {
+  background-color: #b1a62a;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#cssMain a:link, a:visited {
+  color: whitesmoke;
+  font-family: 'Chewy', cursive;
+  text-shadow: 1px 0px 0px black;
+  font-size: 18px;
+}
+
+#cssMain a:hover, a:active {
+  color: greenyellow;
+  font-family: 'Chewy', cursive;
+  text-shadow: 1px 0px 0px black;
+  font-size: 18px;
+}
+
+#cssMain h2 {
+  color: #7da427;
+  font-family: 'Chewy', cursive;
+  text-shadow: 3px 1px 0px black;
+  font-size: 50px;
+}
+
+#cssMain h6 {
+  color: whitesmoke;
+  font-family: 'Chewy', cursive;
+  text-shadow: 2px 1px 0px black;
+  font-size: 18px;
+}
+
+#cssMain p {
+  color: whitesmoke;
+  font-family: 'Special Elite', cursive;
+  text-shadow: 2px 1px 0px black;
+  font-size: 20px;
+}
+
+#cssMain ol {
+  color: whitesmoke;
+  font-family: 'Special Elite', cursive;
+  text-shadow: 1px 1px 0px black;
+  font-size: 20px;
+  margin: 25px 50px;
+}
+
+#cssMain table {
+  margin-left: 50px;
+}
+
+#cssMain table, td, th {
+  border: 5px solid whitesmoke;
+  color: greenyellow;
+  font-family: 'Special Elite', cursive;
+  text-shadow: 1px 1px 0px black;
+  font-size: 20px;
+  text-align: center;
+}
+
+#cssMain td {
+  height: 50px;
+  width: 75px;
+}
+
+#cssMain th {
+  color: #faea19;
+  font-family: 'Chewy', cursive;
+  text-shadow: 1px 1px 0px black;
+  font-size: 20px;
+  margin: 25px 50px;
+}
+
+#cssMain ul {
+  color: whitesmoke;
+  font-family: 'Special Elite', cursive;
+  text-shadow: 1px 1px 0px black;
+  font-size: 20px;
+  margin: 25px 50px;
+}
+
+#dropDiv label {
+  font-family: 'Chewy', cursive;
+  color: #faea19;
+  font-size: 25px;
+  text-shadow: 1px 1px 0px black;
+}
+
+#formIntro{
+  text-align: center;
+}
+
+#front-end-form-example {
+  border: 5px dotted greenyellow;
+  padding: 25px 0px;
+  text-align: center;
+  width: 500px;
+}
+
+
+#front-end-form-example p {
+  font-family: 'Chewy', cursive;
+  color: #faea19;
+  font-size: 25px;
+  text-shadow: 1px 1px 0px black;
+}
+#front-end-form-section{
+  width: 525px;
+  margin: 0 auto;
+
+}
+#imageFile {
+  color: whitesmoke;
+  font-family: 'Special Elite', cursive;
+  text-shadow: 1px 1px 0px black;
+  font-size: 15px;
+  margin: 25px 50px;
+}
+
+#nameDiv label {
+  font-family: 'Chewy', cursive;
+  color: #faea19;
+  font-size: 25px;
+  text-shadow: 1px 1px 0px black;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+#ordered-list-example{
+  text-align: center;
+  margin: 0 auto;
+  width: 375px;
+
+}
+
+#output{
+  width: 455px;
+
+}
+
+#radioButtons label {
+  color: whitesmoke;
+  font-family: 'Special Elite', cursive;
+  font-size: 25px;
+  text-shadow: 1px 1px 0px black;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+#resultDiv {
+  width: 525px;
+  padding: 25px;
+  margin: 0 auto;
+    text-align: center;
+}
+
+#spanResult1 {
+  color: whitesmoke;
+  font-family: 'Special Elite', cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+#spanResult2 {
+  font-family: 'Chewy', cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+#spanResult4 {
+  color: whitesmoke;
+  font-family: 'Special Elite', cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+#table-example {
+margin: 0 auto;
+  text-align: center;
+  width: 375px;
+
+}
+
+#titleDjangoBootcamp {
+  font-size: 3vw;
+  font-family: 'Chewy', cursive;
+}
+
+#titleFullStack {
+  font-size: 3vw;
+  font-family: 'Chewy', cursive;
+}
+
+#ticTacToeDiv {
+
+  margin-bottom: 25px;
+
+
+}
+
+#unodered-lists-and-links-example{
+  text-align: center;
+  margin: 0 auto;
+  width: 375px;
+
+}
+
+#yourName {
+  color: #3a7235;
+  font-weight: 900;
+  font-family: 'Special Elite', cursive;
+  padding: 10px;
+  padding-top 20px:
+    border-radius: 4px;
+  font-size: 15px;
+  width: 295px;
+  background: whitesmoke;
+}
+
+#youSmokelist {
+  color: #3a7235;
+  font-weight: 900;
+  font-family: 'Special Elite', cursive;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 15px;
+  background: whitesmoke;
+
+}
