@@ -1,0 +1,225 @@
+/*GLOBAL*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  padding-top: 10%;
+
+}
+
+table{
+  margin: auto;
+
+}
+
+td {
+  width: 5%;
+  height: 15vw;
+  width: 175px;
+  border: 5px solid #e4e4e6;
+}
+
+/*CLASSES*/
+
+.css_two_content{
+  font-family: 'Special Elite', cursive;
+  font-weight: 900;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.footer_image{
+  width: 100%;
+}
+
+.header_image {
+  width: 100%;
+}
+
+.header_text_group {
+  color: #faea19;
+  text-shadow: 3px 2px 0px #b1a62a;
+  -webkit-text-stroke: .1px #;
+  text-align: center;
+  margin-top: -20%;
+  font-size: 2vw;
+}
+
+.introduction_text_content{
+  background-color: ghostwhite;
+  padding: 50px;
+
+}
+
+.title_course {
+  font-size: 3.5vw;
+  font-family: 'Chewy', cursive;
+}
+
+.title_course_line {
+  font-size: 3.5vw;
+  font-family: 'Special Elite', cursive;
+}
+
+.title_main {
+  font-size: 5vw;
+  font-family: 'Chewy', cursive;
+}
+
+.title_tagline {
+  font-size: 3vw;
+  font-family: 'Special Elite', cursive;
+}
+
+/*ID*/
+#artwall{
+  background-color: #e4e4e6;
+  padding: 5px;
+}
+
+#capstoneButton {
+	box-shadow:inset 0px 1px 0px 0px ghostwhite;
+	background:linear-gradient(to bottom, ghostwhite 5%, #f6f6f6 100%);
+	background-color:ghostwhite;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+  font-family: 'Cinzel', serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px ghostwhite;
+  margin-bottom: 50px;
+}
+
+#capstoneButton:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, ghostwhite 100%);
+	background-color:#f6f6f6;
+}
+
+#capstoneButton:active {
+	position:relative;
+	top:1px;
+}
+
+#capstoneButtonDiv{
+  width: 500px;
+  margin: 0 auto;
+
+}
+
+#cssMain {
+  background-color: #e4e4e6;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+}
+
+#cssMain h2 {
+  color: #171813;
+  font-family: 'Cinzel', serif;
+  text-shadow: 2px 1px 5px #3b393c;
+  font-size: 50px;
+}
+
+#spectrumVAssignment{
+  margin-top: 50px;
+  background-color: ghostwhite;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+#spectrumVOG{
+    width: 100%;
+}
+
+#td1{
+  background-color: #29a25b;
+  border-bottom: 2px solid #0e6b34;
+  border-left: 2px solid #0e6b34;
+  box-shadow: 0px  6px 0px #4a4f4b;
+}
+
+#td2{
+  background-color: #079098;
+  border-bottom: 2px solid #015e70;
+  border-left: 2px solid #015e70;
+  box-shadow: 0px  6px 0px #4a4f4b;
+}
+
+#td3{
+  background-color: #0762a9;
+  border-bottom: 2px solid #0c4072;
+  border-left: 2px solid #0c4072;
+  box-shadow: 0px  6px 0px #4a4f4b;
+}
+
+#td4{
+  background-color: #254f9b;
+  border-bottom: 2px solid #203b82;
+  border-left: 2px solid #203b82;
+  box-shadow: 0px  6px 0px #4a4f4b;
+}
+
+#td5{
+  background-color: #4e4274;
+  border-bottom: 2px solid #241d3c;
+  border-left: 2px solid #241d3c;
+  box-shadow: 0px  6px 0px #4a4f4b;
+}
+
+#td6{
+  background-color: #985d8b;
+  border-bottom: 2px solid #431136;
+  border-left: 2px solid #431136;
+  box-shadow: 0px  6px 0px #4a4f4b;
+}
+
+#td7{
+  background-color: #cf6685;
+  border-bottom: 2px solid #8b243f;
+  border-left: 2px solid #8b243f;
+  box-shadow: 0px  6px 0px #4a4f4b;
+}
+
+#td8{
+  background-color: #e4655e;
+  border-bottom: 2px solid #631f0c;
+  border-left: 2px solid #631f0c;
+  box-shadow: 0px  6px 0px #4a4f4b;
+}
+
+#td9{
+  background-color: #e97238;
+  border-bottom: 2px solid #bf4d1b;
+  border-left: 2px solid #bf4d1b;
+  box-shadow: 0px  6px 0px #4a4f4b;
+}
+
+#td10{
+  background-color: #e8892b;
+  border-bottom: 2px solid #c0673b;
+  border-left: 2px solid #c0673b;
+  box-shadow: 0px  6px 0px #4a4f4b;
+}
+
+#td11{
+  background-color: #c9ad25;
+  border-bottom: 2px solid #816923;
+  border-left: 2px solid #816923;
+  box-shadow: 0px  6px 0px #4a4f4b;
+}
+
+#titleDjangoBootcamp {
+  font-size: 3vw;
+  font-family: 'Chewy', cursive;
+}
+
+#titleFullStack {
+  font-size: 3vw;
+  font-family: 'Chewy', cursive;
+}

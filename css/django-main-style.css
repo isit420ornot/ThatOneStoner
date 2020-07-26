@@ -1,0 +1,121 @@
+/*GLOBAL*/
+*{
+  padding: 0;
+  margin: 0;
+}
+
+main{
+  background-color: #869d29;
+  padding: 50px;
+}
+
+/*CLASS*/
+
+.footer_image{
+  width: 100%;
+}
+
+.header_image {
+  width: 100%;
+}
+
+.header_text_group {
+  color: #faea19;
+  text-shadow: 3px 2px 0px #b1a62a;
+  text-align: center;
+  margin-top: -22%;
+  font-size: 2vw;
+}
+
+.main_content{
+    font-family: 'Special Elite', cursive;
+  color: #faea19;
+    text-shadow: 2px 1px 0px #b1a62a;
+    font-size: 20px;
+}
+
+a:visited, a:link {
+  font-family: 'Chewy', cursive;
+  color: #faea19;
+    text-shadow: 2px 1px 0px #b1a62a;
+    font-size: 20px;
+}
+
+a:hover, a:active {
+  font-family: 'Chewy', cursive;
+  color: greenyellow;
+    text-shadow: 2px 1px 0px #b1a62a;
+    font-size: 20px;
+}
+
+.signature{
+  font-family: 'Special Elite', cursive;
+  font-family: 'Chewy', cursive;
+  color: whitesmoke;
+  text-shadow: 2px 1px 0px #b1a62a;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.title_course_line {
+  font-size: 4vw;
+  font-family: 'Special Elite', cursive;
+}
+
+.title_django_bootcamp {
+  font-size: 2.5vw;
+  font-family: 'Chewy', cursive;
+}
+
+.title_full_stack {
+  font-size: 2.75vw;
+  font-family: 'Chewy', cursive;
+}
+
+.title_main {
+  font-size: 5vw;
+  font-family: 'Chewy', cursive;
+}
+
+.title_tagline {
+  font-size: 4vw;
+  font-family: 'Special Elite', cursive;
+  text-shadow: 2px 1px 0px #b1a62a;
+}
+
+/*ID*/
+
+#computerMe{
+  width: 45%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  float: right;
+}
+#mainGreeting{
+  font-family: 'Special Elite', cursive;
+  font-family: 'Chewy', cursive;
+  color: whitesmoke;
+  text-shadow: 2px 1px 0px #b1a62a;
+  font-size: 30px;
+  
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+#mainSection{
+  background-color: #558f3a;
+  padding: 25px;
+  margin-top: 50px;
+}
+
+#ps{
+  color: whitesmoke;
+  font-family: 'Chewy', cursive;
+font-size: 18px;
+}
+
+#tempLinks{
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: 900;
+}

@@ -30,20 +30,20 @@ select:focus {
 }
 
 /*CLASSES*/
-.content-tagline {
+.content_tagline {
 
   text-decoration: underline;
 }
 
-.footerImage{
+.footer_image{
   width: 100%;
 }
 
-.header-image {
+.header_image {
   width: 100%;
 }
 
-.header-text-group {
+.header_text_group {
   color: #faea19;
   text-shadow: 3px 2px 0px #b1a62a;
   -webkit-text-stroke: .1px #;
@@ -52,31 +52,32 @@ select:focus {
   font-size: 2vw;
 }
 
-.page-title {}
+.introduction_text_content{
+  background-color: #a59758;
+  padding: 50px;
+}
 
-.title-course {
+.title_course {
   font-size: 3.5vw;
   font-family: 'Chewy', cursive;
 }
 
-.title-course-line {
+.title_course_line {
   font-size: 3.5vw;
   font-family: 'Special Elite', cursive;
 }
 
-.title-main {
+.title_main {
   font-size: 5vw;
   font-family: 'Chewy', cursive;
 }
 
-.title-tagline {
+.title_tagline {
   font-size: 3vw;
   font-family: 'Special Elite', cursive;
 }
 
 /*ID*/
-
-
 
 #basicButton {
   background: #7ca427;
@@ -152,8 +153,8 @@ margin: 25px 0px 50px 25px;
 
 #cssMain {
   background-color: #b1a62a;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
 }
 
 #cssMain a:link, a:visited {
@@ -199,10 +200,6 @@ margin: 25px 0px 50px 25px;
   margin: 25px 50px;
 }
 
-#cssMain table {
-  margin-left: 50px;
-}
-
 #cssMain table, td, th {
   border: 5px solid whitesmoke;
   color: greenyellow;
@@ -244,25 +241,27 @@ margin: 25px 0px 50px 25px;
   text-align: center;
 }
 
-#front-end-form-example {
+#frontEndFormExample {
   border: 5px dotted greenyellow;
   padding: 25px 0px;
   text-align: center;
   width: 500px;
 }
 
-
-#front-end-form-example p {
+#frontEndFormExample p {
   font-family: 'Chewy', cursive;
   color: #faea19;
   font-size: 25px;
   text-shadow: 1px 1px 0px black;
 }
-#front-end-form-section{
+
+#frontEndFormSection{
   width: 525px;
   margin: 0 auto;
-
+  background-color: #a59758;
+  padding: 50px;
 }
+
 #imageFile {
   color: whitesmoke;
   font-family: 'Special Elite', cursive;
@@ -280,11 +279,12 @@ margin: 25px 0px 50px 25px;
   margin-left: 10px;
 }
 
-#ordered-list-example{
+#orderedListExample{
   text-align: center;
   margin: 0 auto;
   width: 375px;
-
+  background-color: #a59758;
+  padding: 50px;
 }
 
 #output{
@@ -328,7 +328,7 @@ margin: 25px 0px 50px 25px;
   text-align: center;
 }
 
-#table-example {
+#tableExample {
 margin: 0 auto;
   text-align: center;
   width: 375px;
@@ -346,17 +346,25 @@ margin: 0 auto;
 }
 
 #ticTacToeDiv {
-
-  margin-bottom: 25px;
-
-
+  margin-bottom: 50px;
+  background-color: #a59758;
+  padding: 50px;
+  width: 375px;
+  margin-left: -50px;
 }
 
-#unodered-lists-and-links-example{
+#ticTacTable{
+  margin-left: 50px; 
+}
+
+#unoderedListsAndLinksExample{
   text-align: center;
   margin: 0 auto;
   width: 375px;
-
+  background-color: #a59758;
+  padding: 50px;
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 #yourName {
