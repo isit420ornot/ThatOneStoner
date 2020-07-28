@@ -4,20 +4,17 @@
   margin: 0;
 }
 
-
-
-
 /*CLASSES*/
-
-.css_two_content{
+.css_two_content {
   font-family: 'Special Elite', cursive;
   font-weight: 900;
   margin-top: 10px;
   margin-bottom: 25px;
 }
 
-.footer_image{
+.footer_image {
   width: 100%;
+  height: 250px;
 }
 
 .header_image {
@@ -33,10 +30,9 @@
   font-size: 2vw;
 }
 
-.introduction_text_content{
+.introduction_text_content {
   background-color: ghostwhite;
   padding: 50px;
-
 }
 
 .title_course {
@@ -60,40 +56,37 @@
 }
 
 /*ID*/
-
-
 #capstoneButton {
-	box-shadow:inset 0px 1px 0px 0px ghostwhite;
-	background:linear-gradient(to bottom, ghostwhite 5%, #f6f6f6 100%);
-	background-color:ghostwhite;
-	border-radius:6px;
-	border:1px solid #dcdcdc;
-	display:inline-block;
-	cursor:pointer;
-	color:#666666;
+  box-shadow: inset 0px 1px 0px 0px ghostwhite;
+  background: linear-gradient(to bottom, ghostwhite 5%, #f6f6f6 100%);
+  background-color: ghostwhite;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: #666666;
   font-family: 'Cinzel', serif;
-	font-size:15px;
-	font-weight:bold;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px ghostwhite;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px ghostwhite;
   margin-bottom: 50px;
 }
 
 #capstoneButton:hover {
-	background:linear-gradient(to bottom, #f6f6f6 5%, ghostwhite 100%);
-	background-color:#f6f6f6;
+  background: linear-gradient(to bottom, #f6f6f6 5%, ghostwhite 100%);
+  background-color: #f6f6f6;
 }
 
 #capstoneButton:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
 
-#capstoneButtonDiv{
+#capstoneButtonDiv {
   width: 500px;
   margin: 0 auto;
-
 }
 
 #cssMain {
@@ -108,7 +101,6 @@
   text-shadow: 2px 1px 5px #3b393c;
   font-size: 50px;
 }
-
 
 #titleDjangoBootcamp {
   font-size: 3vw;

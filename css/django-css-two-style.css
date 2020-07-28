@@ -32,6 +32,7 @@ td {
 
 .footer_image{
   width: 100%;
+  height: 250px;
 }
 
 .header_image {
@@ -76,7 +77,9 @@ td {
 /*ID*/
 #artwall{
   background-color: #e4e4e6;
-  padding: 5px;
+  padding: 50px;
+  box-shadow: 0px  25px 0px #353631;
+  margin-bottom: 25px;
 }
 
 #capstoneButton {
@@ -139,79 +142,79 @@ td {
 
 #td1{
   background-color: #29a25b;
-  border-bottom: 2px solid #0e6b34;
-  border-left: 2px solid #0e6b34;
-  box-shadow: 0px  6px 0px #4a4f4b;
+  border-bottom: 5px solid #0e6b34;
+  border-left: 5px solid #0e6b34;
+  box-shadow: 0px  8px 0px #4a4f4b;
 }
 
 #td2{
   background-color: #079098;
-  border-bottom: 2px solid #015e70;
-  border-left: 2px solid #015e70;
-  box-shadow: 0px  6px 0px #4a4f4b;
+  border-bottom: 5px solid #015e70;
+  border-left: 5px solid #015e70;
+  box-shadow: 0px  8px 0px #4a4f4b;
 }
 
 #td3{
   background-color: #0762a9;
-  border-bottom: 2px solid #0c4072;
-  border-left: 2px solid #0c4072;
-  box-shadow: 0px  6px 0px #4a4f4b;
+  border-bottom: 5px solid #0c4072;
+  border-left: 5px solid #0c4072;
+  box-shadow: 0px  8px 0px #4a4f4b;
 }
 
 #td4{
   background-color: #254f9b;
-  border-bottom: 2px solid #203b82;
-  border-left: 2px solid #203b82;
-  box-shadow: 0px  6px 0px #4a4f4b;
+  border-bottom: 5px solid #203b82;
+  border-left: 5px solid #203b82;
+  box-shadow: 0px  8px 0px #4a4f4b;
 }
 
 #td5{
   background-color: #4e4274;
-  border-bottom: 2px solid #241d3c;
-  border-left: 2px solid #241d3c;
-  box-shadow: 0px  6px 0px #4a4f4b;
+  border-bottom: 5px solid #241d3c;
+  border-left: 5px solid #241d3c;
+  box-shadow: 0px  8px 0px #4a4f4b;
 }
 
 #td6{
   background-color: #985d8b;
-  border-bottom: 2px solid #431136;
-  border-left: 2px solid #431136;
-  box-shadow: 0px  6px 0px #4a4f4b;
+  border-bottom: 5px solid #431136;
+  border-left: 5px solid #431136;
+  box-shadow: 0px  8px 0px #4a4f4b;
 }
 
 #td7{
   background-color: #cf6685;
-  border-bottom: 2px solid #8b243f;
-  border-left: 2px solid #8b243f;
-  box-shadow: 0px  6px 0px #4a4f4b;
+  border-bottom: 5px solid #8b243f;
+  border-left: 5px solid #8b243f;
+  box-shadow: 0px  8px 0px #4a4f4b;
 }
 
 #td8{
   background-color: #e4655e;
-  border-bottom: 2px solid #631f0c;
-  border-left: 2px solid #631f0c;
-  box-shadow: 0px  6px 0px #4a4f4b;
+  border-bottom: 5px solid #631f0c;
+  border-left: 5px solid #631f0c;
+  box-shadow: 0px  8px 0px #4a4f4b;
 }
 
 #td9{
   background-color: #e97238;
-  border-bottom: 2px solid #bf4d1b;
-  border-left: 2px solid #bf4d1b;
-  box-shadow: 0px  6px 0px #4a4f4b;
+  border-bottom: 5px solid #bf4d1b;
+  border-left: 5px solid #bf4d1b;
+  box-shadow: 0px  8px 0px #4a4f4b;
 }
 
 #td10{
   background-color: #e8892b;
-  border-bottom: 2px solid #c0673b;
-  border-left: 2px solid #c0673b;
-  box-shadow: 0px  6px 0px #4a4f4b;
+  border-bottom: 5px solid #c0673b;
+  border-left: 5px solid #c0673b;
+  box-shadow: 0px  8px 0px #4a4f4b;
 }
 
 #td11{
   background-color: #c9ad25;
-  border-bottom: 2px solid #816923;
-  border-left: 2px solid #816923;
-  box-shadow: 0px  6px 0px #4a4f4b;
+  border-bottom: 5px solid #816923;
+  border-left: 5px solid #816923;
+  box-shadow: 0px  8px 0px #4a4f4b;
 }
 
 #titleDjangoBootcamp {

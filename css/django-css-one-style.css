@@ -4,7 +4,11 @@
   margin: 0;
 }
 
-footer{
+body {
+  background-color: #d1e023;
+}
+
+footer {
   width: 100%;
 }
 
@@ -19,8 +23,13 @@ label {
 }
 
 main {
-  padding-top: 10%;
+  padding-top: 125px;
+  margin: 0 auto;
+  width: 960px;
+}
 
+select {
+  font-family: 'Special Elite', cursive;
 }
 
 select:focus {
@@ -30,13 +39,9 @@ select:focus {
 }
 
 /*CLASSES*/
-.content_tagline {
-
-  text-decoration: underline;
-}
-
-.footer_image{
+.footer_image {
   width: 100%;
+  height: 300px;
 }
 
 .header_image {
@@ -44,101 +49,109 @@ select:focus {
 }
 
 .header_text_group {
-  color: #faea19;
-  text-shadow: 3px 2px 0px #b1a62a;
-  -webkit-text-stroke: .1px #;
+  color: #d3d99d;
+  text-shadow: 2.5px 1.5px 0px #0e1716;
   text-align: center;
   margin-top: -20%;
   font-size: 2vw;
 }
 
-.introduction_text_content{
-  background-color: #a59758;
+.introduction_text_content {
+  background-color: #6a992f;
   padding: 50px;
+  width: 960px;
+  margin: 0 auto;
 }
 
 .title_course {
   font-size: 3.5vw;
-  font-family: 'Chewy', cursive;
+  font-family: 'Alfa Slab One', cursive;
 }
 
 .title_course_line {
   font-size: 3.5vw;
-  font-family: 'Special Elite', cursive;
+  font-family: 'Acme', sans-serif;
 }
 
 .title_main {
   font-size: 5vw;
-  font-family: 'Chewy', cursive;
+  font-family: 'Alfa Slab One', cursive;
 }
 
 .title_tagline {
   font-size: 3vw;
-  font-family: 'Special Elite', cursive;
+  font-family: 'Acme', sans-serif;
 }
 
 /*ID*/
+#assignmentGroup {
+  width: 960px;
+  height: 650px;
+  margin-bottom: -25px
+
+}
 
 #basicButton {
   background: #7ca427;
-    background-image: -webkit-linear-gradient(top, #7ca427, #1f211b);
-    background-image: -moz-linear-gradient(top, #7ca427, #1f211b);
-    background-image: -ms-linear-gradient(top, #7ca427, #1f211b);
-    background-image: -o-linear-gradient(top, #7ca427, #1f211b);
-    background-image: linear-gradient(to bottom, #7ca427, #1f211b);
-    font-family: 'Chewy', cursive;
-    color: #e6ff00;
-    font-size: 15px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
+  background-image: -webkit-linear-gradient(top, #7ca427, #1f211b);
+  background-image: -moz-linear-gradient(top, #7ca427, #1f211b);
+  background-image: -ms-linear-gradient(top, #7ca427, #1f211b);
+  background-image: -o-linear-gradient(top, #7ca427, #1f211b);
+  background-image: linear-gradient(to bottom, #7ca427, #1f211b);
+  font-family: 'Acme', sans-serif;
+  color: #e6ff00;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-shadow: 2.5px 1.5px 0px #0e1716;
 }
 
 #basicButton:hover {
   background: #1f211b;
-   background-image: -webkit-linear-gradient(top, #1f211b, #7ca427);
-   background-image: -moz-linear-gradient(top, #1f211b, #7ca427);
-   background-image: -ms-linear-gradient(top, #1f211b, #7ca427);
-   background-image: -o-linear-gradient(top, #1f211b, #7ca427);
-   background-image: linear-gradient(to bottom, #1f211b, #7ca427);
-   text-decoration: none;
+  background-image: -webkit-linear-gradient(top, #1f211b, #7ca427);
+  background-image: -moz-linear-gradient(top, #1f211b, #7ca427);
+  background-image: -ms-linear-gradient(top, #1f211b, #7ca427);
+  background-image: -o-linear-gradient(top, #1f211b, #7ca427);
+  background-image: linear-gradient(to bottom, #1f211b, #7ca427);
+  text-decoration: none;
 }
 
-#buttonDiv{
+#buttonDiv {
   width: 500px;
   margin: 0 auto;
 }
 
 #checkboxDiv label {
-  color: whitesmoke;
+  color: #f2f0f5;
   font-family: 'Special Elite', cursive;
   font-size: 16px;
-  text-shadow: 1px 1px 0px black;
+  text-shadow: 2.5px 1.5px 0px #0e1716;
+  text-shadow: 2.5px 1.5px 0px #0e1716;
   margin-right: 5px;
 }
 
 #colorPickDiv label {
-  color: whitesmoke;
+  color: #f2f0f5;
   font-family: 'Special Elite', cursive;
   font-size: 14px;
-  text-shadow: 1px 1px 0px black;
+  text-shadow: 2.5px 1.5px 0px #0e1716;
   margin-right: 5px;
 }
 
-#cssLevelTwoButton{
-
-background: #e6ff00;
-background-image: -webkit-linear-gradient(top, #e6ff00, #737839);
-background-image: -moz-linear-gradient(top, #e6ff00, #737839);
-background-image: -ms-linear-gradient(top, #e6ff00, #737839);
-background-image: -o-linear-gradient(top, #e6ff00, #737839);
-background-image: linear-gradient(to bottom, #e6ff00, #737839);
-font-family: 'Chewy', cursive;
-color: black;
-font-size: 15px;
-padding: 10px 20px 10px 20px;
-text-decoration: none;
-margin: 25px 0px 50px 25px;
-
+#cssLevelTwoButton {
+  background: #e6ff00;
+  background-image: -webkit-linear-gradient(top, #e6ff00, #737839);
+  background-image: -moz-linear-gradient(top, #e6ff00, #737839);
+  background-image: -ms-linear-gradient(top, #e6ff00, #737839);
+  background-image: -o-linear-gradient(top, #e6ff00, #737839);
+  background-image: linear-gradient(to bottom, #e6ff00, #737839);
+  font-family: 'Acme', sans-serif;
+  color: #0e1716;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 25px 0px 50px 25px;
+  text-shadow: 1px 1px 0px #0e1716;
 }
 
 #cssLevelTwoButton:hover {
@@ -152,59 +165,60 @@ margin: 25px 0px 50px 25px;
 }
 
 #cssMain {
-  background-color: #b1a62a;
   padding-left: 7.5%;
   padding-right: 7.5%;
 }
 
 #cssMain a:link, a:visited {
-  color: whitesmoke;
-  font-family: 'Chewy', cursive;
-  text-shadow: 1px 0px 0px black;
+  color: #f2f0f5;
+  font-family: 'Special Elite', cursive;
+  text-shadow: 2.5px 1.5px 0px #0e1716;
+  text-shadow: 2.5px 1.5px 0px #0e1716;
   font-size: 18px;
 }
 
 #cssMain a:hover, a:active {
   color: greenyellow;
-  font-family: 'Chewy', cursive;
-  text-shadow: 1px 0px 0px black;
-  font-size: 18px;
+  font-family: 'Special Elite', cursive;
+  text-shadow: 2.5px 1.5px 0px #0e1716;
+  font-size: 20px;
 }
 
 #cssMain h2 {
-  color: #7da427;
-  font-family: 'Chewy', cursive;
-  text-shadow: 3px 1px 0px black;
-  font-size: 50px;
+  color: #d1e023;
+  font-family: 'Alfa Slab One', cursive;
+  text-shadow: 4px 3px 0px #0e1716;
+  font-size: 34px;
+  text-decoration: underline;
 }
 
 #cssMain h6 {
-  color: whitesmoke;
-  font-family: 'Chewy', cursive;
-  text-shadow: 2px 1px 0px black;
+  color: #f2f0f5;
+  font-family: 'Acme', sans-serif;
+  text-shadow: 2px 1px 0px #0e1716;
   font-size: 18px;
 }
 
 #cssMain p {
-  color: whitesmoke;
+  color: #f2f0f5;
   font-family: 'Special Elite', cursive;
-  text-shadow: 2px 1px 0px black;
+  text-shadow: 2.5px 1.5px 0px #0e1716;
   font-size: 20px;
 }
 
 #cssMain ol {
-  color: whitesmoke;
+  color: #f2f0f5;
   font-family: 'Special Elite', cursive;
-  text-shadow: 1px 1px 0px black;
+  text-shadow: 2.5px 1.5px 0px #0e1716;
   font-size: 20px;
   margin: 25px 50px;
 }
 
 #cssMain table, td, th {
-  border: 5px solid whitesmoke;
+  border: 5px solid #f2f0f5;
   color: greenyellow;
-  font-family: 'Special Elite', cursive;
-  text-shadow: 1px 1px 0px black;
+  font-family: 'Roboto Slab', serif;
+  text-shadow: 2.5px 1.5px 0px #0e1716;
   font-size: 20px;
   text-align: center;
 }
@@ -216,28 +230,30 @@ margin: 25px 0px 50px 25px;
 
 #cssMain th {
   color: #faea19;
-  font-family: 'Chewy', cursive;
-  text-shadow: 1px 1px 0px black;
+  font-family: 'Roboto Slab', serif;
+  text-shadow: 2.5px 1.5px 0px #0e1716;
   font-size: 20px;
   margin: 25px 50px;
 }
 
 #cssMain ul {
-  color: whitesmoke;
+  color: #f2f0f5;
   font-family: 'Special Elite', cursive;
-  text-shadow: 1px 1px 0px black;
+  text-shadow: 2.5px 1.5px 0px #0e1716;
+  text-shadow: 2.5px 1.5px 0px #0e1716;
   font-size: 20px;
   margin: 25px 50px;
 }
 
 #dropDiv label {
-  font-family: 'Chewy', cursive;
+  font-family: 'Acme', sans-serif;
   color: #faea19;
   font-size: 25px;
-  text-shadow: 1px 1px 0px black;
+  text-shadow: 2.5px 1.5px 0px #0e1716;
+  text-shadow: 2.5px 1.5px 0px #0e1716;
 }
 
-#formIntro{
+#formIntro {
   text-align: center;
 }
 
@@ -249,54 +265,54 @@ margin: 25px 0px 50px 25px;
 }
 
 #frontEndFormExample p {
-  font-family: 'Chewy', cursive;
+  font-family: 'Acme', sans-serif;
   color: #faea19;
   font-size: 25px;
-  text-shadow: 1px 1px 0px black;
+  text-shadow: 2.5px 1.5px 0px #0e1716;
 }
 
-#frontEndFormSection{
-  width: 525px;
+#frontEndFormSection {
+  width: 960px;
   margin: 0 auto;
-  background-color: #a59758;
+  background-color: #6a992f;
   padding: 50px;
 }
 
 #imageFile {
-  color: whitesmoke;
+  color: #f2f0f5;
   font-family: 'Special Elite', cursive;
-  text-shadow: 1px 1px 0px black;
+  text-shadow: 2.5px 1.5px 0px #0e1716;
+  text-shadow: 2.5px 1.5px 0px #0e1716;
   font-size: 15px;
   margin: 25px 50px;
 }
 
 #nameDiv label {
-  font-family: 'Chewy', cursive;
+  font-family: 'Acme', sans-serif;
   color: #faea19;
   font-size: 25px;
-  text-shadow: 1px 1px 0px black;
+  text-shadow: 2.5px 1.5px 0px #0e1716;
   margin-right: 5px;
   margin-left: 10px;
 }
 
-#orderedListExample{
-  text-align: center;
-  margin: 0 auto;
-  width: 375px;
-  background-color: #a59758;
-  padding: 50px;
+#orderedListExample {
+  width: 320px;
+  background-color: #6a992f;
+  height: 550px;
+  padding: 15px;
+
 }
 
-#output{
+#output {
   width: 455px;
-
 }
 
 #radioButtons label {
-  color: whitesmoke;
+  color: #f2f0f5;
   font-family: 'Special Elite', cursive;
   font-size: 25px;
-  text-shadow: 1px 1px 0px black;
+  text-shadow: 2.5px 1.5px 0px #0e1716;
   margin-right: 5px;
   margin-left: 10px;
 }
@@ -305,66 +321,62 @@ margin: 25px 0px 50px 25px;
   width: 525px;
   padding: 25px;
   margin: 0 auto;
-    text-align: center;
+  text-align: center;
 }
 
 #spanResult1 {
-  color: whitesmoke;
-  font-family: 'Special Elite', cursive;
+  color: #f2f0f5;
+  font-family: 'Acme', sans-serif;
   font-size: 20px;
   text-align: center;
 }
 
 #spanResult2 {
-  font-family: 'Chewy', cursive;
-  font-size: 20px;
-  text-align: center;
-}
-
-#spanResult4 {
-  color: whitesmoke;
   font-family: 'Special Elite', cursive;
   font-size: 20px;
   text-align: center;
 }
 
-#tableExample {
-margin: 0 auto;
+#spanResult4 {
+  color: #f2f0f5;
+  font-family: 'Acme', sans-serif;
+  font-size: 20px;
   text-align: center;
-  width: 375px;
+}
 
+
+
+#ticTacToeDiv {
+  width: 320px;
+  background-color: #6a992f;
+  height: 550px;
+  margin-top: -580px;
+  margin-left: 740px;
+  width: 290px;
+  background-color: #6a992f;
+  padding: 15px;
+  text-align: center;
 }
 
 #titleDjangoBootcamp {
-  font-size: 3vw;
+  font-size: 2.5vw;
   font-family: 'Chewy', cursive;
 }
 
 #titleFullStack {
-  font-size: 3vw;
+  font-size: 2.5vw;
   font-family: 'Chewy', cursive;
 }
 
-#ticTacToeDiv {
-  margin-bottom: 50px;
-  background-color: #a59758;
-  padding: 50px;
-  width: 375px;
-  margin-left: -50px;
-}
-
-#ticTacTable{
-  margin-left: 50px; 
-}
-
-#unoderedListsAndLinksExample{
-  text-align: center;
-  margin: 0 auto;
-  width: 375px;
-  background-color: #a59758;
-  padding: 50px;
-  margin-top: 25px;
-  margin-bottom: 50px;
+#unoderedListsAndLinksExample {
+  width: 320px;
+  background-color: #6a992f;
+  margin-top: -580px;
+  margin-left: 385px;
+  width: 290px;
+  background-color: #6a992f;
+  height: 550px;
+  padding: 15px;
 }
 
 #yourName {
@@ -372,11 +384,11 @@ margin: 0 auto;
   font-weight: 900;
   font-family: 'Special Elite', cursive;
   padding: 10px;
-  padding-top 20px:
-    border-radius: 4px;
+  padding-top 20px;
+  border-radius: 4px;
   font-size: 15px;
   width: 295px;
-  background: whitesmoke;
+  background: #f2f0f5;
 }
 
 #youSmokelist {
@@ -386,6 +398,5 @@ margin: 0 auto;
   padding: 10px;
   border-radius: 4px;
   font-size: 15px;
-  background: whitesmoke;
-
+  background: #f2f0f5;
 }
