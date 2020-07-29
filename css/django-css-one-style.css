@@ -38,6 +38,11 @@ select:focus {
   box-shadow: 0 0 10px #3a7235;
 }
 
+th{
+  background-color: greenyellow;
+
+}
+
 /*CLASSES*/
 .footer_image {
   width: 100%;
@@ -61,6 +66,7 @@ select:focus {
   padding: 50px;
   width: 960px;
   margin: 0 auto;
+  box-shadow: 5px 5px 10px black;
 }
 
 .title_course {
@@ -79,6 +85,7 @@ select:focus {
 }
 
 .title_tagline {
+  margin-top: 5px;
   font-size: 3vw;
   font-family: 'Acme', sans-serif;
 }
@@ -92,33 +99,40 @@ select:focus {
 }
 
 #basicButton {
-  background: #7ca427;
-  background-image: -webkit-linear-gradient(top, #7ca427, #1f211b);
-  background-image: -moz-linear-gradient(top, #7ca427, #1f211b);
-  background-image: -ms-linear-gradient(top, #7ca427, #1f211b);
-  background-image: -o-linear-gradient(top, #7ca427, #1f211b);
-  background-image: linear-gradient(to bottom, #7ca427, #1f211b);
+  background: #e6ff00;
+  background-image: -webkit-linear-gradient(top, #e6ff00, #737839);
+  background-image: -moz-linear-gradient(top, #e6ff00, #737839);
+  background-image: -ms-linear-gradient(top, #e6ff00, #737839);
+  background-image: -o-linear-gradient(top, #e6ff00, #737839);
+  background-image: linear-gradient(to bottom, #e6ff00, #737839);
   font-family: 'Acme', sans-serif;
-  color: #e6ff00;
+  color: #f2f0f5;
   font-size: 15px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  text-shadow: 2.5px 1.5px 0px #0e1716;
+  margin: 25px 0px 50px 25px;
+  text-shadow: 1px 1px 0px #0e1716;
+
+
 }
 
 #basicButton:hover {
-  background: #1f211b;
-  background-image: -webkit-linear-gradient(top, #1f211b, #7ca427);
-  background-image: -moz-linear-gradient(top, #1f211b, #7ca427);
-  background-image: -ms-linear-gradient(top, #1f211b, #7ca427);
-  background-image: -o-linear-gradient(top, #1f211b, #7ca427);
-  background-image: linear-gradient(to bottom, #1f211b, #7ca427);
+  background: #737839;
+  background-image: -webkit-linear-gradient(top, #737839, #e6ff00);
+  background-image: -moz-linear-gradient(top, #737839, #e6ff00);
+  background-image: -ms-linear-gradient(top, #737839, #e6ff00);
+  background-image: -o-linear-gradient(top, #737839, #e6ff00);
+  background-image: linear-gradient(to bottom, #737839, #e6ff00);
   text-decoration: none;
+
+
 }
+
 
 #buttonDiv {
   width: 500px;
-  margin: 0 auto;
+  margin-left: 275px;
+
 }
 
 #checkboxDiv label {
@@ -139,28 +153,29 @@ select:focus {
 }
 
 #cssLevelTwoButton {
-  background: #e6ff00;
-  background-image: -webkit-linear-gradient(top, #e6ff00, #737839);
-  background-image: -moz-linear-gradient(top, #e6ff00, #737839);
-  background-image: -ms-linear-gradient(top, #e6ff00, #737839);
-  background-image: -o-linear-gradient(top, #e6ff00, #737839);
-  background-image: linear-gradient(to bottom, #e6ff00, #737839);
+  background: #7ca427;
+  background-image: -webkit-linear-gradient(top, #7ca427, #1f211b);
+  background-image: -moz-linear-gradient(top, #7ca427, #1f211b);
+  background-image: -ms-linear-gradient(top, #7ca427, #1f211b);
+  background-image: -o-linear-gradient(top, #7ca427, #1f211b);
+  background-image: linear-gradient(to bottom, #7ca427, #1f211b);
   font-family: 'Acme', sans-serif;
-  color: #0e1716;
+  color: #e6ff00;
   font-size: 15px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
+  text-shadow: 2.5px 1.5px 0px #0e1716;
   margin: 25px 0px 50px 25px;
-  text-shadow: 1px 1px 0px #0e1716;
+
 }
 
 #cssLevelTwoButton:hover {
-  background: #737839;
-  background-image: -webkit-linear-gradient(top, #737839, #e6ff00);
-  background-image: -moz-linear-gradient(top, #737839, #e6ff00);
-  background-image: -ms-linear-gradient(top, #737839, #e6ff00);
-  background-image: -o-linear-gradient(top, #737839, #e6ff00);
-  background-image: linear-gradient(to bottom, #737839, #e6ff00);
+  background: #1f211b;
+  background-image: -webkit-linear-gradient(top, #1f211b, #7ca427);
+  background-image: -moz-linear-gradient(top, #1f211b, #7ca427);
+  background-image: -ms-linear-gradient(top, #1f211b, #7ca427);
+  background-image: -o-linear-gradient(top, #1f211b, #7ca427);
+  background-image: linear-gradient(to bottom, #1f211b, #7ca427);
   text-decoration: none;
 }
 
@@ -226,6 +241,7 @@ select:focus {
 #cssMain td {
   height: 50px;
   width: 75px;
+  background-color: #d3d99d;
 }
 
 #cssMain th {
@@ -262,6 +278,7 @@ select:focus {
   padding: 25px 0px;
   text-align: center;
   width: 500px;
+  margin: 0 auto;
 }
 
 #frontEndFormExample p {
@@ -276,6 +293,8 @@ select:focus {
   margin: 0 auto;
   background-color: #6a992f;
   padding: 50px;
+  box-shadow: 5px 5px 10px black;
+
 }
 
 #imageFile {
@@ -301,6 +320,8 @@ select:focus {
   background-color: #6a992f;
   height: 550px;
   padding: 15px;
+  box-shadow: 5px 5px 10px black;
+
 
 }
 
@@ -320,8 +341,12 @@ select:focus {
 #resultDiv {
   width: 525px;
   padding: 25px;
-  margin: 0 auto;
+  margin-top: 50px;
+  margin:25px;
   text-align: center;
+  box-shadow: 5px 5px 10px black;
+  background-color: #649c37;
+  margin-left: 240px;
 }
 
 #spanResult1 {
@@ -335,6 +360,7 @@ select:focus {
   font-family: 'Special Elite', cursive;
   font-size: 20px;
   text-align: center;
+  color: #d3be3e;
 }
 
 #spanResult4 {
@@ -346,9 +372,14 @@ select:focus {
 
 
 
+#ticTacTable {
+  margin: auto;
+}
+
+
+
 #ticTacToeDiv {
   width: 320px;
-  background-color: #6a992f;
   height: 550px;
   margin-top: -580px;
   margin-left: 740px;
@@ -356,17 +387,11 @@ select:focus {
   background-color: #6a992f;
   padding: 15px;
   text-align: center;
+  box-shadow: 5px 5px 10px black;
+
 }
 
-#titleDjangoBootcamp {
-  font-size: 2.5vw;
-  font-family: 'Chewy', cursive;
-}
 
-#titleFullStack {
-  font-size: 2.5vw;
-  font-family: 'Chewy', cursive;
-}
 
 #unoderedListsAndLinksExample {
   width: 320px;
@@ -374,9 +399,9 @@ select:focus {
   margin-top: -580px;
   margin-left: 385px;
   width: 290px;
-  background-color: #6a992f;
   height: 550px;
   padding: 15px;
+  box-shadow: 5px 5px 10px black;
 }
 
 #yourName {

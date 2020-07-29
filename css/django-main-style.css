@@ -27,10 +27,10 @@ main{
 }
 
 .header_text_group {
-  color: #faea19;
-  text-shadow: 3px 2px 0px #b1a62a;
+  color: #d3d99d;
+  text-shadow: 2.5px 1.5px 0px #0e1716;
   text-align: center;
-  margin-top: -22%;
+  margin-top: -20%;
   font-size: 2vw;
 }
 
@@ -43,52 +43,41 @@ main{
 }
 
 a:visited, a:link {
-  font-family: 'Chewy', cursive;
+  font-family: 'Acme', sans-serif;
   color: #faea19;
-    text-shadow: 2px 1px 0px #b1a62a;
-    font-size: 20px;
+    text-shadow: 1px 1px 0px black;
+    font-size: 18px;
 }
 
 a:hover, a:active {
-  font-family: 'Chewy', cursive;
+  font-family: 'Acme', sans-serif;
   color: greenyellow;
-    text-shadow: 2px 1px 0px #b1a62a;
-    font-size: 20px;
+    text-shadow: 1px 0px 0px white;
+    font-size: 18px;
 }
 
 .signature{
   font-family: 'Special Elite', cursive;
-  font-family: 'Chewy', cursive;
   color: whitesmoke;
-  text-shadow: 2px 1px 0px #b1a62a;
+  text-shadow: 3px 2px 5px black;
   font-size: 25px;
   margin-bottom: 10px;
 }
 
 .title_course_line {
-  font-size: 4vw;
-  font-family: 'Special Elite', cursive;
-}
-
-.title_django_bootcamp {
-  font-size: 2.5vw;
-  font-family: 'Chewy', cursive;
-}
-
-.title_full_stack {
-  font-size: 2.75vw;
-  font-family: 'Chewy', cursive;
+  font-size: 4.5vw;
+  font-family: 'Acme', sans-serif;
 }
 
 .title_main {
   font-size: 5vw;
-  font-family: 'Chewy', cursive;
+  font-family: 'Alfa Slab One', cursive;
 }
 
 .title_tagline {
-  font-size: 4vw;
-  font-family: 'Special Elite', cursive;
-  text-shadow: 2px 1px 0px #b1a62a;
+  margin-top: 5px;
+  font-size: 2.9vw;
+  font-family: 'Acme', sans-serif;
 }
 
 /*ID*/
@@ -100,10 +89,9 @@ a:hover, a:active {
   float: right;
 }
 #mainGreeting{
-  font-family: 'Special Elite', cursive;
-  font-family: 'Chewy', cursive;
+  font-family: 'Alfa Slab One', cursive;
   color: whitesmoke;
-  text-shadow: 2px 1px 0px #b1a62a;
+  text-shadow: 3px 2px 5px black;
   font-size: 30px;
 
   margin-bottom: 25px;
@@ -114,6 +102,7 @@ a:hover, a:active {
   background-color: #558f3a;
   padding: 25px;
   margin-top: 50px;
+  box-shadow: 0px 0px 20px greenyellow;
 }
 
 #ps{

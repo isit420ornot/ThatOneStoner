@@ -4,11 +4,15 @@
   margin: 0;
 }
 
+body{
+background-color: #e4e4e6;
+}
+
 /*CLASSES*/
 .css_two_content {
   font-family: 'Special Elite', cursive;
   font-weight: 900;
-  margin-top: 10px;
+  margin-top: 25px;
   margin-bottom: 25px;
 }
 
@@ -22,9 +26,8 @@
 }
 
 .header_text_group {
-  color: #faea19;
-  text-shadow: 3px 2px 0px #b1a62a;
-  -webkit-text-stroke: .1px #;
+  color: #d3d99d;
+  text-shadow: 2.5px 1.5px 0px #0e1716;
   text-align: center;
   margin-top: -20%;
   font-size: 2vw;
@@ -33,6 +36,7 @@
 .introduction_text_content {
   background-color: ghostwhite;
   padding: 50px;
+  width: 960px;
 }
 
 .title_course {
@@ -41,18 +45,19 @@
 }
 
 .title_course_line {
-  font-size: 3.5vw;
-  font-family: 'Special Elite', cursive;
+  font-size: 4.5vw;
+  font-family: 'Acme', sans-serif;
 }
 
 .title_main {
   font-size: 5vw;
-  font-family: 'Chewy', cursive;
+  font-family: 'Alfa Slab One', cursive;
 }
 
 .title_tagline {
+  margin-top: 5px;
   font-size: 3vw;
-  font-family: 'Special Elite', cursive;
+  font-family: 'Acme', sans-serif;
 }
 
 /*ID*/
@@ -86,13 +91,16 @@
 
 #capstoneButtonDiv {
   width: 500px;
-  margin: 0 auto;
+  margin-left: 575px;
 }
 
 #cssMain {
-  background-color: #e4e4e6;
   padding-left: 7.5%;
   padding-right: 7.5%;
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 #cssMain h2 {
@@ -100,14 +108,4 @@
   font-family: 'Cinzel', serif;
   text-shadow: 2px 1px 5px #3b393c;
   font-size: 50px;
-}
-
-#titleDjangoBootcamp {
-  font-size: 3vw;
-  font-family: 'Chewy', cursive;
-}
-
-#titleFullStack {
-  font-size: 3vw;
-  font-family: 'Chewy', cursive;
 }

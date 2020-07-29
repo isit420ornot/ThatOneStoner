@@ -16,7 +16,7 @@ table{
 
 td {
   width: 5%;
-  height: 15vw;
+  height: 200px;
   width: 175px;
   border: 5px solid #e4e4e6;
 }
@@ -40,9 +40,8 @@ td {
 }
 
 .header_text_group {
-  color: #faea19;
-  text-shadow: 3px 2px 0px #b1a62a;
-  -webkit-text-stroke: .1px #;
+  color: #d3d99d;
+  text-shadow: 2.5px 1.5px 0px #0e1716;
   text-align: center;
   margin-top: -20%;
   font-size: 2vw;
@@ -51,27 +50,31 @@ td {
 .introduction_text_content{
   background-color: ghostwhite;
   padding: 50px;
+    width: 960px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 10px darkslategrey;
 
 }
 
 .title_course {
-  font-size: 3.5vw;
-  font-family: 'Chewy', cursive;
+  font-size: 3vw;
+  font-family: 'Alfa Slab One', cursive;
 }
 
 .title_course_line {
   font-size: 3.5vw;
-  font-family: 'Special Elite', cursive;
+  font-family: 'Acme', sans-serif;
 }
 
 .title_main {
   font-size: 5vw;
-  font-family: 'Chewy', cursive;
+  font-family: 'Alfa Slab One', cursive;
 }
 
 .title_tagline {
+  margin-top: 5px;
   font-size: 3vw;
-  font-family: 'Special Elite', cursive;
+  font-family: 'Acme', sans-serif;
 }
 
 /*ID*/
@@ -80,6 +83,8 @@ td {
   padding: 50px;
   box-shadow: 0px  25px 0px #353631;
   margin-bottom: 25px;
+  height: 250px;
+
 }
 
 #capstoneButton {
@@ -98,6 +103,7 @@ td {
 	text-decoration:none;
 	text-shadow:0px 1px 0px ghostwhite;
   margin-bottom: 50px;
+  box-shadow: 2px 2px 10px darkslategrey;
 }
 
 #capstoneButton:hover {
@@ -112,7 +118,7 @@ td {
 
 #capstoneButtonDiv{
   width: 500px;
-  margin: 0 auto;
+  margin:0 auto;
 
 }
 
@@ -130,10 +136,11 @@ td {
 }
 
 #spectrumVAssignment{
-  margin-top: 50px;
   background-color: ghostwhite;
   padding: 50px;
-  margin-bottom: 50px;
+    width: 960px;
+    margin: 50px auto;
+    box-shadow: 2px 2px 10px darkslategrey;
 }
 
 #spectrumVOG{
@@ -215,14 +222,4 @@ td {
   border-bottom: 5px solid #816923;
   border-left: 5px solid #816923;
   box-shadow: 0px  8px 0px #4a4f4b;
-}
-
-#titleDjangoBootcamp {
-  font-size: 3vw;
-  font-family: 'Chewy', cursive;
-}
-
-#titleFullStack {
-  font-size: 3vw;
-  font-family: 'Chewy', cursive;
 }
