@@ -4,16 +4,79 @@
   margin: 0;
 }
 
-body{
-background-color: #e4e4e6;
+body {
+  background-color: #8ca082;
+}
+
+p {
+  color: #263753;
+  text-shadow: 1px 0px 0px gray;
 }
 
 /*CLASSES*/
+.assignment_mini_title {
+  color: #5f685e;
+  font-family: 'Acme', sans-serif;
+  text-shadow: 1px 1px 1px black;
+}
+
+.assignment_text_content {
+  background-color: #f3e4df;
+  padding: 50px;
+  width: 960px;
+  margin-top: 50px;
+  font-family: 'Special Elite', cursive;
+  font-weight: 900;
+  box-shadow: 5px 5px 5px #2d4c1f;
+}
+
+.bday_group {
+  font-size: 15px;
+  margin-top: 25px;
+}
+
+.bday_group input {
+  font-size: 15px;
+}
+
+#bdayNote {
+  font-size: 12px;
+  width: 550px;
+}
+
+.datefield {
+  margin-top: -20px;
+  margin-left: 75px;
+}
+
+#checkImage {
+  width: 500px;
+  height: 250px;
+  margin: 25px 25px 25px 225px;
+}
+
+#checkImageDiv {
+  margin: 0 auto;
+}
+
+#chimpPower {
+  font-size: 12px;
+  float: right;
+}
+
+#paypalButtonGroup {
+  width: 50px;
+  margin: 25px 0px 25px 400px;
+}
+
 .css_two_content {
   font-family: 'Special Elite', cursive;
   font-weight: 900;
   margin-top: 25px;
-  margin-bottom: 25px;
+}
+
+.mc-field-group {
+  margin-bottom: 10px;
 }
 
 .footer_image {
@@ -33,10 +96,20 @@ background-color: #e4e4e6;
   font-size: 2vw;
 }
 
+.indicates-required {
+  font-size: 12px
+}
+
 .introduction_text_content {
-  background-color: ghostwhite;
+  background-color: #f3e4df;
   padding: 50px;
   width: 960px;
+  box-shadow: 5px 5px 5px #2d4c1f;
+}
+
+.mainImageDiv {
+  float: left;
+  width: 480px;
 }
 
 .title_course {
@@ -61,37 +134,60 @@ background-color: #e4e4e6;
 }
 
 /*ID*/
-#capstoneButton {
-  box-shadow: inset 0px 1px 0px 0px ghostwhite;
-  background: linear-gradient(to bottom, ghostwhite 5%, #f6f6f6 100%);
-  background-color: ghostwhite;
+#atHandTyping {
+  float: right;
+}
+
+#atHandImage {
+  width: 480px;
+  height: 480px;
+  margin-top: 50px;
+  margin-left: 25px;
+}
+
+#bootstrapButton {
+  box-shadow: inset 0px 0px 14px -3px #f2fadc;
+  background: linear-gradient(to bottom, #dbe6c4 5%, #9ba892 100%);
+  background-color: #dbe6c4;
   border-radius: 6px;
-  border: 1px solid #dcdcdc;
+  border: 1px solid #b2b8ad;
   display: inline-block;
   cursor: pointer;
-  color: #666666;
+  color: #263753;
+  font-family: 'Acme', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ced9bf;
   font-family: 'Cinzel', serif;
   font-size: 15px;
   font-weight: bold;
   padding: 6px 24px;
   text-decoration: none;
   text-shadow: 0px 1px 0px ghostwhite;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
+  width: 500px;
+  box-shadow: 5px 5px 5px #2d4c1f;
 }
 
-#capstoneButton:hover {
-  background: linear-gradient(to bottom, #f6f6f6 5%, ghostwhite 100%);
-  background-color: #f6f6f6;
+#bootstrapButton:hover {
+  background:linear-gradient(to bottom, #9ba892 5%, #dbe6c4 100%);
+	background-color:#9ba892;
+  color: whitesmoke;
+    text-shadow: 0px 1px 0px #263753;
+
 }
 
-#capstoneButton:active {
+#bootstrapButton:active {
   position: relative;
   top: 1px;
 }
 
-#capstoneButtonDiv {
+#bootstrapButtonDiv {
   width: 500px;
-  margin-left: 575px;
+  margin-left: 275px;
+  margin-top: 50px;
 }
 
 #cssMain {
@@ -104,8 +200,17 @@ background-color: #e4e4e6;
 }
 
 #cssMain h2 {
-  color: #171813;
+  color: #5f685e;
   font-family: 'Cinzel', serif;
-  text-shadow: 2px 1px 5px #3b393c;
+  text-shadow: 1px 1px 1px black;
   font-size: 50px;
+}
+
+#mailChimpDiv {
+  width: 480px;
+  margin: 0 auto;
+}
+
+#meInTheLab {
+  width: 450px;
 }
