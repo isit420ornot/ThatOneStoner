@@ -1,102 +1,129 @@
-/*GLOBAL*/
+/*START GLOBAL START*/
 * {
   margin: 0;
   padding: 0;
 }
 
-body {
-  background-color: #f3b369;
+a:link {
+  color: #d7e337;
+    text-shadow: 0 .1vw 0 #f3b369;
 }
 
-/*CLASS*/
-.footer_image {
-  height: 300px;
-  width: 100%;
+a:visited{
+  color: #d7e337;
 }
 
-.header_image {
-  width: 100%;
-  height: 300px;
+a:hover{
+  color: #8f1d83;
+  text-shadow: 0 .1vw 0 #94566d ;
 }
 
-.header_text_group {
-  margin-top: -250px;
+a:active{
+  color: whitesmoke;
+}
+/*END GLOBAL*/
+
+/*START HEADER GROUP START*/
+header{
+    background-image: url(../images/hangingweed.gif) ;
+    background-size: cover;
+    height: 35vw;
+    width: 100%;
 }
 
-.main_content_group {
-  background-color: #4883ad;
-  margin-right: 25px;
-  color: #fef0cb;
-  font-family: 'Special Elite', cursive;
-  font-size: 16px;
-  width: 900px;
-  margin: 0 auto;
-  margin-top: 145px;
-  height: 550px;
-  text-shadow: 1px 0px 0px #f3b369;
-  padding-right: 25px;
-}
-
-
-/*ID*/
-
-
-#introTitle {
-  color: #8bb091;
-  font-family: 'Acme', sans-serif;
-  padding-bottom: 25px;
-  padding-top: 25px;
-  text-indent: 25px;
-  font-size: 28px;
-  text-shadow: 3px 2px 0px #427c64;
-}
-
-#mainMe {
-  width: 350px;
-  height: 550px;
-  float: left;
-  margin-right: 25px;
+#mainTitle {
+  text-align: center;
+  color: #8f1d83;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 7vw;
+  padding-top: 7.5vw;
+  text-shadow: .3vw .2vw 2vw #fdff8d;
 }
 
 #mainTagLine {
   color: #d7e337;
-  margin-left: 50px;
+  text-align: center;
   font-family: 'Acme', sans-serif;
-  font-size: 35px;
-  text-shadow: 3px 2px 0px #94566d;
+  font-size: 5vw;
+  text-shadow: -.3vw -.2vw 2vw #94566d;
+}
+/*END HEADER JUMBOTRON GROUP END*/
+
+/*START MAIN CONTENT GROUP START*/
+.main_content_container{
+  width: 100%;
+  background-color: #4883ad;
+  height: 100vw;
 }
 
-#mainTitle {
-  margin-left: 25px;
-  color: #8f1d83;
-  font-family: 'Alfa Slab One', cursive;
-  font-size: 40px;
-  text-shadow: 3px 2px 0px #fdff8d;
+#mainMe {
+  float: left;
+  height: 100%;
+  width: 50vw;
 }
 
+#introTitle {
+  color: #8bb091;
+  margin-top: 2vw;
+  font-family: 'Acme', sans-serif;
+  padding-bottom: 1vw;
+  font-size: 2.6vw;
+  text-shadow: .3vw .2vw 0 #427c64;
+}
+
+.main_content_group {
+  float: right;
+  height: 100%;
+  width: 40vw;
+  margin-right: 4vw;
+  background-color: #4883ad;
+  color: #fef0cb;
+  font-family: 'Special Elite', cursive;
+  font-size: 1.6vw;
+  text-shadow: .2vw .1vw 0vw #aa5d27;
+  line-height: 1.7;
+}
+/*END BUTTON GROUP END*/
 .myButton {
-  box-shadow: 3px 4px 0px 0px #5c2602;
+  position: absolute;
+  box-shadow: .3vw .4vw 0 0 #5c2602;
   background: linear-gradient(to bottom, #ee6200 5%, #fe7a00 100%);
   background-color: #ee6200;
-  border-radius: 18px;
-  border: 1px solid #aa5d27;
+  border-radius: 1.8vw;
+  border: .1vw solid #aa5d27;
   display: inline-block;
   cursor: pointer;
   color: #e9dbce;
   font-family: 'Acme', sans-serif;
-  font-size: 17px;
-  padding: 7px 25px;
+  font-size: 1.1vw;
+  padding: 1vw 1vw;
   text-decoration: none;
-  text-shadow: 0px 1px 0px #612201;
-  margin: 50px 0px 0px 100px;
+  text-shadow: 0 2vw 0 #612201;
+  width: 15.5vw;
+  margin-left:10vw;
+  margin-top: -1vw;
+  text-align: center;
 }
 
 .myButton:hover {
-  background: linear-gradient(to bottom, #fe7a00 5%, #ee6200 100%);
-  background-color: #fe7a00;
+  background: linear-gradient(to bottom, #fe7a00 5%, #612201 100%);
+  background-color: #aa5d27;
+  color: #fdff8d;
 }
 
 .myButton:active {
   position: relative;
-  top: 1px;
+  top: .5vw;
 }
+/*END BUTTON GROUP END*/
+/*END MAIN CONTENT GROUP END*/
+
+
+/*START FOOTER GROUP START*/
+footer{
+  background-image: url(../images/farm.png) ;
+  background-size: cover;
+  height: 35vw;
+  width: 100%;
+}
+/*END FOOTER GROUP END*/

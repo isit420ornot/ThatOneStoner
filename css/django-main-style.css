@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #869d29;
+    background-color: #d1ba86;
 }
 
 main{
@@ -36,30 +36,48 @@ main{
 
 .main_content{
     font-family: 'Special Elite', cursive;
-  color: #faea19;
-    text-shadow: 2px 1px 0px #b1a62a;
+    color: #fffec5;
+    text-shadow: 2px 1px 1px #81612e;
     font-size: 20px;
+    line-height: 1.7;
 
 }
 
-a:visited, a:link {
-  font-family: 'Acme', sans-serif;
-  color: #faea19;
-    text-shadow: 1px 1px 0px black;
+
+
+.main_content a:link, a:visited {
+  font-family: 'Special Elite', cursive;
+  color: #abd4e6 ;
+    text-shadow: 1px 0px 2px #367cd1;
     font-size: 18px;
 }
 
-a:hover, a:active {
+.main_content a:hover, a:active {
+  font-family: 'Special Elite', cursive;
+  color: #367cd1;
+    text-shadow: 1px 0px 2px #abd4e6;
+    font-size: 18px;
+}
+
+
+#tempLinks a:visited, a:link {
   font-family: 'Acme', sans-serif;
-  color: greenyellow;
-    text-shadow: 1px 0px 2px #faea19;
+  color: #abd4e6;
+    text-shadow: 1px 1px 0px #367cd1;
+    font-size: 18px;
+}
+
+#tempLinks a:hover, a:active {
+  font-family: 'Acme', sans-serif;
+  color: #367cd1;
+    text-shadow: 1px 0px 2px #abd4e6;
     font-size: 18px;
 }
 
 .signature{
   font-family: 'Special Elite', cursive;
   color: whitesmoke;
-  text-shadow: 3px 2px 5px black;
+  text-shadow: 3px 2px 5px #abd4e6;
   font-size: 25px;
   margin-bottom: 10px;
 }
@@ -83,32 +101,33 @@ a:hover, a:active {
 /*ID*/
 
 #computerMe{
-  width: 400px;
-  margin-left: 5px;
-  margin-bottom: 5px;
+  width: 450px;
+  margin-left: 25px;
+  margin-bottom: 25px;
   float: right;
 }
 #mainGreeting{
   font-family: 'Alfa Slab One', cursive;
-  color: whitesmoke;
-  text-shadow: 3px 2px 5px black;
+  color: #abd4e6;
+  text-shadow: 3px 2px 3px #367cd1;
   font-size: 30px;
-
   margin-bottom: 25px;
   margin-top: 10px;
+
 }
 
 #mainSection{
-  background-color: #558f3a;
+  background-color: #616870;
   padding: 25px;
   margin-top: 50px;
-  box-shadow: 0px 0px 20px greenyellow;
+  box-shadow: 5px 5px 20px #85642f;
 }
 
 #ps{
-  color: whitesmoke;
+  color: #292f49;
   font-family: 'Chewy', cursive;
 font-size: 18px;
+
 }
 
 #tempLinks{
