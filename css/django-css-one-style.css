@@ -5,51 +5,21 @@
 }
 
 body {
-  background-color: #d1e023;
-}
-
-footer {
-  width: 100%;
-}
-
-input:focus {
-  outline: none !important;
-  border: 1px solid greenyellow;
-  box-shadow: 0 0 10px #3a7235;
-}
-
-label {
-  vertical-align: middle;
+  background-color: #cc912d;
+  overflow-x: hidden;
 }
 
 main {
-  padding-top: 125px;
-  margin: 0 auto;
-  width: 960px;
+  width: 86vw;
+  padding: 50px;
+  margin: auto;
 }
 
-select {
-  font-family: 'Special Elite', cursive;
-}
-
-select:focus {
-  outline: none !important;
-  border: 1px solid greenyellow;
-  box-shadow: 0 0 10px #3a7235;
-}
-
-th{
-  background-color: greenyellow;
-
-}
-
-/*CLASSES*/
-.footer_image {
-  width: 100%;
-  height: 300px;
-}
-
-.header_image {
+/*START HEADER GROUP START*/
+header {
+  background-image: url(../images/potphotoheader.jpg);
+  background-size: cover;
+  height: 35vw;
   width: 100%;
 }
 
@@ -57,25 +27,13 @@ th{
   color: #d3d99d;
   text-shadow: 2.5px 1.5px 0px #0e1716;
   text-align: center;
-  margin-top: -20%;
+  padding-top: 15vw;
   font-size: 2vw;
-}
-
-.introduction_text_content {
-  background-color: #6a992f;
-  padding: 50px;
-  width: 960px;
-  margin: 0 auto;
-  box-shadow: 5px 5px 10px black;
-}
-
-.title_course {
-  font-size: 3.5vw;
-  font-family: 'Alfa Slab One', cursive;
+  padding-left: 10vw;
 }
 
 .title_course_line {
-  font-size: 3.5vw;
+  font-size: 4.5vw;
   font-family: 'Acme', sans-serif;
 }
 
@@ -86,17 +44,429 @@ th{
 
 .title_tagline {
   margin-top: 5px;
-  font-size: 3vw;
+  font-size: 2.9vw;
   font-family: 'Acme', sans-serif;
 }
 
-/*ID*/
-#assignmentGroup {
-  width: 960px;
-  height: 650px;
-  margin-bottom: -25px
+/*START NAVBAR START*/
+nav a:link {
+  color: #d7e337;
+  font-family: 'Acme', sans-serif;
+  font-size: 2.4vw;
+  text-shadow: .3vw .2vw 0vw #94566d;
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
+}
+
+#homeNav {
+  font-family: 'Alfa Slab One', cursive;
+  color: #94566d;
+  background-color: #8dd49c;
+  font-size: 2.5vw;
+  text-shadow: .2vw .1vw 0vw #d7e337;
+}
+
+#dropHome:hover {
+  font-family: 'Alfa Slab One', cursive;
+  color: #8f1d83;
+  background-color: #2eba64;
+  font-size: 2.5vw;
+  text-shadow: .2vw .1vw 0vw #fdff8d;
+}
+
+#dropHome {
+  font-family: 'Alfa Slab One', cursive;
+  color: #8f1d83;
+  font-size: 2.5vw;
+  text-shadow: .2vw .1vw 0vw #fdff8d;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #427c64;
+}
+
+nav li {
+  float: left;
+  border-right: .1vw solid #8dd49c;
+  margin-bottom: -.75vw;
+}
+
+nav li:last-child {
+  border-right: none;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #2eba64;
+}
+
+.active {
+  background-color: #2eba64;
+}
+
+.active:hover {
+  background-color: #2eba64;
+}
+
+nav li a, .dropbtn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  color: whitesmoke;
+  padding: 1.4vw 1.6vw;
+}
+
+nav li a:hover, .dropdown:hover .dropbtn {
+  background-color: #8dd49c;
+  color: whitesmoke;
+  font-family: 'Acme', sans-serif;
+}
+
+nav li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  margin-top: -.75vw;
+  margin-left: -.1vw;
+  display: none;
+  position: absolute;
+  background-color: #427c64;
+  box-shadow: 0vw .8vw 1.6vw 0vw rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}
+
+.dropdown-content a {
+  font-family: 'Acme', sans-serif;
+  padding: 1.2vw 1.6vw;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*START NAVBAR START*/
+/*END HEADER JUMBOTRON GROUP END*/
+/*MAIN IMAGE*/
+#cssMe {
+  position: absolute;
+  margin-top: 5vw;
+  margin-left: 15vw;
+  width: 86vw;
+  z-index: 10;
+  box-shadow: .5vw .5vw 1vw black;
+}
+
+/*START INTRO TEXT AREA START*/
+.introduction_text_content {
+  background-color: #462a0f;
+  padding: 5vw;
+  margin-top: 7.5vw;
+  height: 225vw;
+  box-shadow: .5vw .5vw 1vw black;
+}
+
+.main_page_title {
+  position: absolute;
+  margin-top: 33vw;
+  margin-left: -17.5vw;
+  color: #dbd7d6;
+  background-color: #c7ad63;
+  font-family: 'Trocchi', serif;
+  text-shadow: .5vw .4vw 0vw #201615;
+  font-size: 6vw;
+  padding: 5vw 5vw 2vw 25vw;
+  z-index: 7;
+  box-shadow: .5vw .5vw 1vw black;
+}
+
+#introTextGroup {
+  font-family: 'Crimson Text', serif;
+  font-size: 2.5vw;
+  line-height: 1.7;
+  width: 100%;
+  margin-top: 47vw;
+}
+
+#paraGOne {
+  position: absolute;
+  margin-top: -2vw;
+  margin-left: -9vw;
+  width: 89vw;
+  background-color: #1a0e1a;
+  padding: 5vw 2.5vw;
+  color: #cea85d;
+  z-index: 6;
+  box-shadow: .5vw .5vw 1vw black;
+}
+
+#paraGTwo {
+  position: absolute;
+  margin-left: 0vw;
+  margin-top: 22vw;
+  width: 72vw;
+  background-color: #e3cc9a;
+  padding: 2.5vw;
+  color: #6b3c22;
+  z-index: 6;
+  box-shadow: .5vw .5vw 1vw black;
+}
+
+#paraGThree {
+  position: absolute;
+  margin-left: 15vw;
+  margin-top: 46vw;
+  width: 66vw;
+  background-color: #c68c28;
+  padding: 5vw;
+  padding-right: 15vw;
+  color: #d5ba8d;
+  z-index: 7;
+  box-shadow: .5vw .5vw 1vw black;
+}
+
+#paraGFour {
+  position: absolute;
+  margin-top: 75vw;
+  margin-left: -22vw;
+  width: 66vw;
+  background-color: #6b3c22;
+  padding: 5vw;
+  padding-left: 15vw;
+  color: #c68c28;
+  z-index: 9;
+  box-shadow: .5vw .5vw 1vw black;
+}
+
+#paraGFive {
+  position: absolute;
+  margin-top: 104vw;
+  margin-left: 25vw;
+  width: 55vw;
+  background-color: #7b490a;
+  padding: 5vw;
+  padding-right: 15vw;
+  color: #dfc27c;
+  z-index: 10;
+  box-shadow: .5vw .5vw 1vw black;
+}
+
+#paraGSix {
+  position: absolute;
+  margin-left: -12vw;
+  width: 90vw;
+  background-color: #cea85d;
+  margin-top: 137vw;
+  padding: 5vw;
+  color: #1a0e1a;
+  z-index: 7;
+  box-shadow: .5vw .5vw 1vw black;
+}
+
+#mainNote {
+  position: absolute;
+  margin-top: 167vw;
+  color: #f2f0f5;
+  font-family: 'Acme', sans-serif;
+  text-shadow: 2px 1px 0px #0e1716;
+  font-size: 2vw;
+  width: 82vw;
+  margin-left: -2.5vw;
+}
+
+/*END INTRO TEXT AREA END*/
+/*START ORDERED LIST START*/
+
+#assignmentGroupOne{
+  width: 97vw;
+  margin-top: 5vw;
+  margin-left: -8vw;
+  padding-bottom: 5vw;
 
 }
+
+.list_title {
+  font-family: 'Alfa Slab One', cursive;
+  color: #1a0e1a;
+  text-align: center;
+  font-size: 2.9vw;
+}
+
+.list_tagline {
+  font-family: 'Acme', sans-serif;
+  color: #1a0e1a;
+  text-align: center;
+  font-size: 2.5vw;
+}
+
+.list_title_group{
+  background-color: #cea85d;
+  padding: 1vw;
+}
+
+#orderedListExample {
+  float: left;
+  width: 42vw;
+    height: 62vw;
+    margin-left: 5vw;
+  background-color: #e3cc9a;
+  box-shadow: .5vw .5vw 1vw black;
+}
+
+#orderedListExample ol {
+  color: #1a0e1a;
+  font-family: 'Trocchi', serif;
+  text-shadow: .1vw 0vw 0vw #0e1716;
+  font-size: 1.8vw;
+  padding-left: 5vw;
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
+
+}
+
+/*END ORDERED LIST END*/
+/*START UNORDERED LIST START*/
+#unoderedListsAndLinksExample {
+  float: right;
+  width: 42vw;
+    height: 62vw;
+    margin-left: 5vw;
+  background-color: #e3cc9a;
+  box-shadow: .5vw .5vw 1vw black;
+}
+
+#assignmentGroup a:link, a:visited {
+  color: #1a0e1a;
+  font-family: 'Trocchi', serif;
+  text-shadow: .1vw 0vw 0vw #0e1716;
+  font-size: 1.8vw;
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
+}
+
+#assignmentGroup a:hover, a:active {
+  color: #c68c28;
+  font-family: 'Trocchi', serif;
+  text-shadow: .1vw 0vw 0vw #0e1716;
+  font-size: 1.95vw;
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
+}
+
+
+#unoderedListsAndLinksExample ul {
+  color: #1a0e1a;
+  font-family: 'Trocchi', serif;
+  text-shadow: .1vw 0vw 0vw #0e1716;
+  font-size: 1.8vw;
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
+  margin-left: 5vw;
+}
+
+#assignment_two_title_group{
+  background-color: #cea85d;
+  padding: 1vw;
+
+}
+
+
+#assignment_two_tagline {
+
+}
+
+
+/*END UNORDERED LIST END*/
+/*START TIC TAC TABLE SECTION START*/
+#ticTacToeDiv {
+  margin-top: 50vw;
+  width: 60vw;
+  background-color: #6b3c22;
+  padding: 15px;
+  margin-left: 7.5vw;
+  text-align: center;
+  box-shadow: 5px 5px 10px black;
+}
+
+.assignment_three_title{
+  font-family: 'Alfa Slab One', cursive;
+  color: #cea85d;
+  text-align: center;
+  font-size: 7vw;
+  margin-top: 10vw;
+  position: inherit;
+}
+
+.assignment_three_tagline{
+font-family: 'Acme', sans-serif;
+color: #c68c28;
+text-align: center;
+font-size: 2.3vw;
+padding-bottom: .1vw;
+}
+
+#ticTacTable {
+  margin: auto;
+}
+
+#ticTacTable table, td, th {
+  border: 5px solid #f2f0f5;
+  color: greenyellow;
+  font-family: 'Roboto Slab', serif;
+  text-shadow: 2.5px 1.5px 0px #0e1716;
+  font-size: 20px;
+  text-align: center;
+}
+
+#ticTacTable td {
+  height: 15vw;
+  width: 15vw;
+  background-color: #d3d99d;
+}
+
+#ticTacTable th {
+  color: #faea19;
+  font-family: 'Roboto Slab', serif;
+  text-shadow: 2.5px 1.5px 0px #0e1716;
+  font-size: 20px;
+  margin: 25px 50px;
+  height: 10vw;
+    background-color: greenyellow;
+}
+#tick{
+    background-color: greenyellow !important;;
+}
+
+#tack{
+    background-color: greenyellow !important;
+}
+
+#ttTable{
+      background-color: greenyellow !important;
+}
+/*END TIC TAC TABLE SECTION END*/
+/*START FORM SECTION START*/
+#frontEndFormSection {
+  width: 75vw;
+  background-color: #6a992f;
+  padding: 5vw;
+  box-shadow: .5vw .5vw 1vw black;
+}
+
+/*END FORM SECTION END*/
+/*ID*/
+/*START TEXT DESIGN*/
+
 
 #basicButton {
   background: #e6ff00;
@@ -112,8 +482,6 @@ th{
   text-decoration: none;
   margin: 25px 0px 50px 25px;
   text-shadow: 1px 1px 0px #0e1716;
-
-
 }
 
 #basicButton:hover {
@@ -124,15 +492,6 @@ th{
   background-image: -o-linear-gradient(top, #737839, #e6ff00);
   background-image: linear-gradient(to bottom, #737839, #e6ff00);
   text-decoration: none;
-
-
-}
-
-
-#buttonDiv {
-  width: 500px;
-  margin-left: 275px;
-
 }
 
 #checkboxDiv label {
@@ -166,7 +525,6 @@ th{
   text-decoration: none;
   text-shadow: 2.5px 1.5px 0px #0e1716;
   margin: 25px 0px 50px 25px;
-
 }
 
 #cssLevelTwoButton:hover {
@@ -179,87 +537,8 @@ th{
   text-decoration: none;
 }
 
-#cssMain {
-  padding-left: 7.5%;
-  padding-right: 7.5%;
-}
 
-#cssMain a:link, a:visited {
-  color: #f2f0f5;
-  font-family: 'Special Elite', cursive;
-  text-shadow: 2.5px 1.5px 0px #0e1716;
-  text-shadow: 2.5px 1.5px 0px #0e1716;
-  font-size: 18px;
-}
 
-#cssMain a:hover, a:active {
-  color: greenyellow;
-  font-family: 'Special Elite', cursive;
-  text-shadow: 2.5px 1.5px 0px #0e1716;
-  font-size: 20px;
-}
-
-#cssMain h2 {
-  color: #d1e023;
-  font-family: 'Alfa Slab One', cursive;
-  text-shadow: 4px 3px 0px #0e1716;
-  font-size: 34px;
-  text-decoration: underline;
-}
-
-#cssMain h6 {
-  color: #f2f0f5;
-  font-family: 'Acme', sans-serif;
-  text-shadow: 2px 1px 0px #0e1716;
-  font-size: 18px;
-}
-
-#cssMain p {
-  color: #f2f0f5;
-  font-family: 'Special Elite', cursive;
-  text-shadow: 2.5px 1.5px 0px #0e1716;
-  font-size: 20px;
-}
-
-#cssMain ol {
-  color: #f2f0f5;
-  font-family: 'Special Elite', cursive;
-  text-shadow: 2.5px 1.5px 0px #0e1716;
-  font-size: 20px;
-  margin: 25px 50px;
-}
-
-#cssMain table, td, th {
-  border: 5px solid #f2f0f5;
-  color: greenyellow;
-  font-family: 'Roboto Slab', serif;
-  text-shadow: 2.5px 1.5px 0px #0e1716;
-  font-size: 20px;
-  text-align: center;
-}
-
-#cssMain td {
-  height: 50px;
-  width: 75px;
-  background-color: #d3d99d;
-}
-
-#cssMain th {
-  color: #faea19;
-  font-family: 'Roboto Slab', serif;
-  text-shadow: 2.5px 1.5px 0px #0e1716;
-  font-size: 20px;
-  margin: 25px 50px;
-}
-
-#cssMain ul {
-  color: #f2f0f5;
-  font-family: 'Special Elite', cursive;
-  text-shadow: 2.5px 1.5px 0px #0e1716;
-  text-shadow: 2.5px 1.5px 0px #0e1716;
-  font-size: 20px;
-  margin: 25px 50px;
-}
 
 #dropDiv label {
   font-family: 'Acme', sans-serif;
@@ -288,15 +567,6 @@ th{
   text-shadow: 2.5px 1.5px 0px #0e1716;
 }
 
-#frontEndFormSection {
-  width: 960px;
-  margin: 0 auto;
-  background-color: #6a992f;
-  padding: 50px;
-  box-shadow: 5px 5px 10px black;
-
-}
-
 #imageFile {
   color: #f2f0f5;
   font-family: 'Special Elite', cursive;
@@ -313,16 +583,6 @@ th{
   text-shadow: 2.5px 1.5px 0px #0e1716;
   margin-right: 5px;
   margin-left: 10px;
-}
-
-#orderedListExample {
-  width: 320px;
-  background-color: #6a992f;
-  height: 550px;
-  padding: 15px;
-  box-shadow: 5px 5px 10px black;
-
-
 }
 
 #output {
@@ -342,7 +602,7 @@ th{
   width: 525px;
   padding: 25px;
   margin-top: 50px;
-  margin:25px;
+  margin: 25px;
   text-align: center;
   box-shadow: 5px 5px 10px black;
   background-color: #649c37;
@@ -370,40 +630,6 @@ th{
   text-align: center;
 }
 
-
-
-#ticTacTable {
-  margin: auto;
-}
-
-
-
-#ticTacToeDiv {
-  width: 320px;
-  height: 550px;
-  margin-top: -580px;
-  margin-left: 740px;
-  width: 290px;
-  background-color: #6a992f;
-  padding: 15px;
-  text-align: center;
-  box-shadow: 5px 5px 10px black;
-
-}
-
-
-
-#unoderedListsAndLinksExample {
-  width: 320px;
-  background-color: #6a992f;
-  margin-top: -580px;
-  margin-left: 385px;
-  width: 290px;
-  height: 550px;
-  padding: 15px;
-  box-shadow: 5px 5px 10px black;
-}
-
 #yourName {
   color: #3a7235;
   font-weight: 900;
@@ -425,3 +651,35 @@ th{
   font-size: 15px;
   background: #f2f0f5;
 }
+
+input:focus {
+  outline: none !important;
+  border: 1px solid greenyellow;
+  box-shadow: 0 0 10px #3a7235;
+}
+
+label {
+  vertical-align: middle;
+}
+
+select {
+  font-family: 'Special Elite', cursive;
+}
+
+select:focus {
+  outline: none !important;
+  border: 1px solid greenyellow;
+  box-shadow: 0 0 10px #3a7235;
+}
+
+
+
+/*START FOOTER GROUP START*/
+footer {
+  background-image: url("../images/basicpotheadfooter.jpg");
+  background-size: cover;
+  height: 35vw;
+  width: 100%;
+}
+
+/*END FOOTER GROUP END*/
