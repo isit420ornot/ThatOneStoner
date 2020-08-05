@@ -29,6 +29,11 @@ header {
 }
 
 /*START NAVBAR START*/
+#navStoner{
+margin-left: -5vw;
+font-size: 3vw;
+}
+
 nav a:link {
   color: #d7e337;
   font-family: 'Acme', sans-serif;

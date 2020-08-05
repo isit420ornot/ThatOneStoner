@@ -52,6 +52,11 @@ nav a:link {
   padding-bottom: 2.5vw;
 }
 
+#navStoner{
+margin-left: -5vw;
+font-size: 3vw;
+}
+
 #homeNav {
   font-family: 'Alfa Slab One', cursive;
   color: #94566d;

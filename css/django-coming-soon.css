@@ -4,13 +4,7 @@
   margin: 0;
 }
 
-body {
-  background-color: #d1ba86;
-}
 
-main {
-  padding: 5vw;
-}
 
 /*START HEADER GROUP START*/
 header {
@@ -22,7 +16,7 @@ header {
 
 .header_text_group {
   color: #d3d99d;
-  text-shadow: 2.5px 1.5px 0px #0e1716;
+  text-shadow: .25vw .15vw 0vw #0e1716;
   text-align: center;
   padding-top: 15vw;
   font-size: 2vw;
@@ -40,13 +34,12 @@ header {
 }
 
 .title_tagline {
-  margin-top: 5px;
+  margin-top: .5vw;
   font-size: 2.9vw;
   font-family: 'Acme', sans-serif;
 }
 
 /*START NAVBAR START*/
-
 nav a:link {
   color: #d7e337;
   font-family: 'Acme', sans-serif;
@@ -63,29 +56,45 @@ font-size: 3vw;
 
 #homeNav {
   font-family: 'Alfa Slab One', cursive;
+  color: #94566d;
+  background-color: #8dd49c;
+  font-size: 2.5vw;
+  text-shadow: .2vw .1vw 0vw #d7e337;
+}
+
+#dropHome:hover {
+  font-family: 'Alfa Slab One', cursive;
+  color: #8f1d83;
+  background-color: #2eba64;
+  font-size: 2.5vw;
+  text-shadow: .2vw .1vw 0vw #fdff8d;
+}
+
+#dropHome {
+  font-family: 'Alfa Slab One', cursive;
   color: #8f1d83;
   font-size: 2.5vw;
   text-shadow: .2vw .1vw 0vw #fdff8d;
 }
 
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   overflow: hidden;
   background-color: #427c64;
 }
 
-li {
+nav li {
   float: left;
   border-right: .1vw solid #8dd49c;
   margin-bottom: -.75vw;
 }
 
-li:last-child {
+nav li:last-child {
   border-right: none;
 }
 
-li a:hover:not(.active) {
+nav li a:hover:not(.active) {
   background-color: #2eba64;
 }
 
@@ -97,7 +106,7 @@ li a:hover:not(.active) {
   background-color: #2eba64;
 }
 
-li a, .dropbtn {
+nav li a, .dropbtn {
   display: inline-block;
   text-align: center;
   text-decoration: none;
@@ -106,13 +115,13 @@ li a, .dropbtn {
   padding: 1.4vw 1.6vw;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+nav li a:hover, .dropdown:hover .dropbtn {
   background-color: #8dd49c;
   color: whitesmoke;
   font-family: 'Acme', sans-serif;
 }
 
-li.dropdown {
+nav li.dropdown {
   display: inline-block;
 }
 
@@ -123,7 +132,7 @@ li.dropdown {
   position: absolute;
   background-color: #427c64;
   box-shadow: 0vw .8vw 1.6vw 0vw rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  z-index: 100;
 }
 
 .dropdown-content a {
@@ -144,110 +153,16 @@ li.dropdown {
 
 /*START NAVBAR START*/
 /*END HEADER JUMBOTRON GROUP END*/
-/*CLASS*/
-.main_content {
-  font-family: 'Special Elite', cursive;
-  color: #fffec5;
-  text-shadow: .2vw .1vw .1vw #81612e;
-  font-size: 1.75vw;
-  line-height: 1.7;
-}
 
-.main_content a:link, a:visited {
-  font-family: 'Special Elite', cursive;
-  color: #fdff8d;
-  text-shadow: .1vw .0vw .2vw #8f1d83;
-  font-size: 1.75vw;
-}
-
-.main_content a:hover, a:active {
-  font-family: 'Special Elite', cursive;
-  color: #d7e337;
-  text-shadow: 1px 0px 2px #94566d;
-}
-
-#tempLinks {
-  width: 72vw;
-  margin: 0 auto;
-  padding-bottom: 5vw;
-  font-size: 2vw;
-  font-weight: 900;
-}
-
-#tempLinks a {
-  font-family: 'Acme', sans-serif;
-  font-size: 2vw;
-}
-
-#tempLinks a:visited, a:link {
-  font-family: 'Acme', sans-serif;
-  color: #fdff8d;
-  text-shadow: 1px 1px 0px #8f1d83;
-}
-
-#tempLinks a:hover, a:active {
-  font-family: 'Acme', sans-serif;
-  color: #d7e337;
-  text-shadow: .1vw 0vw .2vw #94566d;
-  font-size: 1.7;
-}
-
-.signature {
-  font-family: 'Special Elite', cursive;
-  color: whitesmoke;
-  text-shadow: .3vw .2vw .5vw #94566d;
-  font-size: 3vw;
-  margin-bottom: 1vw;
-}
-
-/*ID*/
-#mainWords {
-  margin-right: 3vw;
-}
-
-#computerMe {
-  width: 45vw;
-  float: right;
-  height: 64vw;
-  margin-left: 3vw;
-}
-
-#mainGreeting {
-  font-family: 'Alfa Slab One', cursive;
-  color: #d7e337;
-  text-shadow: .3vw .2vw .3vw #94566d;
-  font-size: 3vw;
-  padding-top: 2vw;
-  padding-bottom: 1.5vw;
-  text-align: center;
-}
-
-#mainSection {
-  background-color: #427c64;
-  padding-left: 4vw;
-  width: 85vw;
-  margin: auto;
-  box-shadow: 5px 5px 20px #85642f;
-}
-
-#ps {
-  color: #8dd49c;
-  font-family: 'Chewy', cursive;
-  font-size: 1.25vw;
-}
-
-#navNote {
-  color: #2eba64;
-  font-family: 'Chewy', cursive;
-  font-size: 1.25vw;
-}
 
 /*START FOOTER GROUP START*/
 footer {
+  position: relative;
   background-image: url("../images/basicpotheadfooter.jpg");
   background-size: cover;
   height: 35vw;
   width: 100%;
+  margin-top: -1vw;
 }
 
 /*END FOOTER GROUP END*/

@@ -9,112 +9,34 @@ body {
 }
 
 p {
-  color: #263753;
-  text-shadow: 1px 0px 0px gray;
-}
-
-/*CLASSES*/
-.assignment_mini_title {
   color: #5f685e;
-  font-family: 'Acme', sans-serif;
-  text-shadow: 1px 1px 1px black;
+  font-size: 2vw;
+  line-height: 1.7;
 }
 
-.assignment_text_content {
-  background-color: #f3e4df;
-  padding: 50px;
-  width: 960px;
-  margin-top: 50px;
-  font-family: 'Special Elite', cursive;
-  font-weight: 900;
-  box-shadow: 5px 5px 5px #2d4c1f;
-}
-
-.bday_group {
-  font-size: 15px;
-  margin-top: 25px;
-}
-
-.bday_group input {
-  font-size: 15px;
-}
-
-#bdayNote {
-  font-size: 12px;
-  width: 550px;
-}
-
-.datefield {
-  margin-top: -20px;
-  margin-left: 75px;
-}
-
-#checkImage {
-  width: 500px;
-  height: 250px;
-  margin: 25px 25px 25px 225px;
-}
-
-#checkImageDiv {
-  margin: 0 auto;
-}
-
-#chimpPower {
-  font-size: 12px;
-  float: right;
-}
-
-#paypalButtonGroup {
-  width: 50px;
-  margin: 25px 0px 25px 400px;
-}
-
-.css_two_content {
-  font-family: 'Special Elite', cursive;
-  font-weight: 900;
-  margin-top: 25px;
-}
-
-.mc-field-group {
-  margin-bottom: 10px;
-}
-
-.footer_image {
+/*START HEADER GROUP START*/
+header {
+  background-image: url(../images/potphotoheader.jpg);
+  background-size: cover;
+  height: 35vw;
   width: 100%;
-  height: 250px;
 }
 
-.header_image {
+/*START HEADER GROUP START*/
+header {
+  background-image: url(../images/potphotoheader.jpg);
+  background-size: cover;
+  height: 35vw;
   width: 100%;
 }
 
 .header_text_group {
   color: #d3d99d;
-  text-shadow: 2.5px 1.5px 0px #0e1716;
+  text-shadow: .25vw .15vw 0vw #0e1716;
   text-align: center;
-  margin-top: -20%;
+  padding-top: 15vw;
   font-size: 2vw;
-}
-
-.indicates-required {
-  font-size: 12px
-}
-
-.introduction_text_content {
-  background-color: #f3e4df;
-  padding: 50px;
-  width: 960px;
-  box-shadow: 5px 5px 5px #2d4c1f;
-}
-
-.mainImageDiv {
-  float: left;
-  width: 480px;
-}
-
-.title_course {
-  font-size: 3.5vw;
-  font-family: 'Chewy', cursive;
+  padding-left: 10vw;
 }
 
 .title_course_line {
@@ -128,89 +50,386 @@ p {
 }
 
 .title_tagline {
-  margin-top: 5px;
-  font-size: 3vw;
+  margin-top: .5vw;
+  font-size: 2.9vw;
   font-family: 'Acme', sans-serif;
 }
 
-/*ID*/
-#atHandTyping {
+/*START NAVBAR START*/
+nav a:link {
+  color: #d7e337;
+  font-family: 'Acme', sans-serif;
+  font-size: 2.4vw;
+  text-shadow: .3vw .2vw 0vw #94566d;
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
+}
+
+#navStoner {
+  margin-left: -5vw;
+  font-size: 3vw;
+}
+
+#homeNav {
+  font-family: 'Alfa Slab One', cursive;
+  color: #94566d;
+  background-color: #8dd49c;
+  font-size: 2.5vw;
+  text-shadow: .2vw .1vw 0vw #d7e337;
+}
+
+#dropHome:hover {
+  font-family: 'Alfa Slab One', cursive;
+  color: #8f1d83;
+  background-color: #2eba64;
+  font-size: 2.5vw;
+  text-shadow: .2vw .1vw 0vw #fdff8d;
+}
+
+#dropHome {
+  font-family: 'Alfa Slab One', cursive;
+  color: #8f1d83;
+  font-size: 2.5vw;
+  text-shadow: .2vw .1vw 0vw #fdff8d;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color: #427c64;
+}
+
+nav li {
+  float: left;
+  border-right: .1vw solid #8dd49c;
+  margin-bottom: -.75vw;
+}
+
+nav li:last-child {
+  border-right: none;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #2eba64;
+}
+
+.active {
+  background-color: #2eba64;
+}
+
+.active:hover {
+  background-color: #2eba64;
+}
+
+nav li a, .dropbtn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  color: whitesmoke;
+  padding: 1.4vw 1.6vw;
+}
+
+nav li a:hover, .dropdown:hover .dropbtn {
+  background-color: #8dd49c;
+  color: whitesmoke;
+  font-family: 'Acme', sans-serif;
+}
+
+nav li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  margin-top: -.75vw;
+  margin-left: -.1vw;
+  display: none;
+  position: absolute;
+  background-color: #427c64;
+  box-shadow: 0vw .8vw 1.6vw 0vw rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}
+
+.dropdown-content a {
+  font-family: 'Acme', sans-serif;
+  padding: 1.2vw 1.6vw;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*START NAVBAR START*/
+/*END HEADER JUMBOTRON GROUP END*/
+
+#capTitle{
+  width: 86vw;
+  height: 35vw;
+  background-image: url(../images/labImageII.jpg);
+  background-size: 86vw 35vw;
+  background-repeat: no-repeat;
+}
+
+.page_title {
+  color: #f2e5b1;
+  font-family: 'Cinzel', serif;
+  text-shadow: .1vw .15vw 0vw whitesmoke, 1vw 1vw  2vw whitesmoke, 1vw 1vw 1vw black;
+  text-align: center;
+  padding-top: 25vw;
+  font-size: 6.5vw;
+}
+
+
+.introduction_text_content {
+  background-color: #f3e4df;
+  width: 86vw;
+  margin: 5vw auto;
+  box-shadow: .5vw .5vw .5vw #2d4c1f;
+
+
+}
+
+
+
+
+.introduction_text_content p {
+  font-family: 'Special Elite', cursive;
+  font-weight: 900;
+  box-shadow: .5vw .5vw .5vw #2d4c1f;
+  padding: 5vw;
+  padding-bottom: 5vw;
+  color: #5f685e;
+}
+
+
+
+#assingmentIntro {
+  background-color: #f3e4df;
+  padding: 5vw;
+  width: 76vw;
+  margin: auto;
+  font-family: 'Special Elite', cursive;
+  font-weight: 900;
+  box-shadow: .5vw .5vw .5vw #2d4c1f;
+  margin-bottom: 5vw;
+}
+
+
+
+#atHandImage {
+  margin-top: -5vw;
+  margin-left: -5vw;
+  width: 86vw;
+  height: 35vw;
+}
+
+.assignment_mini_title {
+  color: #5f685e;
+  font-family: 'Cinzel', serif;
+  font-size: 4vw;
+  text-shadow: .1vw .1vw .1vw black;
+}
+
+
+
+#newsletterDiv {
+  background-color: #f3e4df;
+  padding: 5vw;
+  width: 76vw;
+  margin: auto;
+  font-family: 'Special Elite', cursive;
+  font-weight: 900;
+  box-shadow: .5vw .5vw .5vw #2d4c1f;
+  margin-bottom: 5vw;
+  color: #5f685e;
+}
+
+#newsImage {
+  width: 86vw;
+  margin-left: -5vw;
+  height: 35vw;
+  margin-top: -5vw;
+}
+
+#mailChimpDiv {
+  margin: 0 auto;
+  width: 30vw;
+}
+
+#subscribeTitle{
+  color: #5f685e;
+  font-family: 'Cinzel', serif;
+  font-size: 3vw;
+  text-shadow: .1vw .1vw .1vw black;
+}
+
+
+.indicates-required {
+  color: #5f685e;
+  font-size: 1.2vw;
+  padding-bottom: 2vw;
+  margin-left: -1vw;
+  margin-top: -1vw;
+}
+
+.mc-field-group {
+  color: #5f685e;
+  padding-bottom: 2vw;
+  font-size: 2vw;
+
+}
+
+.bday_group {
+  font-size: 1.5vw;
+
+}
+
+.bday_group input {
+  font-size: 2vw;
+
+}
+
+#chimpPower {
+  font-size: 1.2vw;
+  padding-top: .5vw;
+  margin-right: 3.5vw;
   float: right;
 }
 
-#atHandImage {
-  width: 480px;
-  height: 480px;
-  margin-top: 50px;
-  margin-left: 25px;
+#bdayNote {
+  font-size: 1.4vw;
+
 }
 
+.datefield {}
+
+.assignment_long_title{
+  color: #5f685e;
+  font-family: 'Cinzel', serif;
+  font-size: 2.5vw;
+  text-shadow: .1vw .1vw .1vw black;
+}
+
+#donateDiv {
+  background-color: #f3e4df;
+  padding: 5vw;
+  width: 76vw;
+  margin: auto;
+  font-family: 'Special Elite', cursive;
+  font-weight: 900;
+  box-shadow: .5vw .5vw .5vw #2d4c1f;
+  margin-bottom: 5vw;
+}
+
+#checkImage {
+  width: 86vw;
+  margin-left: -5vw;
+  height: 35vw;
+  margin-top: -5vw;
+}
+
+#paypalButtonGroup {
+  margin: auto;
+  width: 20vw;
+
+
+}
+
+#labImage {
+  width: 86vw;
+  height: 35vw;
+  margin-left: -5vw;
+  margin-bottom: -7vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ID*/
+
+
 #bootstrapButton {
-  box-shadow: inset 0px 0px 14px -3px #f2fadc;
+  box-shadow: inset 0vw 0vw 1.4vw -.3vw #f2fadc;
   background: linear-gradient(to bottom, #dbe6c4 5%, #9ba892 100%);
   background-color: #dbe6c4;
-  border-radius: 6px;
-  border: 1px solid #b2b8ad;
+  border-radius: .6vw;
+  border: .1vw solid #b2b8ad;
   display: inline-block;
   cursor: pointer;
   color: #263753;
   font-family: 'Acme', sans-serif;
-  font-size: 15px;
+  font-size: 1.5vw;
   font-weight: bold;
-  padding: 6px 24px;
+  padding: .6vw 2.4vw;
   text-decoration: none;
-  text-shadow: 0px 1px 0px #ced9bf;
+  text-shadow: 0vw .1vw 0vw #ced9bf;
   font-family: 'Cinzel', serif;
-  font-size: 15px;
+  font-size: 1.5vw;
   font-weight: bold;
-  padding: 6px 24px;
+  padding: .6vw 2.4vw;
   text-decoration: none;
-  text-shadow: 0px 1px 0px ghostwhite;
-  margin-bottom: 25px;
-  width: 500px;
-  box-shadow: 5px 5px 5px #2d4c1f;
+  text-shadow: 0vw .1vw 0vw ghostwhite;
+  box-shadow: .5vw .5vw .5vw #2d4c1f;
+    margin: 0 auto;
+
 }
 
 #bootstrapButton:hover {
-  background:linear-gradient(to bottom, #9ba892 5%, #dbe6c4 100%);
-	background-color:#9ba892;
+  background: linear-gradient(to bottom, #9ba892 5%, #dbe6c4 100%);
+  background-color: #9ba892;
   color: whitesmoke;
-    text-shadow: 0px 1px 0px #263753;
-
+  text-shadow: 0vw .1vw 0vw #263753;
 }
 
 #bootstrapButton:active {
   position: relative;
-  top: 1px;
+  top: .1vw;
 }
 
 #bootstrapButtonDiv {
-  width: 500px;
-  margin-left: 275px;
-  margin-top: 50px;
+  width: 50vw;
+  margin: auto;
+  padding-bottom: 5vw;
 }
 
-#cssMain {
-  padding-left: 7.5%;
-  padding-right: 7.5%;
-  width: 960px;
-  margin: 0 auto;
-  margin-top: 100px;
-  margin-bottom: 50px;
+
+
+
+
+
+/*START FOOTER GROUP START*/
+footer {
+  position: relative;
+  background-image: url("../images/basicpotheadfooter.jpg");
+  background-size: cover;
+  height: 35vw;
+  width: 100%;
 }
 
-#cssMain h2 {
-  color: #5f685e;
-  font-family: 'Cinzel', serif;
-  text-shadow: 1px 1px 1px black;
-  font-size: 50px;
-}
-
-#mailChimpDiv {
-  width: 480px;
-  margin: 0 auto;
-}
-
-#meInTheLab {
-  width: 450px;
-}
+/*END FOOTER GROUP END*/
