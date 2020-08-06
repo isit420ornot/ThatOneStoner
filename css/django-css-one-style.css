@@ -7,11 +7,13 @@
 body {
   background-color: #cc912d;
   overflow-x: hidden;
+  padding: 0;
+
 }
 
 /*START HEADER GROUP START*/
 header {
-  background-image: url(../images/potphotoheader.jpg);
+  background-image: url(../images/headers/potphotoheader.webp);
   background-size: cover;
   height: 35vw;
   width: 100%;
@@ -43,7 +45,16 @@ header {
 }
 
 /*START NAVBAR START*/
-nav a:link {
+nav a:link, a:visited {
+  color: #d7e337;
+  font-family: 'Acme', sans-serif;
+  font-size: 2.4vw;
+  text-shadow: .3vw .2vw 0vw #94566d;
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
+}
+
+nav a:visited {
   color: #d7e337;
   font-family: 'Acme', sans-serif;
   font-size: 2.4vw;
@@ -53,7 +64,6 @@ nav a:link {
 }
 
 #navStoner{
-margin-left: -5vw;
 font-size: 3vw;
 }
 
@@ -154,6 +164,7 @@ nav li.dropdown {
   display: block;
 }
 
+/*START NAVBAR START*/
 /*START NAVBAR START*/
 /*END HEADER JUMBOTRON GROUP END*/
 /*MAIN IMAGE*/
@@ -357,6 +368,15 @@ nav li.dropdown {
   padding-bottom: 2.5vw;
 }
 
+#assignmentGroup a:visited {
+  color: #1a0e1a;
+  font-family: 'Trocchi', serif;
+  text-shadow: .1vw 0vw 0vw #0e1716;
+  font-size: 1.8vw;
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
+}
+
 #assignmentGroup a:hover, a:active {
   color: #c68c28;
   font-family: 'Trocchi', serif;
@@ -546,7 +566,7 @@ nav li.dropdown {
 }
 
 #yourName {
-  background: #8dd49c;
+  background: #f2f0f5;
   font-size: 2.25vw;
   font-family: 'Roboto Slab', serif;
   -moz-border-radius: .3vw;
@@ -561,15 +581,15 @@ nav li.dropdown {
 }
 
 #yourName::placeholder {
-  color: #94566d;
+  color: #8f1d83;
   text-shadow: .1vw 0vw 0vw #fdff8d;
 }
 
 #yourName:focus {
-  background: #fdff8d;
+  background: #f2f0f5;
   color: #427c64;
   text-shadow: .1vw .1vw 0vw #94566d;
-  box-shadow: 0vw 0vw 0vw .3vw #94566d, inset 0vw 2vw 3vw #8dd49c, 0vw 5vw 5vw #427c64;
+  box-shadow: 0vw 0vw 0vw .3vw #94566d, inset 0vw .2vw .3vw #8dd49c, 0vw .5vw .5vw #427c64;
   outline: none;
 }
 
@@ -589,7 +609,7 @@ nav li.dropdown {
 }
 
 #youSmokeList {
-  background: #8dd49c;
+  background: #427c64;
   font-size: 2.25vw;
   font-family: 'Roboto Slab', serif;
   -moz-border-radius: .3vw;
@@ -599,12 +619,12 @@ nav li.dropdown {
   padding: 1.3vw 1vw;
   width: 20vw;
   margin-bottom: 2vw;
-  box-shadow: inset 0vw .2vw .3vw #427c64;
+  box-shadow: inset 0vw .2vw .3vw #8f1d83;
   clear: both;
-  color: #94566d;
+  color: #d7e337;
   padding: .8vw 1.6vw;
-  border: .1vw solid #427c64;
-  border-color: #427c64;
+  border: .1vw solid #8f1d83;
+  border-color: #8f1d83;
   cursor: pointer;
   user-select: none;
 }
@@ -789,7 +809,7 @@ nav li.dropdown {
 /*START FOOTER GROUP START*/
 footer {
   position: relative;
-  background-image: url("../images/basicpotheadfooter.jpg");
+  background-image: url("../images/footers/basicpotheadfooter.webp");
   background-size: cover;
   height: 35vw;
   width: 100%;

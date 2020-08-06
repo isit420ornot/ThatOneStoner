@@ -30,7 +30,7 @@ main{
 /*END GLOBAL*/
 /*START HEADER GROUP START*/
 header {
-  background-image: url(../images/hangingweed.gif);
+  background-image: url(../images/headers/hangingweed.gif);
   background-size: cover;
   height: 35vw;
   width: 100%;
@@ -223,7 +223,7 @@ li.dropdown {
 /*END MAIN CONTENT GROUP END*/
 /*START FOOTER GROUP START*/
 footer {
-  background-image: url(../images/farm.png);
+  background-image: url(../images/footers/farm.webp);
   background-size: cover;
   height: 35vw;
   width: 100%;

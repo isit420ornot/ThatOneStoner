@@ -10,21 +10,19 @@ body {
 
 p {
   color: #5f685e;
-  font-size: 2vw;
+  font-size: 2.2vw;
   line-height: 1.7;
+  font-family: 'Special Elite', cursive;
+  font-weight: 900;
+  padding: 5vw 5vw 0vw 5vw;
+  color: #5f685e;
 }
+
+
 
 /*START HEADER GROUP START*/
 header {
-  background-image: url(../images/potphotoheader.jpg);
-  background-size: cover;
-  height: 35vw;
-  width: 100%;
-}
-
-/*START HEADER GROUP START*/
-header {
-  background-image: url(../images/potphotoheader.jpg);
+  background-image: url(../images/headers/potphotoheader.webp);
   background-size: cover;
   height: 35vw;
   width: 100%;
@@ -65,8 +63,17 @@ nav a:link {
   padding-bottom: 2.5vw;
 }
 
+nav a:visited {
+  color: #d7e337;
+  font-family: 'Acme', sans-serif;
+  font-size: 2.4vw;
+  text-shadow: .3vw .2vw 0vw #94566d;
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
+}
+
 #navStoner {
-  margin-left: -5vw;
+
   font-size: 3vw;
 }
 
@@ -173,7 +180,7 @@ nav li.dropdown {
 #capTitle{
   width: 86vw;
   height: 35vw;
-  background-image: url(../images/labImageII.jpg);
+  background-image: url(../images/html-and-css-one/labImageII.webp);
   background-size: 86vw 35vw;
   background-repeat: no-repeat;
 }
@@ -193,48 +200,31 @@ nav li.dropdown {
   width: 86vw;
   margin: 5vw auto;
   box-shadow: .5vw .5vw .5vw #2d4c1f;
-
+padding-bottom: 5vw;
 
 }
-
-
-
-
-.introduction_text_content p {
-  font-family: 'Special Elite', cursive;
-  font-weight: 900;
-  box-shadow: .5vw .5vw .5vw #2d4c1f;
-  padding: 5vw;
-  padding-bottom: 5vw;
-  color: #5f685e;
-}
-
-
 
 #assingmentIntro {
   background-color: #f3e4df;
-  padding: 5vw;
-  width: 76vw;
+  width: 86vw;
   margin: auto;
-  font-family: 'Special Elite', cursive;
-  font-weight: 900;
   box-shadow: .5vw .5vw .5vw #2d4c1f;
   margin-bottom: 5vw;
+  padding-bottom: 5vw;
 }
 
-
-
 #atHandImage {
-  margin-top: -5vw;
-  margin-left: -5vw;
   width: 86vw;
   height: 35vw;
+
 }
 
 .assignment_mini_title {
   color: #5f685e;
   font-family: 'Cinzel', serif;
   font-size: 4vw;
+  padding-left: 5vw;
+  padding-top: 5vw;
   text-shadow: .1vw .1vw .1vw black;
 }
 
@@ -242,11 +232,8 @@ nav li.dropdown {
 
 #newsletterDiv {
   background-color: #f3e4df;
-  padding: 5vw;
-  width: 76vw;
+  width: 86vw;
   margin: auto;
-  font-family: 'Special Elite', cursive;
-  font-weight: 900;
   box-shadow: .5vw .5vw .5vw #2d4c1f;
   margin-bottom: 5vw;
   color: #5f685e;
@@ -254,36 +241,47 @@ nav li.dropdown {
 
 #newsImage {
   width: 86vw;
-  margin-left: -5vw;
   height: 35vw;
-  margin-top: -5vw;
 }
 
 #mailChimpDiv {
   margin: 0 auto;
-  width: 30vw;
+  width: 35vw;
+}
+
+#mailChimpDiv input{
+color: #5f685e;
+      font-family: 'Special Elite', cursive;
+      padding: 1vw;
+      font-size: 2vw;
+      font-weight: bolder;
 }
 
 #subscribeTitle{
+  margin-top: 5vw;
   color: #5f685e;
   font-family: 'Cinzel', serif;
-  font-size: 3vw;
+  font-size: 3.25vw;
   text-shadow: .1vw .1vw .1vw black;
 }
 
 
 .indicates-required {
   color: #5f685e;
-  font-size: 1.2vw;
+  font-size: 1.5vw;
+  font-weight: bolder;
   padding-bottom: 2vw;
   margin-left: -1vw;
   margin-top: -1vw;
+    font-family: 'Cinzel', serif;
 }
 
 .mc-field-group {
   color: #5f685e;
   padding-bottom: 2vw;
   font-size: 2vw;
+  font-family: 'Cinzel', serif;
+  font-weight: bolder;
 
 }
 
@@ -294,19 +292,26 @@ nav li.dropdown {
 
 .bday_group input {
   font-size: 2vw;
+    font-family: 'Special Elite', cursive;
 
 }
 
 #chimpPower {
   font-size: 1.2vw;
-  padding-top: .5vw;
-  margin-right: 3.5vw;
-  float: right;
+margin-top: -2.5vw;vw;
+margin-left: 10vw;
+position: absolute;
+}
+
+#mcButton{
+
+margin-top: 1vw;
 }
 
 #bdayNote {
-  font-size: 1.4vw;
-
+  font-size: 2vw;
+  font-family: 'Acme', sans-serif;
+  padding: 5vw;
 }
 
 .datefield {}
@@ -315,30 +320,29 @@ nav li.dropdown {
   color: #5f685e;
   font-family: 'Cinzel', serif;
   font-size: 2.5vw;
+  padding-top: 5vw;
+  padding-left: 5vw;
+  margin-bottom: -5vw;
   text-shadow: .1vw .1vw .1vw black;
 }
 
 #donateDiv {
   background-color: #f3e4df;
-  padding: 5vw;
-  width: 76vw;
+  width: 86vw;
   margin: auto;
-  font-family: 'Special Elite', cursive;
-  font-weight: 900;
   box-shadow: .5vw .5vw .5vw #2d4c1f;
   margin-bottom: 5vw;
 }
 
 #checkImage {
   width: 86vw;
-  margin-left: -5vw;
   height: 35vw;
-  margin-top: -5vw;
 }
 
 #paypalButtonGroup {
-  margin: auto;
-  width: 20vw;
+  margin-left: 22.5vw;
+  padding-bottom: 5vw;
+
 
 
 }
@@ -346,8 +350,7 @@ nav li.dropdown {
 #labImage {
   width: 86vw;
   height: 35vw;
-  margin-left: -5vw;
-  margin-bottom: -7vw;
+  margin-bottom: -2vw;
 }
 
 
@@ -384,15 +387,12 @@ nav li.dropdown {
   cursor: pointer;
   color: #263753;
   font-family: 'Acme', sans-serif;
-  font-size: 1.5vw;
   font-weight: bold;
-  padding: .6vw 2.4vw;
-  text-decoration: none;
   text-shadow: 0vw .1vw 0vw #ced9bf;
   font-family: 'Cinzel', serif;
-  font-size: 1.5vw;
+font-size: 3vw;
   font-weight: bold;
-  padding: .6vw 2.4vw;
+  padding: 2.5vw;
   text-decoration: none;
   text-shadow: 0vw .1vw 0vw ghostwhite;
   box-shadow: .5vw .5vw .5vw #2d4c1f;
@@ -413,7 +413,7 @@ nav li.dropdown {
 }
 
 #bootstrapButtonDiv {
-  width: 50vw;
+  width: 70vw;
   margin: auto;
   padding-bottom: 5vw;
 }
@@ -426,7 +426,7 @@ nav li.dropdown {
 /*START FOOTER GROUP START*/
 footer {
   position: relative;
-  background-image: url("../images/basicpotheadfooter.jpg");
+  background-image: url("../images/footers/basicpotheadfooter.webp");
   background-size: cover;
   height: 35vw;
   width: 100%;

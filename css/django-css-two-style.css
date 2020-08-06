@@ -1,25 +1,29 @@
-0vw.5vw/*GLOBAL*/
+0vw.5vw
+
+/*GLOBAL*/
 * {
-  padding: 0;
-  margin: 0;
+  padding: 0vw;
+  margin: 0vw;
 }
 
 main {
   width: 100%;
   background-color: #dedede;
 }
-body{
-    background-color: #dedede;
+
+body {
+  background-color: #dedede;
+  padding: 0vw;
+  margin: 0vw;
 }
 
-p{
+p {
   margin-bottom: 2.5vw;
 }
 
-
 /*START HEADER GROUP START*/
 header {
-  background-image: url(../images/potphotoheader.jpg);
+  background-image: url(../images/headers/potphotoheader.webp);
   background-size: cover;
   height: 35vw;
   width: 100%;
@@ -35,18 +39,20 @@ header {
 }
 
 .title_course_line {
+  margin-top: -5vw;
   font-size: 4.5vw;
   font-family: 'Acme', sans-serif;
 }
 
 .title_main {
+  margin-top: 1vw;
   font-size: 5vw;
   font-family: 'Alfa Slab One', cursive;
 }
 
 .title_tagline {
-  margin-top: .5vw;
-  font-size: 2.9vw;
+  margin-top: -5vw;
+  font-size: 3.2vw;
   font-family: 'Acme', sans-serif;
 }
 
@@ -60,9 +66,17 @@ nav a:link {
   padding-bottom: 2.5vw;
 }
 
-#navStoner{
-margin-left: -5vw;
-font-size: 3vw;
+nav a:visited {
+  color: #d7e337;
+  font-family: 'Acme', sans-serif;
+  font-size: 2.4vw;
+  text-shadow: .3vw .2vw 0vw #94566d;
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
+}
+
+#navStoner {
+  font-size: 3vw;
 }
 
 #homeNav {
@@ -164,110 +178,99 @@ nav li.dropdown {
 
 /*START NAVBAR START*/
 /*END HEADER JUMBOTRON GROUP END*/
-
-
-
 #spectrumVOG {
-  margin: 0 auto;
-  background-image: url("../images/spectrumV.jpg");
-  background-size: 86vw 35vw;
-  background-repeat: no-repeat;
+  margin-top: -5vw;
+  margin-left: -5vw;
   width: 86vw;
   height: 35vw;
-  box-shadow: .2vw .2vw 1vw darkslategrey;
-
 }
 
 .introduction_text_content {
   width: 76vw;
-  padding:5vw;
+  padding: 5vw;
   margin: 0 auto;
   box-shadow: .2vw .2vw 1vw darkslategrey;
 }
 
-
-
-.page_title{
+.page_title {
   font-family: 'Cinzel', serif;
-font-size: 5vw;
-color: #111111;
-padding: 5vw;
-margin: -5vw;
-padding-bottom: 10vw;
-background-color: #cccccc;
-text-shadow: .1vw .1vw .5vw black;
+  font-size: 5vw;
+  color: #111111;
+  padding: 5vw;
+  margin: -5vw;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+  background-color: #cccccc;
+  text-shadow: .1vw .1vw .5vw black;
 }
 
-.css_two_content p{
+.css_two_content p {
   padding: 5vw;
   margin: -5vw;
   padding-bottom: 10vw;
   line-height: 1.7;
 }
 
-#pI{
+#pI {
   color: #222222;
   background-color: #bbbbbb;
   text-shadow: .1vw .1vw .1vw black;
 }
 
-#pII{
+#pII {
   color: #333333;
   background-color: #ababab;
-    text-shadow: .1vw .1vw .1vw black;
+  text-shadow: .1vw .1vw .1vw black;
 }
 
-#pIII{
+#pIII {
   color: #444444;
   background-color: #888888;
-    text-shadow: .1vw .1vw .1vw black;
+  text-shadow: .1vw .1vw .1vw black;
 }
 
-#pIV{
+#pIV {
   color: #565656;
   background-color: #767676;
-    text-shadow: .1vw .1vw .1vw black;
+  text-shadow: .1vw .1vw .1vw black;
 }
 
-#pV{
+#pV {
   color: #666666;
   background-color: #676767;
   text-shadow: .1vw .1vw .1vw white, .1vw .1vw .2vw black;
-
 }
 
-#pVI{
+#pVI {
   color: #767676;
   background-color: #565656;
-    text-shadow: .1vw 0vw 0vw whitesmoke;
+  text-shadow: .1vw 0vw 0vw whitesmoke;
 }
 
-#pVII{
+#pVII {
   color: #888888;
   background-color: #444444;
-    text-shadow: .1vw 0vw .1vw whitesmoke;
+  text-shadow: .1vw 0vw .1vw whitesmoke;
 }
 
-#pVIII{
+#pVIII {
   color: #999999;
   background-color: #333333;
-    text-shadow: .1vw 0vw .1vw whitesmoke;
+  text-shadow: .1vw 0vw .1vw whitesmoke;
 }
 
-#pIX{
+#pIX {
   color: #ababab;
   background-color: #222222;
-    text-shadow: .1vw 0vw .1vw whitesmoke;
+  text-shadow: .1vw 0vw .1vw whitesmoke;
 }
 
-#pX{
+#pX {
   padding-top: 10vw;
-
   color: #bbbbbb;
   background-color: #111111;
-    text-shadow: .1vw 0vw .1vw whitesmoke;
+  text-shadow: .1vw 0vw .1vw whitesmoke;
 }
-
 
 .css_two_content {
   font-family: 'Antic Slab', serif;
@@ -279,7 +282,7 @@ text-shadow: .1vw .1vw .5vw black;
   text-shadow: .1vw .1vw .1vw #6e6f73;
 }
 
-#beforeImage{
+#beforeImage {
   width: 86vw;
   margin-left: -5vw;
 }
@@ -292,7 +295,6 @@ text-shadow: .1vw .1vw .5vw black;
   height: 25vw;
 }
 
-
 #spectrumVAssignment {
   background-color: #090b06;
   padding: 5vw;
@@ -301,7 +303,6 @@ text-shadow: .1vw .1vw .5vw black;
   color: #e6e5e3;
   box-shadow: .2vw .2vw 1vw darkslategrey;
   font-family: 'Ubuntu Mono', monospace;
-
 }
 
 table {
@@ -392,7 +393,7 @@ td {
   box-shadow: 0vw .8vw 0vw #4a4f4b;
 }
 
-#capstoneButtonDiv{
+#capstoneButtonDiv {
   margin: 0 auto;
   width: 86vw;
   box-shadow: .2vw .2vw 1vw darkslategrey;
@@ -429,7 +430,7 @@ td {
 /*START FOOTER GROUP START*/
 footer {
   position: relative;
-  background-image: url("../images/basicpotheadfooter.jpg");
+  background-image: url("../images/footers/basicpotheadfooter.webp");
   background-size: cover;
   height: 35vw;
   width: 100%;

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://thatonestoner.com/</title>
+  <link>http://thatonestoner.com/</link>
+
+<item>
+     <link>http://thatonestoner.com/</link>
+     <title>That One Stoner</title>
+     <description>One Stoner's Guide to online education. Follow said stoner as he takes affordable online courses...</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://thatonestoner.com/index.html</link>
+     <title>That One Stoner</title>
+     <description>One Stoner's Guide to online education. Follow said stoner as he takes affordable online courses...</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://thatonestoner.com/django-bootcamp-index.html</link>
+     <title>That One Django Bootcamp...</title>
+     <description>One Stoner's Guide to online education. Follow said stoner as he navigates a Full-Stack Django Bootcamp</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://thatonestoner.com/dbi-basics-html.html</link>
+     <title>That One HTML Lesson...</title>
+     <description>One Stoner's Guide to online education. Follow said stoner as he show off what he learned during the HTML portion of the Full-Stack Django Bootcamp...</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://thatonestoner.com/dbi-basic-css.html</link>
+     <title>That One CSS Lesson...</title>
+     <description>One Stoner's Guide to online education. Follow said stoner as he show off what he learned during the first CSS portion of the Full-Stack Django Bootcamp...</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://thatonestoner.com/dbi-basic-css-two.html</link>
+     <title>That Other CSS Lesson...</title>
+     <description>One Stoner's Guide to online education. Follow said stoner as he show off what he learned during the second CSS portion of the Full-Stack Django Bootcamp...</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://thatonestoner.com/dbi-capstone-project-one.html</link>
+     <title>That Capstone Project...</title>
+     <description>One Stoner's Guide to online education. This is said stoner's Capstone Project that highlights the HTML and CSS skills that he's learned so far...</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://thatonestoner.com/coming-soon.html</link>
+     <title>Coming Soon...</title>
+     <description>One Stoner's Guide to online education. This page will be replaced with actual content really soon...</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://thatonestoner.com/certificates.html</link>
+     <title>That One Stoner's Certificates...</title>
+     <description>One Stoner's Guide to online education. Here... said stoner shows off his many certificates...</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

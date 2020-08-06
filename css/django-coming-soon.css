@@ -8,7 +8,7 @@
 
 /*START HEADER GROUP START*/
 header {
-  background-image: url(../images/potphotoheader.jpg);
+  background-image: url(../images/headers/potphotoheader.webp);
   background-size: cover;
   height: 35vw;
   width: 100%;
@@ -50,7 +50,6 @@ nav a:link {
 }
 
 #navStoner{
-margin-left: -5vw;
 font-size: 3vw;
 }
 
@@ -158,7 +157,7 @@ nav li.dropdown {
 /*START FOOTER GROUP START*/
 footer {
   position: relative;
-  background-image: url("../images/basicpotheadfooter.jpg");
+  background-image: url("../images/footers/basicpotheadfooter.webp");
   background-size: cover;
   height: 35vw;
   width: 100%;
