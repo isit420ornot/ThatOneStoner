@@ -3,18 +3,28 @@
   padding: 0;
 }
 
-#tempNote{
+
+#tempNote {
   color: ghostwhite;
+}
+
+/*START HEADER GROUP START*/
+.sharethis-inline-share-buttons{
+  color: white;
+  float: right;
+    z-index: 0;
+}
+
+header {
+  width: 100%;
 
 }
 
-
-/*START HEADER GROUP START*/
-header {
-  background-image: url(../images/headers/hangingweed.gif);
-  background-size: cover;
-  height: 35vw;
+#mainHeaderVideo{
+  position: absolute;
+  z-index: 0;
   width: 100%;
+  height: auto;
 }
 
 #mainTitle {
@@ -22,8 +32,10 @@ header {
   color: #8f1d83;
   font-family: 'Alfa Slab One', cursive;
   font-size: 7vw;
-  padding-top: 7.5vw;
+  padding-top:20vw;
   text-shadow: .3vw .2vw 2vw #fdff8d;
+  z-index: 2;
+  position: relative;
 }
 
 #mainTagLine {
@@ -31,11 +43,17 @@ header {
   text-align: center;
   font-family: 'Acme', sans-serif;
   font-size: 5vw;
-  margin-top: -2.5vw;
   text-shadow: -.3vw -.2vw 2vw #94566d;
+  z-index: 2;
+  position: relative;
 }
 
 /*START NAVBAR START*/
+nav{
+  margin-top: 17vw;
+  position: relative;
+}
+
 nav a:link {
   color: #d7e337;
   font-family: 'Acme', sans-serif;
@@ -55,7 +73,6 @@ nav a:visited {
 }
 
 #navStoner {
-
   font-size: 3vw;
 }
 
@@ -156,33 +173,29 @@ nav li.dropdown {
   display: block;
 }
 
-/*START NAVBAR START*/
-/*END HEADER JUMBOTRON GROUP END*/
-
+/*END NAVBAR END*/
+/*END HEADER GROUP END*/
 body {
   background-color: #100e17;
   font-family: 'Open Sans', sans-serif;
 }
 
-h2{
+#certTitle{
   color: antiquewhite;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 25px;
+  margin-top: 7.5vw;
+  margin-bottom: 5vw;
 }
 
-h3{
-color: antiquewhite;
+h2 {
+  color: antiquewhite;
+  text-align: center;
+  margin-bottom: 2.5vw;
 }
 
-.container {
-
+h3 {
+  color: antiquewhite;
 }
-
-
-
-
-
 
 
 /*START FOOTER GROUP START*/
@@ -192,6 +205,59 @@ footer {
   background-size: cover;
   height: 35vw;
   width: 100%;
+}
+
+.social_media_buttons {
+  margin: auto;
+  width: 100%;
+  padding-top: 20vw;
+}
+
+.social_media_buttons ul {
+  list-style-type: none;
+  background-color: transparent;
+  margin-left: 10vw;
+}
+
+.social_media_buttons img {
+  width: 10vw;
+  height: 10vw;
+  float: left;
+  padding: 1vw;
+}
+
+.social_media_buttons li {
+  opacity: 0.6;
+}
+
+.social_media_buttons li:hover {
+  opacity: 1;
+}
+
+.rotator img {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+}
+
+.rotator img:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+}
+
+.rotator img:active {
+  -webkit-transform: rotate(-360deg);
+  -moz-transform: rotate(-360deg);
+  -o-transform: rotate(-360deg);
+  -ms-transform: rotate(-360deg);
+  opacity: 1;
+}
+
+.rotator img:visted {
+  opacity: 0.75;
 }
 
 /*END FOOTER GROUP END*/

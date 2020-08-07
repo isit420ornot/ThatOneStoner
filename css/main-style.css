@@ -4,36 +4,55 @@
   padding: 0;
 }
 
-a:link {
+body{
+  background-color: black;
+}
+
+main a:link {
   color: #d7e337;
   text-shadow: 0vw .1vw 0vw #f3b369;
 }
 
-a:visited {
+main a:visited {
   color: #d7e337;
 }
 
-a:hover {
+main a:hover {
   color: #8f1d83;
   text-shadow: 0vw .1vw vw #94566d;
 }
 
-a:active {
+main a:active {
   color: whitesmoke;
 }
 
-main{
+main {
   padding: 5vw;
   background-color: #94566d;
 }
 
+main p{
+  padding-bottom: 1.5vw;
+}
+
 /*END GLOBAL*/
 /*START HEADER GROUP START*/
+.sharethis-inline-share-buttons{
+  color: white;
+  float: right;
+    z-index: 0;
+}
+
 header {
-  background-image: url(../images/headers/hangingweed.gif);
-  background-size: cover;
-  height: 35vw;
   width: 100%;
+
+}
+
+#mainHeaderVideo{
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: auto;
 }
 
 #mainTitle {
@@ -41,8 +60,10 @@ header {
   color: #8f1d83;
   font-family: 'Alfa Slab One', cursive;
   font-size: 7vw;
-  padding-top: 7.5vw;
+  padding-top:20vw;
   text-shadow: .3vw .2vw 2vw #fdff8d;
+  z-index: 2;
+  position: relative;
 }
 
 #mainTagLine {
@@ -51,10 +72,15 @@ header {
   font-family: 'Acme', sans-serif;
   font-size: 5vw;
   text-shadow: -.3vw -.2vw 2vw #94566d;
+  z-index: 2;
+  position: relative;
 }
 
 /*START NAVBAR START*/
-
+nav{
+  margin-top: 19vw;
+    position: relative;
+}
 nav a:link {
   color: #d7e337;
   font-family: 'Acme', sans-serif;
@@ -71,24 +97,24 @@ nav a:link {
   text-shadow: .2vw .1vw 0vw #fdff8d;
 }
 
-ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   overflow: hidden;
   background-color: #427c64;
 }
 
-li {
+nav li {
   float: left;
   border-right: .1vw solid #8dd49c;
-margin-bottom: -.75vw;
+  margin-bottom: -.75vw;
 }
 
-li:last-child {
+nav li:last-child {
   border-right: none;
 }
 
-li a:hover:not(.active) {
+nav li a:hover:not(.active) {
   background-color: #2eba64;
 }
 
@@ -100,7 +126,7 @@ li a:hover:not(.active) {
   background-color: #2eba64;
 }
 
-li a, .dropbtn {
+nav li a, .dropbtn {
   display: inline-block;
   text-align: center;
   text-decoration: none;
@@ -109,13 +135,13 @@ li a, .dropbtn {
   padding: 1.4vw 1.6vw;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+nav li a:hover, .dropdown:hover .dropbtn {
   background-color: #8dd49c;
   color: whitesmoke;
   font-family: 'Acme', sans-serif;
 }
 
-li.dropdown {
+nav li.dropdown {
   display: inline-block;
 }
 
@@ -145,8 +171,10 @@ li.dropdown {
   display: block;
 }
 
-/*START NAVBAR START*/
-/*END HEADER JUMBOTRON GROUP END*/
+/*ENDNAVBAR END*/
+
+/*END HEADER GROUP END*/
+
 /*START MAIN CONTENT GROUP START*/
 .main_content_container {
   width: 85vw;
@@ -181,7 +209,7 @@ li.dropdown {
   color: #fef0cb;
   font-family: 'Special Elite', cursive;
   font-size: 1.4vw;
-  font-weight:900;
+  font-weight: 900;
   text-shadow: .2vw .1vw 0vw #aa5d27;
   line-height: 1.7;
 }
@@ -221,12 +249,66 @@ li.dropdown {
 
 /*END BUTTON GROUP END*/
 /*END MAIN CONTENT GROUP END*/
+
 /*START FOOTER GROUP START*/
 footer {
   background-image: url(../images/footers/farm.webp);
   background-size: cover;
   height: 35vw;
   width: 100%;
+}
+
+.social_media_buttons {
+  margin: auto;
+  width: 100%;
+  padding-top: 20vw;
+}
+
+.social_media_buttons ul {
+  list-style-type: none;
+  background-color: transparent;
+  margin-left: 10vw;
+}
+
+.social_media_buttons img {
+  width: 10vw;
+  height: 10vw;
+  float: left;
+  padding: 1vw;
+}
+
+.social_media_buttons li {
+  opacity: 0.6;
+}
+
+.social_media_buttons li:hover {
+  opacity: 1;
+}
+
+.rotator img {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+}
+
+.rotator img:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+}
+
+.rotator img:active {
+  -webkit-transform: rotate(-360deg);
+  -moz-transform: rotate(-360deg);
+  -o-transform: rotate(-360deg);
+  -ms-transform: rotate(-360deg);
+  opacity: 1;
+}
+
+.rotator img:visted {
+  opacity: 0.75;
 }
 
 /*END FOOTER GROUP END*/

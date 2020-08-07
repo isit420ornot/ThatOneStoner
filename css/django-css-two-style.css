@@ -1,10 +1,10 @@
-0vw.5vw
 
 /*GLOBAL*/
 * {
   padding: 0vw;
   margin: 0vw;
 }
+
 
 main {
   width: 100%;
@@ -22,6 +22,11 @@ p {
 }
 
 /*START HEADER GROUP START*/
+.sharethis-inline-share-buttons{
+  color: white;
+  float: right;
+}
+
 header {
   background-image: url(../images/headers/potphotoheader.webp);
   background-size: cover;
@@ -39,20 +44,18 @@ header {
 }
 
 .title_course_line {
-  margin-top: -5vw;
   font-size: 4.5vw;
   font-family: 'Acme', sans-serif;
 }
 
 .title_main {
-  margin-top: 1vw;
   font-size: 5vw;
   font-family: 'Alfa Slab One', cursive;
 }
 
 .title_tagline {
-  margin-top: -5vw;
-  font-size: 3.2vw;
+  margin-top: .5vw;
+  font-size: 2.9vw;
   font-family: 'Acme', sans-serif;
 }
 
@@ -434,6 +437,59 @@ footer {
   background-size: cover;
   height: 35vw;
   width: 100%;
+}
+
+.social_media_buttons {
+  margin: auto;
+  width: 100%;
+  padding-top: 20vw;
+}
+
+.social_media_buttons ul {
+  list-style-type: none;
+  background-color: transparent;
+  margin-left: 10vw;
+}
+
+.social_media_buttons img {
+  width: 10vw;
+  height: 10vw;
+  float: left;
+  padding: 1vw;
+}
+
+.social_media_buttons li {
+  opacity: 0.6;
+}
+
+.social_media_buttons li:hover {
+  opacity: 1;
+}
+
+.rotator img {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+}
+
+.rotator img:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+}
+
+.rotator img:active {
+  -webkit-transform: rotate(-360deg);
+  -moz-transform: rotate(-360deg);
+  -o-transform: rotate(-360deg);
+  -ms-transform: rotate(-360deg);
+  opacity: 1;
+}
+
+.rotator img:visted {
+  opacity: 0.75;
 }
 
 /*END FOOTER GROUP END*/

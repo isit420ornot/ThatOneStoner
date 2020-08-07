@@ -1,0 +1,21 @@
+
+
+
+#redirect non-www to www
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
+
+ErrorDocument 404 /errorpage.html
+
+AddType text/cache-manifest .manifest
+
+<IfModule mod_expires.c>
+    ExpiresActive on
+
+    ExpiresByType image/jpg "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/wemp "access plus 1 month"
+</IfModule>
