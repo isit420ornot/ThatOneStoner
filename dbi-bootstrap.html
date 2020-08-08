@@ -1,11 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
-
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2MPC6YZ79H"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-2MPC6YZ79H');
+  </script>
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KB8K82C');
+  </script>
+  <!-- End Google Tag Manager -->
   <meta charset="utf-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
   <meta name="description" content="One Stoner's Guide to online education. Follow said stoner as he show off what he learned during the Bootstrap portion of the Full-Stack Django Bootcamp...">
   <meta name="keywords" content="Stoner, Online Education, CSS, HTML, Bootstrap, Django Bootcamp, Higher Education">
   <meta name="author" content="Bunker aka The Wicker Breaker... aka That One Stoner who created isit420ornot.com">
@@ -17,74 +46,131 @@
   <link rel="apple-touch-icon" href="images/signage/icon.webp">
   <!-- Bootstrap core CSS -->
   <link href="css/assets/dist/css/bootstrap-reboot.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Slabo+27px&family=Special+Elite&family=Staatliches&display=swap" rel="stylesheet">
   <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5f2cfd3dc1e8650012ce70d0&product=sop' async='async'></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159396445-1"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2MPC6YZ79H"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-2MPC6YZ79H');
-  </script>
   <script data-ad-client="ca-pub-3337524742056966" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 
 <body>
+  <!-- Google Tag Manager (noscript) --> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KB8K82C" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
   <div class="container">
     <header class="blog-header py-3">
-      <!-- ShareThis BEGIN -->
-      <div class="sharethis-inline-share-buttons "></div>
-      <!-- ShareThis END -->
+
       <div class="row flex-nowrap justify-content-between align-items-center">
-        <div class="col-1 pt-1">
-          <a class="text-muted" href="dbi-capstone-project-one.html">Subscribe</a>
+        <div id="subButt" class="col-1 pt-1">
+          <a class="text-muted" href="dbi-capstone-project-one.html">
+            <h4>Subscribe</h4>
+          </a>
         </div>
         <div class="col-10 text-center">
           <a class="blog-header-logo text-dark" href="/">
-            <p>That One Stoner...</p>
-
-            <h4>...Learns
-              Bootstrap...</h2>
-              <h6>...For That One Full Stack Django Bootcamp!!! </h6>
+            <h1>That One Stoner...</h1>
+            <h2 id="titleH2">...Learns Bootstrap...</h2>
+            <h3>...For That One Full Stack Django Bootcamp!!! </h3>
           </a>
         </div>
-        <div class="col-1 d-flex justify-content-end align-items-center">
+        <div id="donateButt" class="col-1 d-flex justify-content-end align-items-center">
 
-          <a class="btn btn-sm btn-outline-secondary" href="dbi-capstone-project-one.html">Donate</a>
+          <a id="donateLink" class="btn btn-sm btn-outline-secondary" href="dbi-capstone-project-one.html">
+            <h4>Donate</h4>
+          </a>
         </div>
       </div>
     </header>
 
-    <div class="nav-scroller py-1 mb-2">
-      <nav class="nav d-flex justify-content-between">
-        <a class="p-2 text-muted" href="dbi-basics-html.html">HTML...</a>
-        <a class="p-2 text-muted" href="dbi-basic-css.html">CSS...</a>
-        <a class="p-2 text-muted" href="dbi-basic-css-two.html">CSS Pt Deux...</a>
-        <a class="p-2 text-muted" href="dbi-capstone-project-one.html">Capstone Project One...</a>
-        <a class="p-2 text-muted" href="coming-soon.html">BootStrap...</a>
-        <a class="p-2 text-muted" href="coming-soon.html">JavaScript One...</a>
-        <a class="p-2 text-muted" href="coming-soon.html">JavaScript Two...</a>
-        <a class="p-2 text-muted" href="coming-soon.html">Document Object Model...</a>
-        <a class="p-2 text-muted" href="coming-soon.html">jQuery...</a>
-        <a class="p-2 text-muted" href="coming-soon.html">Back-End...</a>
-        <a class="p-2 text-muted" href="coming-soon.html">Python Level One...</a>
-        <a class="p-2 text-muted" href="coming-soon.html">Python Level Two...</a>
-        <a class="p-2 text-muted" href="coming-soon.html">Django Level One...</a>
-        <a class="p-2 text-muted" href="coming-soon.html">Django Level Two...</a>
-        <a class="p-2 text-muted" href="coming-soon.html">Django Level Three...</a>
-        <a class="p-2 text-muted" href="coming-soon.html">Django Level Four...</a>
-        <a class="p-2 text-muted" href="coming-soon.html">Django Level Five...</a>
-      </nav>
+
+    <div class="navGroup">
+
+
+    <hr id="hr1">
+    <div class="overflowHide">
+
+      <div id="innerwrapper">
+
+
+
+        <span id="move">
+
+          <div class="nav-scroller py-1 ">
+
+            <nav class="nav d-flex justify-content-between">
+              <ul>
+                <li><a class="p-2 text-muted" href="dbi-basics-html.html">
+                    <h6>HTML...</h6>
+                  </a></li>
+                <li><a class="p-2 text-muted" href="dbi-basic-css.html">
+                    <h6>CSS...</h6>
+                  </a></li>
+                <li><a class="p-2 text-muted" href="dbi-basic-css-two.html">
+                    <h6>CSS Pt Deux...</h6>
+                  </a></li>
+                <li><a class="p-2 text-muted" href="dbi-capstone-project-one.html">
+                    <h6>Capstone Project One...</h6>
+                  </a></li>
+                <li><a class="p-2 text-muted" href="coming-soon.html">
+                    <h6>BootStrap...</h6>
+                  </a></li>
+                <li><a class="p-2 text-muted" href="coming-soon.html">
+                    <h6>JavaScript One...</h6>
+                  </a></li>
+                <li><a class="p-2 text-muted" href="coming-soon.html">
+                    <h6>JavaScript Two...</h6>
+                  </a></li>
+                <li><a class="p-2 text-muted" href="coming-soon.html">
+                    <h6>Document Object Model...</h6>
+                  </a></li>
+                <li><a class="p-2 text-muted" href="coming-soon.html">
+                    <h6>jQuery...</h6>
+                  </a></li>
+                <li><a class="p-2 text-muted" href="coming-soon.html">
+                    <h6>Back-End...</h6>
+                  </a></li>
+                <li><a class="p-2 text-muted" href="coming-soon.html">
+                    <h6>Python Level One...</h6>
+                  </a></li>
+                <li><a class="p-2 text-muted" href="coming-soon.html">
+                    <h6>Python Level Two...</h6>
+                  </a></li>
+                <li><a class="p-2 text-muted" href="coming-soon.html">
+                    <h6>Django Level One...</h6>
+                  </a></li>
+                <li><a class="p-2 text-muted" href="coming-soon.html">
+                    <h6>Django Level Two...</h6>
+                  </a></li>
+                <li><a class="p-2 text-muted" href="coming-soon.html">
+                    <h6>Django Level Three...</h6>
+                  </a></li>
+                <li><a class="p-2 text-muted" href="coming-soon.html">
+                    <h6>Django Level Four...</h6>
+                  </a></li>
+                <li><a class="p-2 text-muted" href="coming-soon.html">
+                    <h6>Django Level Five...</h6>
+                  </a></li>
+              </ul>
+
+            </nav>
+
+          </div>
+
+        </span>
+      </div>
     </div>
 
+    <hr id="hr2">
+    </div>
     <div class="jumbotron p-4 p-md-5 text-white rounded">
       <div class="col-md-6 px-0">
-        <h1 class="display-4 font-italic">Construction on IsIt420OrNot.com Shut Down Until That One Stoner Learns Full Stack Django...</h1>
-        <p class="lead my-3">What was originally meant to be this project you are presently viewing... a stoner site about online education... went off the rails... becoming yet another surreal art project... will site owner... That One
+
+        <div id="backgroundColor1"></div>
+
+        <h1 id="in420news" class="display-4 font-italic">
+          Construction of <span id="isItYellow">IsIt420OrNot.com</span> put on hold until <span id="isItYellow">That One Stoner</span> Learns Full Stack Django...
+        </h1>
+
+        <p id="isItContent" class="lead my-3">What was originally meant to be this project you are presently viewing... a stoner site about online education... went off the rails... becoming yet another surreal art project... will site owner... That
+          One
           Stoner be able to learn what what it take to correct his convoluted design mistakes???</p>
         <p class="lead mb-0"><a href="https://isit420ornot.com/" class="text-white font-weight-bold">Read more...</a></p>
       </div>
@@ -104,7 +190,7 @@
           </div>
 
           <div id="msnl" class="col-auto d-none d-lg-block">
-            <img src="images/html-and-css-one/labImageII.webp" alt="Branding for My Saturday Night Life..." x="50%" y="50%" height="250" width="200">
+            <img src="images/bootstrap/msnl.webp" alt="Branding for My Saturday Night Life..." x="50%" y="50%" height="250" width="200">
           </div>
         </div>
       </div>
@@ -260,6 +346,9 @@
 
       <aside class="col-md-4 blog-sidebar">
         <div class="p-4 mb-3 bg-light rounded">
+          <!-- ShareThis BEGIN -->
+          <div class="sharethis-inline-share-buttons "></div>
+          <!-- ShareThis END -->
           <h4 class="font-italic">About Me...</h4>
           <p class="mb-0">Just some pothead manchild... killing time by learning... while the world collapse... and the "adults" act like all of this is normal...</p>
         </div>
@@ -267,19 +356,15 @@
 
 
         <div class="p-4">
+
           <a href="https://www.teepublic.com/stores/matthew-a-bunker?ref_id=8308"></a> <img src="images/ads/shirtAd.webp" alt="An ad for The Wicker Store..."></a>
           <h4 class="font-italic">Other Projects...</h4>
           <h6>Past... Present... and Future...</h6>
           <ol class="list-unstyled mb-0">
-
             <li><a href="https://isit420ornot.com/thesummarystrip.html">The First Attempt...
                 <h6>(In Progress...)</h6></a></li>
-
-
             <li><a href="https://isit420ornot.com/">IsIt420OrNot.com
                 <h6>(In Progress...)</h6></a></li>
-
-
             <li><a href="https://potheadpicasso.com/">PotheadPicasso.com
                 <h6>(Coming Soon)</h6> </a></li>
             <li><a href="http://isochronia.com/">Isochronia.com
@@ -395,20 +480,12 @@
 
   <footer class="blog-footer">
 
-    <div class="social_media_buttons">
-      <ul>
-        <li><a href="https://www.weedlife.com/my-network/isit420ornot"><div class="rotator"><img src="images/signage/weedlifeIcon.webp" alt="Weedlife.com Logo..."></div> </a></li>
-        <li><a href="https://www.pinterest.com/IsIt420OrNot/boards/"><div class="rotator"><img src="images/signage/pinterestIcon.webp" alt="Pinterest.com Logo..."></div></a></li>
-        <li><a href="https://twitter.com/fubunker"><div class="rotator"><img src="images/signage/twitterIcon.webp" alt="Twitter.com Logo..."></div></a></li>
-        <li><a href="https://www.youtube.com/channel/UCe_BErgr6PJbHvMAxYVJZvw?view_as=subscriber"><div class="rotator"><img src="images/signage/youtubeIcon.webp" alt="YouTube.com Logo...."></div></a></li>
-        <li><a href="https://www.linkedin.com/in/fubunker/"><div class="rotator"><img src="images/signage/linkedinIcon.webp" alt="LinkedIn Logo..."></div></a></li>
-        <li><a href="https://github.com/isit420ornot/ThatOneStoner"><div class="rotator"><img src="images/signage/githubIcon.webp" alt="GitHub Logo..."></div></a></li>
-      </ul>
 
 
-    </div>
 
   </footer>
+
+
 </body>
 
 </html>

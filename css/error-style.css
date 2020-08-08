@@ -160,6 +160,10 @@ nav li.dropdown {
   display: block;
 }
 
+#certTab{
+  float: right;
+}
+
 /*END NAVBAR END*/
 /*END HEADER GROUP END*/
 

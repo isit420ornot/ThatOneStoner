@@ -1,36 +1,56 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2MPC6YZ79H"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-2MPC6YZ79H');
+  </script>
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KB8K82C');
+  </script>
+  <!-- End Google Tag Manager -->
   <meta charset="utf-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="description" content="One Stoner's Guide to online education. Follow said stoner as he show off what he learned during the first CSS portion of the Full-Stack Django Bootcamp...">
   <meta name="author" content="Bunker aka The Wicker Breaker... aka That One Stoner who created isit420ornot.com">
   <meta name="keywords" content="Stoner, Online Education, CSS, HTML, Django Bootcamp, Higher Education">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
   <title>That One CSS Lesson...</title>
   <link type="text/css" rel="stylesheet" href="css/django-css-one-style.css">
   <link rel="apple-touch-icon" href="images/signage/icon.webp">
   <link href="https://fonts.googleapis.com/css2?family=Acme&family=Alfa+Slab+One&family=Crimson+Text:ital,wght@1,600&family=Roboto+Slab:wght@900&family=Special+Elite&family=Trocchi&display=swap" rel="stylesheet">
   <link rel="icon" href="images/signage/icon.webp">
   <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5f2cfd3dc1e8650012ce70d0&product=sop' async='async'></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159396445-1"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2MPC6YZ79H"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
 
-    gtag('config', 'G-2MPC6YZ79H');
-  </script>
 
 </head>
 
 <body>
-
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KB8K82C" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <header>
     <!-- ShareThis BEGIN -->
     <div class="sharethis-inline-share-buttons "></div>
@@ -69,7 +89,7 @@
           <a href="coming-soon.html">Django Level Five...</a>
         </div>
       </li>
-      <li style="float:right"><a href="certificates.html">Certificates</a></li>
+      <li id="certTab"><a href="certificates.html">Certificates</a></li>
     </ul>
   </nav>
 
@@ -277,7 +297,8 @@
 
             <div id="checkboxDiv">
 
-              <p class="mainLabel">I smoke:<p>
+              <p class="mainLabel">I smoke:
+              <p>
                 <input class="checkBoxes" type="checkbox" id="allday" name="smoker-type" value="All Day">
                 <label class="whiteLables" for="allday">All Day...</label>
                 <input class="checkBoxes" type="checkbox" id="everyday" name="smoker-type">
@@ -337,12 +358,24 @@
   <footer>
     <div class="social_media_buttons">
       <ul>
-        <li><a href="https://www.weedlife.com/my-network/isit420ornot"><div class="rotator"><img src="images/signage/weedlifeIcon.webp" alt="Weedlife.com Logo..."></div> </a></li>
-        <li><a href="https://www.pinterest.com/IsIt420OrNot/boards/"><div class="rotator"><img src="images/signage/pinterestIcon.webp" alt="Pinterest.com Logo..."></div></a></li>
-        <li><a href="https://twitter.com/fubunker"><div class="rotator"><img src="images/signage/twitterIcon.webp" alt="Twitter.com Logo..."></div></a></li>
-        <li><a href="https://www.youtube.com/channel/UCe_BErgr6PJbHvMAxYVJZvw?view_as=subscriber"><div class="rotator"><img src="images/signage/youtubeIcon.webp" alt="YouTube.com Logo...."></div></a></li>
-        <li><a href="https://www.linkedin.com/in/fubunker/"><div class="rotator"><img src="images/signage/linkedinIcon.webp" alt="LinkedIn Logo..."></div></a></li>
-        <li><a href="https://github.com/isit420ornot/ThatOneStoner"><div class="rotator"><img src="images/signage/githubIcon.webp" alt="GitHub Logo..."></div></a></li>
+        <li><a href="https://www.weedlife.com/my-network/isit420ornot">
+            <div class="rotator"><img src="images/signage/weedlifeIcon.webp" alt="Weedlife.com Logo..."></div>
+          </a></li>
+        <li><a href="https://www.pinterest.com/IsIt420OrNot/boards/">
+            <div class="rotator"><img src="images/signage/pinterestIcon.webp" alt="Pinterest.com Logo..."></div>
+          </a></li>
+        <li><a href="https://twitter.com/fubunker">
+            <div class="rotator"><img src="images/signage/twitterIcon.webp" alt="Twitter.com Logo..."></div>
+          </a></li>
+        <li><a href="https://www.youtube.com/channel/UCe_BErgr6PJbHvMAxYVJZvw?view_as=subscriber">
+            <div class="rotator"><img src="images/signage/youtubeIcon.webp" alt="YouTube.com Logo...."></div>
+          </a></li>
+        <li><a href="https://www.linkedin.com/in/fubunker/">
+            <div class="rotator"><img src="images/signage/linkedinIcon.webp" alt="LinkedIn Logo..."></div>
+          </a></li>
+        <li><a href="https://github.com/isit420ornot/ThatOneStoner">
+            <div class="rotator"><img src="images/signage/githubIcon.webp" alt="GitHub Logo..."></div>
+          </a></li>
         </ol>
       </ul>
     </div>
@@ -398,5 +431,8 @@
       document.getElementById("resultDiv").style.backgroundColor = basicBGColor;
     }
   </script>
+
+
 </body>
+
 </html>

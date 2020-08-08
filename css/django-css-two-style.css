@@ -179,6 +179,10 @@ nav li.dropdown {
   display: block;
 }
 
+#certTab{
+  float: right;
+}
+
 /*START NAVBAR START*/
 /*END HEADER JUMBOTRON GROUP END*/
 #spectrumVOG {

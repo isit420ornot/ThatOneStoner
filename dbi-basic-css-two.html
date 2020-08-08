@@ -1,38 +1,56 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2MPC6YZ79H"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-2MPC6YZ79H');
+  </script>
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KB8K82C');
+  </script>
+  <!-- End Google Tag Manager -->
   <meta charset="utf-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="description" content="One Stoner's Guide to online education. Follow said stoner as he show off what he learned during the second CSS portion of the Full-Stack Django Bootcamp...">
   <meta name="author" content="Bunker aka The Wicker Breaker... aka That One Stoner who created isit420ornot.com">
   <meta name="keywords" content="Stoner, Online Education, CSS, HTML, Django Bootcamp, Higher Education">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
   <title>That Other CSS Lesson...</title>
   <link type="text/css" rel="stylesheet" href="css/django-css-two-style.css">
   <link href="https://fonts.googleapis.com/css2?family=Acme&family=Alfa+Slab+One&family=Antic+Slab&family=Cinzel:wght@400;700;900&family=Special+Elite&family=Ubuntu+Mono&display=swap" rel="stylesheet">
   <link rel="apple-touch-icon" href="images/signage/icon.webp">
   <link rel="icon" href="images/signage/icon.webp">
   <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5f2cfd3dc1e8650012ce70d0&product=sop' async='async'></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159396445-1"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2MPC6YZ79H"></script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2MPC6YZ79H"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-2MPC6YZ79H');
-  </script>
 
 </head>
 
 <body>
-
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KB8K82C" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <header>
     <!-- ShareThis BEGIN -->
     <div class="sharethis-inline-share-buttons "></div>
@@ -70,7 +88,7 @@
           <a href="coming-soon.html">Django Level Five...</a>
         </div>
       </li>
-      <li style="float:right"><a href="certificates.html">Certificates</a></li>
+      <li id="certTab"><a href="certificates.html">Certificates</a></li>
     </ul>
   </nav>
 
@@ -180,6 +198,9 @@
       </ul>
     </div>
   </footer>
+
+
+
 </body>
 
 </html>

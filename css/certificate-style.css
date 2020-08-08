@@ -97,6 +97,7 @@ nav a:visited {
   color: #8f1d83;
   font-size: 2.5vw;
   text-shadow: .2vw .1vw 0vw #fdff8d;
+  float: right;
 }
 
 nav ul {
@@ -173,6 +174,9 @@ nav li.dropdown {
   display: block;
 }
 
+#certTab{
+  float: right;
+}
 /*END NAVBAR END*/
 /*END HEADER GROUP END*/
 body {

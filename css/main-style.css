@@ -170,7 +170,10 @@ nav li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
+   
+#certTab{
+  float: right;
+}
 /*ENDNAVBAR END*/
 
 /*END HEADER GROUP END*/
@@ -232,7 +235,7 @@ nav li.dropdown {
   text-shadow: 0vw 2vw 0vw #612201;
   width: 15.5vw;
   margin-left: 10vw;
-  margin-top: -1vw;
+  margin-top: -2vw;
   text-align: center;
 }
 
