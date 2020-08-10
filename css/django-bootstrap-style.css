@@ -13,17 +13,36 @@ p {
   color: darkslategrey;
 }
 
-h1 h2, h3 {
-  font-family: 'Playfair Display SC', serif;
+#titleGroup{
+  text-align: center;
+  color: antiquewhite;
+}
+
+#titleGroup a{
+    text-decoration: none !important;
+
+}
+
+#titleGroup h1:hover{
+  color: olivedrab;
+}
+
+#titleGroup h2:hover{
+  color: olivedrab;
+}
+
+#titleGroup h3:hover{
+  color: olivedrab;
 }
 
 h1 {
+  font-family: 'Playfair Display SC', serif;
   font-size: 6vw;
   font-weight: bolder;
-  padding-top: 2.5vw;
-  padding-bottom: 0vw;
-  text-shadow: .2vw .2vw .1vw lightslategrey;
+  text-shadow: .25vw .25vw 0vw white;
   color: darkslategrey;
+  padding-top: 2.5vw;
+
 }
 
 h2 {
@@ -34,16 +53,17 @@ h2 {
 }
 
 #titleH2 {
-  margin-top: 0vw;
-  margin-bottom: 3vw;
-  text-shadow: .2vw .2vw .1vw lightslategrey;
+  font-weight: bolder;
+  text-shadow: .15vw .15vw 0vw white;
   color: darkslategrey;
+  font-family: 'Playfair Display SC', serif;
 }
 
 h3 {
-  font-size: 2.3vw;
-  font-weight: bold;
-  text-shadow: .1vw .1vw 0vw lightslategrey;
+  font-family: 'Playfair Display SC', serif;
+  font-size: 3.2vw;
+  font-weight: bolder;
+  text-shadow: .1vw .1vw 0vw white;
   color: darkslategrey;
 }
 
@@ -52,50 +72,41 @@ h4, h5, p {
 }
 
 h4 {
-  font-size: 2.5vw;
+  font-size: 2vw;
   font-weight: bold;
   text-shadow: .1vw .1vw 0vw
+  font-family: 'Slabo 2.7', serif;
 }
 
-#subButt {
-  margin-top: 5vw;
-  margin-left: -2vw;
+#subButt a{
+  float: left;
+  margin-top: -10vw;
+  margin-left: 4vw;
+  position: relative;
   font-weight: bolder;
-  text-shadow: .1vw .1vw 0vw lightslategrey;
-  color: darkslategrey;
+  text-shadow: .1vw .1vw 0vw white;
+  color: lightslategrey;
 }
 
 #subButt a:hover {
-  margin-top: 5vw;
-  margin-left: -2vw;
-  font-weight: bolder;
-  text-shadow: .1vw .1vw 0vw darkslategrey;
-  color: lightslategrey !important;
-}
-
-#donateButt {
-  margin-top: 5vw;
-  margin-right: -2vw;
   text-shadow: .1vw .1vw 0vw lightslategrey;
   color: darkslategrey;
+  text-decoration: none !important;
+}
+
+#donateLink {
+  float: right;
+  margin-top: -11vw;
+  margin-right: 4vw;
+  padding-top: 1vw;
+  color: #ded8cc;
+  background-color: lightslategrey;
 
 }
 
 #donateLink:hover {
-  padding-top: 1vw;
   background-color: darkslategrey;
   color: #ded8cc ;
-}
-
-#donateLink {
-  padding-top: 1vw;
-  background-color: antiquewhite;
-  color: darkslategrey;
-}
-
-.navGroup{
-  height: 20vw;
-  position: relative;
 }
 
 hr {
@@ -103,69 +114,73 @@ hr {
 }
 
 #hr1{
-  margin-bottom: 1vw;
+  border: .5vw solid black;
+  width: 86vw;
+  margin: 0 auto;
+  margin-top: 2.5vw;
 }
 
 #hr2{
-  position: relative;
-  margin-top: -5.5vw;
-
-}
-
-nav {
-  width: 578vw;
+  border: .5vw solid darkred;
+  width: 86vw;
+  margin: 0 auto;
+  margin-bottom: 2.5vw;
 }
 
 nav ul{
-
+    list-style-type: none;
+    width: 575vw;
 }
 
-nav li {
-  float: left;
-  list-style-type: none;
-  
-  background-color: red;
-  /* For browsers that do not support gradients */
-  background-image: linear-gradient(to bottom, red, black 90%);
-}
-
-nav a h6{
+nav li a h6{
   color: yellow;
-  font-size: 3.5vw;
+  font-size: 3vw;
   text-shadow: .2vw .2vw .1vw red;
   padding-left: 2vw;
   padding-right: 2vw;
-
+  background-color: darkred;
+  /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom, red, black 90%);
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  margin-left: -.5vw;
 }
 
-a{
-  text-decoration: none !important;
-}
-
-nav a h6:hover{
-  background-color: red;
+nav li a h6:hover{
   color: antiquewhite;
-  text-shadow: .2vw .2vw .1vw darkred;
+  text-shadow: .25vw .25vw 0vw black;
+  background-color: red;
+  /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom, red, red 100%);
+  padding-top: 3vw;
+  padding-bottom: 3vw;
 
+}
+
+nav li a{
+  text-decoration: none !important;
+  list-style-type: none;
+  float: left;
 }
 
 #innerwrapper {
   display: table-cell;
-  vertical-align: middle;
-
 }
 
 #move {
   animation-delay: 2s !important;
   position: relative;
-  -webkit-animation: backandforth 90s;
+  -webkit-animation: backandforth 90s ease 0s;
   -webkit-animation-iteration-count:
     infinite;
 }
 
 .overflowHide {
   overflow: hidden;
-  height: 20.5vw;
+  height: 13vw;
+  width: 86vw;
+  margin: 0 auto;
+
 }
 
 .nav-scroller::-webkit-scrollbar {
@@ -178,7 +193,7 @@ nav a h6:hover{
   }
 
   50% {
-    right: 73%;
+    right: 70%;
   }
 
   100% {
@@ -192,7 +207,7 @@ nav a h6:hover{
   }
 
   50% {
-    right: 73%;
+    right: 60.5%;
   }
 
   100% {
@@ -200,60 +215,196 @@ nav a h6:hover{
   }
 }
 
-
-
-
-.jumbotron {
-
-
+#jumbotron {
   background-image: url(../images/bootstrap/isit420ornot.webp);
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 150vw;
-  width: 80vw;
+  height: 95vw;
+  padding-top: 1vw;
+  width: 86vw;
+  margin: 0 auto;
+  margin-bottom: 5vw;
 }
 
 #in420news{
-  margin-top: -25vw;
+  margin-top: -38vw;
   color: ghostwhite;
-  padding: 2.5vw;
+  padding: 5vw;
   font-family: 'Staatliches', cursive;
-  font-size: 5.5vw;
+  font-size: 5.9vw;
   text-shadow: .5vw .5vw 0vw purple;
   text-align: justify;
-
 }
 
 #backgroundColor1{
-float: inherit;
-  z-index: 0;
-  background-color: lawngreen;
-  height: 27vw;
-  width: 100%;
-  opacity: .1;
+  position: relative;
+  background-color: lightgreen;
+  height: 30vw;
+  width: 95%;
+  margin: 5vw auto;
+  opacity: .3;
 }
 
 #isItYellow{
-  color: yellow;
+    color: yellow;
+}
 
+#backgroundColor2{
+  position: relative;
+  background-color: mediumpurple;
+  height: 45vw;
+  width: 95%;
+  margin: 5vw auto;
+  margin-top: -1vw;
+  opacity: .3;
 }
 
 #isItContent{
-  color:violet;
-  font-family: 'Special Elite', cursive;
-  font-size: 4vw;
+    position: relative;
+      margin-top: -52.5vw;
+}
+
+#isItContent p{
+  color:lightgreen;
+  font-family: 'Slabo 2.7', serif;  font-size: 2.75vw;
   font-weight: bolder;
-  text-shadow: .1vw .1vw .1vw white;
+  text-shadow: .1vw .1vw .1vw yellow;
   padding: 0 1vw;
   text-align: justify;
+  padding: 5vw;
+}
+
+.isItContentP2{
+  margin-top: -9vw;
+}
+
+#more420 a{
+  font-weight:bolder;
+  margin-top: 2.5vw;
+  font-size: 3vw;
+  float: right;
+  margin-right: 2vw;
+  color: yellow;
+  text-shadow: .2vw .2vw .1vw purple;
+  text-decoration: none !important;
+}
+
+#more420 a:hover{
+  color: palevioletred;
+  text-shadow: .1vw .1vw .1vw palegoldenrod;
+}
+
+#otherArticles{
+  width: 90vw;
+  margin: 0 auto;
+  padding-left: 2vw;
+  margin-bottom: 5vw;
+}
+
+#otherArticles h2{
+    font-size: 1.6vw;
+}
+
+#otherArticles h3{
+    font-size: 1.1vw;
+}
+
+#otherArticles p{
+    font-size: 1.75vw;
+    margin-bottom: -.5vw;
+}
+
+#otherArticles img{
+  width: 19vw;
+  height: 26vw;
+  float: right;
+  margin-top: -26vw;
+  margin-right: 2vw;
+}
+
+#mySNL{
+  width: 43vw;
+  float: left;
+}
+
+#mySNLText{
+  width: 22vw;
+  height: 26vw;
+  background-color: beige;
+  padding: 1vw;
+}
+
+#area52{
+  width: 43vw;
+  float: right;
+}
+
+#area52Text{
+  width: 22vw;
+  height: 26vw;
+  background-color: beige;
+  padding: 1vw;
+}
+
+#dopeBoo{
+  position: inherit;
+  margin: 5vw auto;
+  width: 86vw;
+  padding-top: 5vw;
+clear: both;
+}
+
+
+#fromText{
+  font-family: 'Playfair Display SC', serif;
+  font-size: 3.5vw;
+  font-weight: bolder;
+  text-shadow: .25vw .25vw 0vw white;
+  color: darkslategrey;
+
+}
+
+.blog-post h2{
+
+
+}
+
+.blog-post p{
+  color: black;
+  font-size: 2vw !important;
+  font-family: 'Slabo 2.7', serif;  font-size: 2.75vw;
+  font-weight: bolder;
+  text-shadow: .1vw .1vw .1vw white;
+  padding: 1vw;
 
 }
 
 
+.blog-post {
 
-/*CLASSES*/
-/*ID*/
-/* stylelint-disable selector-list-comma-newline-after */
+  margin-bottom: .4vw;
+  background-color: beige;
+  padding: 2.5vw 5vw;
+}
+
+.blog-post-title {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 2.5vw;
+  font-weight: bolder;
+  text-shadow: .25vw .25vw 0vw white;
+  color: darkslategrey;
+  margin-bottom: .25vw;
+  font-size: 2.5vw;
+}
+
+.blog-post-meta {
+  margin-bottom: .125vw;
+  color: #999;
+  margin-top: -2vw;
+  font-size: 2vw !important;
+}
+
+
 .blog-header {
   line-height: 1;
   border-bottom: .1vw solid #e5e5e5;
@@ -298,19 +449,7 @@ float: inherit;
 /*
  * Blog posts
  */
-.blog-post {
-  margin-bottom: .4vw;
-}
 
-.blog-post-title {
-  margin-bottom: .25vw;
-  font-size: 2.5vw;
-}
-
-.blog-post-meta {
-  margin-bottom: .125vw;
-  color: #999;
-}
 
 aside {
   height: 150vw;
