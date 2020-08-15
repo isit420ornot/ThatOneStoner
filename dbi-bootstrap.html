@@ -1,542 +1,658 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2MPC6YZ79H"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-2MPC6YZ79H"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-    gtag('config', 'G-2MPC6YZ79H');
-  </script>
+      gtag('config', 'G-2MPC6YZ79H');
+    </script>
 
-  <!-- Google Tag Manager -->
-  <script>
-    (function(w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({
-        'gtm.start': new Date().getTime(),
-        event: 'gtm.js'
-      });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : '';
-      j.async = true;
-      j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-KB8K82C');
-  </script>
-  <!-- End Google Tag Manager -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-  <meta name="description" content="One Stoner's Guide to online education. Follow said stoner as he show off what he learned during the Bootstrap portion of the Full-Stack Django Bootcamp...">
-  <meta name="keywords" content="Stoner, Online Education, CSS, HTML, Bootstrap, Django Bootcamp, Higher Education">
-  <meta name="author" content="Bunker aka The Wicker Breaker... aka That One Stoner who created isit420ornot.com">
-  <meta name="generator" content="Jekyll v4.0.1">
-  <title>That One Stoner Learns Bootstrap...</title>
-  <link rel="icon" href="images/signage/icon.webp">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link type="text/css" rel="stylesheet" href="css/django-bootstrap-style.css">
-  <link rel="apple-touch-icon" href="images/signage/icon.webp">
-  <!-- Bootstrap core CSS -->
-  <link href="css/assets/dist/css/bootstrap-reboot.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Slabo+27px&family=Special+Elite&family=Staatliches&display=swap" rel="stylesheet">
-  <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5f2cfd3dc1e8650012ce70d0&product=sop' async='async'></script>
-  <script data-ad-client="ca-pub-3337524742056966" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-</head>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer'
+            ? '&l=' + l
+            : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-KB8K82C');
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <meta name="description" content="One Stoner's Guide to online education. Follow said stoner as he show off what he learned during the Bootstrap portion of the Full-Stack Django Bootcamp...">
+    <meta name="keywords" content="Stoner, Online Education, CSS, HTML, Bootstrap, Django Bootcamp, Higher Education">
+    <meta name="author" content="Bunker aka The Wicker Breaker... aka That One Stoner who created isit420ornot.com">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <title>That One Stoner Learns Bootstrap...</title>
+    <link rel="icon" href="images/signage/icon.webp">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="css/django-bootstrap-style.css">
+    <link rel="apple-touch-icon" href="images/signage/icon.webp">
+    <!-- Bootstrap core CSS -->
+    <link href="css/assets/dist/css/bootstrap-reboot.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&family=Slabo+27px&family=Special+Elite&family=Staatliches&display=swap" rel="stylesheet">
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5f2cfd3dc1e8650012ce70d0&product=sop' async='async'></script>
+    <script data-ad-client="ca-pub-3337524742056966" async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  </head>
 
-<body>
+  <body>
 
-  <!-- Google Tag Manager (noscript) -->
-  <noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KB8K82C" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-  </noscript>
-  <!-- End Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KB8K82C" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
-  <header>
+    <header>
 
-    <div id="titleGroup">
-      <a href="/">
-        <h1>That One Stoner...</h1>
-        <h2 id="titleH2">...Learns Bootstrap...</h2>
-        <h3>...For That One Full Stack Django Bootcamp!!! </h3>
-      </a>
+      <div id="titleGroup">
+        <a href="/">
+          <h1>That One Stoner...</h1>
+          <h2 id="titleH2">...Learns Bootstrap...</h2>
+          <h3>...For That One Full Stack Django Bootcamp!!!
+          </h3>
+        </a>
+
+        <div id="subButt">
+          <a href="dbi-capstone-project-one.html">
+            <h4>Subscribe</h4>
+          </a>
+        </div>
+
+        <div id="donateButt">
+          <a id="donateLink" class="btn btn-sm btn-outline-secondary" href="dbi-capstone-project-one.html">
+            <h4>Donate</h4>
+          </a>
+        </div>
+      </div>
+
+    </header>
+
+    <hr id="hr1">
+
+    <div class="overflowHide">
+      <div id="innerwrapper">
+        <span id="move">
+          <nav>
+            <ul>
+              <li>
+                <a href="dbi-basics-html.html">
+                  <h6>HTML...</h6>
+                </a>
+              </li>
+              <li>
+                <a href="dbi-basic-css.html">
+                  <h6>CSS...</h6>
+                </a>
+              </li>
+              <li>
+                <a href="dbi-basic-css-two.html">
+                  <h6>CSS Pt Deux...</h6>
+                </a>
+              </li>
+              <li>
+                <a href="dbi-capstone-project-one.html">
+                  <h6>Capstone Project One...</h6>
+                </a>
+              </li>
+              <li>
+                <a href="coming-soon.html">
+                  <h6>BootStrap...</h6>
+                </a>
+              </li>
+              <li>
+                <a href="coming-soon.html">
+                  <h6>JavaScript One...</h6>
+                </a>
+              </li>
+              <li>
+                <a href="coming-soon.html">
+                  <h6>JavaScript Two...</h6>
+                </a>
+              </li>
+              <li>
+                <a href="coming-soon.html">
+                  <h6>Document Object Model...</h6>
+                </a>
+              </li>
+              <li>
+                <a href="coming-soon.html">
+                  <h6>jQuery...</h6>
+                </a>
+              </li>
+              <li>
+                <a href="coming-soon.html">
+                  <h6>Back-End...</h6>
+                </a>
+              </li>
+              <li>
+                <a href="coming-soon.html">
+                  <h6>Python Level One...</h6>
+                </a>
+              </li>
+              <li>
+                <a href="coming-soon.html">
+                  <h6>Python Level Two...</h6>
+                </a>
+              </li>
+              <li>
+                <a href="coming-soon.html">
+                  <h6>Django Level One...</h6>
+                </a>
+              </li>
+              <li>
+                <a href="coming-soon.html">
+                  <h6>Django Level Two...</h6>
+                </a>
+              </li>
+              <li>
+                <a href="coming-soon.html">
+                  <h6>Django Level Three...</h6>
+                </a>
+              </li>
+              <li>
+                <a href="coming-soon.html">
+                  <h6>Django Level Four...</h6>
+                </a>
+              </li>
+              <li>
+                <a href="coming-soon.html">
+                  <h6>Django Level Five...</h6>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </span>
+      </div>
     </div>
 
-    <div id="subButt">
-      <a href="dbi-capstone-project-one.html">
-        <h4>Subscribe</h4>
-      </a>
-    </div>
+    <hr id="hr2">
 
-    <div id="donateButt">
-      <a id="donateLink" class="btn btn-sm btn-outline-secondary" href="dbi-capstone-project-one.html">
-        <h4>Donate</h4>
-      </a>
-    </div>
+    <div id="jumbotron">
 
-  </header>
+      <div id="backgroundColor1"></div>
 
-  <hr id="hr1">
+      <p id="in420news">
+        Construction on
+        <span id="isItYellow">IsIt420OrNot.com</span>
+        <br>
+        put on hold until
+        <span id="isItYellow">That One Stoner</span>
+        <br>
+        Learns Full Stack Django...</p>
 
-  <div class="overflowHide">
-    <div id="innerwrapper">
-      <span id="move">
-        <nav>
-          <ul>
-            <li>
-              <a href="dbi-basics-html.html">
-                <h6>HTML...</h6>
-              </a>
-            </li>
-            <li>
-              <a href="dbi-basic-css.html">
-                <h6>CSS...</h6>
-              </a>
-            </li>
-            <li><a href="dbi-basic-css-two.html">
-                <h6>CSS Pt Deux...</h6>
-              </a>
-            </li>
-            <li><a href="dbi-capstone-project-one.html">
-                <h6>Capstone Project One...</h6>
-              </a>
-            </li>
-            <li>
-              <a href="coming-soon.html">
-                <h6>BootStrap...</h6>
-              </a>
-            </li>
-            <li>
-              <a href="coming-soon.html">
-                <h6>JavaScript One...</h6>
-              </a>
-            </li>
-            <li>
-              <a href="coming-soon.html">
-                <h6>JavaScript Two...</h6>
-              </a>
-            </li>
-            <li>
-              <a href="coming-soon.html">
-                <h6>Document Object Model...</h6>
-              </a>
-            </li>
-            <li>
-              <a href="coming-soon.html">
-                <h6>jQuery...</h6>
-              </a>
-            </li>
-            <li>
-              <a href="coming-soon.html">
-                <h6>Back-End...</h6>
-              </a>
-            </li>
-            <li>
-              <a href="coming-soon.html">
-                <h6>Python Level One...</h6>
-              </a>
-            </li>
-            <li>
-              <a href="coming-soon.html">
-                <h6>Python Level Two...</h6>
-              </a>
-            </li>
-            <li>
-              <a href="coming-soon.html">
-                <h6>Django Level One...</h6>
-              </a>
-            </li>
-            <li>
-              <a href="coming-soon.html">
-                <h6>Django Level Two...</h6>
-              </a>
-            </li>
-            <li>
-              <a href="coming-soon.html">
-                <h6>Django Level Three...</h6>
-              </a>
-            </li>
-            <li>
-              <a href="coming-soon.html">
-                <h6>Django Level Four...</h6>
-              </a>
-            </li>
-            <li>
-              <a href="coming-soon.html">
-                <h6>Django Level Five...</h6>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </span>
-    </div>
-  </div>
+      <div id="backgroundColor2"></div>
 
-  <hr id="hr2">
+      <div id="isItContent">
 
-  <div id="jumbotron">
+        <p>Local random pothead announces that his 420 themed website... turned surreal art project... will be put on hold until he finishes a Full Stack Django Bootcamp... in order to learn a few more tool to get... whatever the webpage ends up being...
+          just right...</p>
 
-    <div id="backgroundColor1"></div>
-
-    <p id="in420news">
-      Construction on <span id="isItYellow">IsIt420OrNot.com</span>
-      <br>
-      put on hold until
-      <span id="isItYellow">That One Stoner</span>
-      <br>
-      Learns Full Stack Django...</p>
-
-    <div id="backgroundColor2"></div>
-
-    <div id="isItContent">
-
-      <p>Local random pothead announces that his 420 themed website... turned surreal art project... will be put on hold until he finishes a Full Stack Django Bootcamp... in order to learn a few more tool to get... whatever the webpage ends up
-        being... just right...</p>
-
-      <p class="isItContentP2"> When asked for specifics as to an ETA for new content might be... the toking wannabe writer turned wannabe web developer responded... "Probably around 420 some day!!!" </p>
-
-      <p class="isItContentP2">His enthusiasm was very encouraging...</p>
-    </div>
-
-    <p id="more420"><a href="https://isit420ornot.com/">Read more...</a></p>
-
-  </div>
-
-  <div id="otherArticles">
-
-    <div id="mySNL">
-      <div id="mySNLText">
-
-
-        <h2>My Saturday Night Life...</h2>
-        <h3>TheWickerBreaker.com news...</h3>
-        <div>January 1, 2017</div>
-        <p>
-          Another project on hold until That One Stoner can figure out how to get his life together... and his web design under control...
+        <p class="isItContentP2">
+          When asked for specifics as to an ETA for new content might be... the toking wannabe writer turned wannabe web developer responded... "Probably around 420 some day!!!"
         </p>
-        <a href="https://thewickerbreaker.com/see">Continue reading</a>
+
+        <p class="isItContentP2">His enthusiasm for the future of the site was very encouraging...</p>
       </div>
 
-      <div id="msnl">
-        <img src="images/bootstrap/msnl.webp" alt="Branding for My Saturday Night Life...">
-      </div>
+      <p id="more420">
+        <a href="https://isit420ornot.com/">Read more...</a>
+      </p>
+
     </div>
 
+    <div id="otherArticles">
 
-    <div id="area52">
-      <div id="area52Text">
-        <h2>Area 52</h2>
-        <h3>52 Southland Tales Reviews</h3>
-        <div>February 1, 2013</div>
-        <p>This challenge got That One Stoner to try to blog... and discover his love of coding while high... in the process...</p>
+      <div id="mySNL">
+        <div id="mySNLText">
+          <h2>My Saturday Night Life...</h2>
+          <h3>TheWickerBreaker.com news...</h3>
+          <h4>January 1, 2017</h4>
+          <p>
+            Another project on hold until That One Stoner can figure out how to get his life together... and his web design under control...
+          </p>
+          <a href="https://thewickerbreaker.com/see">Continue reading</a>
+        </div>
 
-        <a href="https://thewickerbreaker.com/area-52-southland-tales/2013/2/19/southland-tales-review-1-of-52">Continue reading</a>
+        <div id="msnl">
+          <img src="images/bootstrap/msnl.webp" alt="Branding for My Saturday Night Life...">
+        </div>
       </div>
 
-      <div id="sltImage">
-        <img src="images/bootstrap/SouthlandTales.webp" alt="Area 52: 52 Southland Tales Reviews branding...">
+      <div id="area52">
+        <div id="area52Text">
+          <h2>Area 52</h2>
+          <h3>52 Southland Tales Reviews</h3>
+          <h4>February 1, 2013</h4>
+          <p>This is the challenge that got That One Stoner to give blogging... which then led to a love of coding while high... in the process...</p>
 
+          <a href="https://thewickerbreaker.com/area-52-southland-tales/2013/2/19/southland-tales-review-1-of-52">Continue reading</a>
+        </div>
+
+        <div id="sltImage">
+          <img src="images/bootstrap/SouthlandTales.webp" alt="Area 52: 52 Southland Tales Reviews branding...">
+
+        </div>
       </div>
+
     </div>
 
-  </div>
-
-  <div id="dopeBoo">
-    <a id="dopeBooImg" href="http://www.dopeboo.com?aff=246" rel="nofollow"><img src="images\signage\booDog.jpg" width="100%" alt="" /></a>
-  </div>
-
-
-
-
-
-
-
+    <div id="dopeBoo">
+      <a id="dopeBooImg" href="http://www.dopeboo.com?aff=246" rel="nofollow"><img src="images\signage\booDog.jpg" width="100%" alt=""/></a>
+    </div>
 
     <main role="main" class="container">
       <div class="row">
         <div class="col-md-8 blog-main">
 
-          <h3 id="fromText"class="pb-4 mb-4 font-italic border-bottom">
+          <h3 id="fromText" class="pb-4 mb-4 font-italic border-bottom">
             From That One Stoner...
           </h3>
 
           <div class="blog-post">
-            <h2 class="blog-post-title">The Flaws Of Forced Formating...</h2>
-            <p class="blog-post-meta">July 31, 2020 by <a href="http://fubunker.com/">Bunker</a> aka That One Stoner...</p>
+            <div class="blog-post-title-group">
+              <h2 class="blog-post-title">
+                Why I Drag My Bootstrap-Free Feet???</h2>
+              <h5 class="blog-post-meta">July 31, 2020 by
+                <a href="http://fubunker.com/">Bunker</a>
+                aka That One Stoner...</h5>
 
-            <p>This blog post will examine an argument against forced structure</p>
-            <hr>
+              <h4>This blog post will examine why it's taking me so long to complete the Bootstrap component of the Django Bootcamp... that's providing the structure for this page...</h4>
 
-            They say you must first know the rules before you can break them... they are also usually the one who are too afraid to rick breaking any rules in the first place...
-            <br><br>
+              <hr>
+            </div>
+            <blockquote>
+              “Only put off until tomorrow what you are willing to die having left undone” ― Pablo Picasso
+            </blockquote>
 
-            <h3>Who are they??? </h3>
-            <p>How the hell should I know Connie??? I'm not here to talk about them... I'm here to talk about why I've been anti-Bootstrap ever since I took my first web dev course... a couple of years back... Keep in mind
-              that... I've always seen all my efforts as a contected creative venture... with no dreams to build some ground breaking start-up... in an effort to take over the world...
-              <br><br>
-              I used to work with a guy who did just that... well... I worked for him... but in the same building and saw him everday... back when it still must have seemed like a dream... back when he still seemed happy... and we share a similar
-              goofy
-              laugh...
-              <br><br>
-              Though I strived for it in my youth... success never looked like anything all that fun to me...
+            <p>First off… whole the reason I’m taking this Django Bootcamp is to break free from the boundaries of templated WYSIWYG designs… so I wasn’t all that excited when the instructor highlighted that with Bootstrap… you have to give up many freedoms in
+              exchange for consistent/familiar design…</p>
 
-            </p>
+            <p>I’ve never been a huge fan of giving up any form of freedom… which might sound like a strange stance for a shut-in… but I get to hold the control… just as long as I don’t go outside…</p>
 
-            <h3>Entertainment-Wise</h3>
-            <p>It's not that I'm one of those people who take issue with those who opt to sellout... in fact... I've always seen selling out as the American Dream... I never liked witnessing creative people give up or lose their freedom... in
-              exchange
-              for more...
-            </p>
-            <ul>
-              <li>...more money <span>(already mentioned)</span>...</li>
-              <li>...more power...</li>
-              <li>...more sex...</li>
-              <li>...more being blindly adored...</li>
-            </ul>
-            <p>...only to end up with more people in their lives that depend on them... making it harder to take the creative risks that made that stand out from the sea of grey in the first place...
-              <br><br>
-              Now I'm not talking about the celebs who have always been about the fortune and fame... and are happy... living it up... I'm talking those who make it appear like it's a prison... that's clearly effecting their art... I relate to this
-              scenario much more...
-              <br><br>
-              Even in my grandest fantasies of success... I've still always seen myself ending up miserable... so I figured why not just focus on creating whatever the hell that I want... since I am geniunely happy when I'm working on my own
-              projects...
+            <p>Don’t get me wrong… I do see the benefits of Bootstrap in many cases… for example… if I were building sites for clients… where my personal preferences are set aside… I’d use something like Bootstrap to crank out as many client pages as I can…
 
-              <br><br>
+              <p>Even then… I’d probably use WordPress if I were to go the template route… At least that was my thought several years ago when I was first introduced to the format…</p>
 
-              I'm begining to think that the characters from my stories are not only amalgamations of people I know in real life... but they may also be my childhood imaginary friends which is why I end up going so deep into
-              my worlds of imagination... making it less about creating art and more about escaping the reality that I'm locked in...
+              <p>Back in 2015… I took my first online web dev bootcamp... in the hopes of opening my options for day jobs... after giving up on my film career… Even back then... I couldn’t stand the automated ways that Bootstrap would readjust content...
+              </p>
 
-            </p>
+              <p>I would spend hours attempting to create what I felt was the perfect design fit… only to have things like titles breaking in strange spots… instead of shrinking to fit within the same amount of lines… or images that would only appear on the
+                maximum and minimum page size…</p>
 
+              <p>I found that... what was supposed to be a solution... to meet my responsive design need… only led to more work on my end… having to retweak each line to look just right no matter the screen size… keeping in mind that I'm extra picky... due to my
+                OCD...</p>
 
-            <h3>Business-Wise</h3>
-            <p>Well... pretty much the same thing as Entertainment-Wise... business people just have a different way of being creative... the main difference is... business people are more often honest about their motives to rule the world... or at
-              least the world they've created in their heads...
-              <br><br>
-              Of course there are many acceptions... again... I'm talking more about the ones who I used to be cheering for... the ones that seemed to have lost their genuine smiles...
+              <p>Inevitably… I’d get everything all set… only to discover that Bootstrap had yet another screen dimension that I didn’t plan for… or that all but one div had been accounted for…</p>
 
+              <p>I never thought I would ever use Bootstrap again… that is… until I found it in the line up on the Bootcamp syllabus… though not excited… I am interested in getting a reminder of how the framework might help with responsive design… since
+                isit420ornot.com went off the rails as it became about wacky art and no longer a practice in marketable design...</p>
 
-            </p>
+              <p>I'm going to commit to building for broader audience this go around… and one way of doing so is to give Bootstrap another chance…</p>
 
-            <h3>Why take it out on structure???</h3>
-            <p>I've always felt that sticking to my guns... and digging my heels in when challenged on my anti-structure stance... was partially a coping technique against failure... but I'm now starting to see the benefits of the
-              self-sabataging technique...
+              <p>I can't wait to see how this goes...</p>
 
-            </p>
+            </div>
+            <!-- /.blog-post -->
 
+            <div class="blog-post contentAd">
+              <a href="https://www.youtube.com/watch?v=DGWBCd-GQzM&t=19s">
+                <img src="images/ads/infiniteAd2.png" width="100%" alt="An ad for The The Infite Flu..."></a>
+            </div>
+            <!-- /.blog-post -->
 
-            <ol>
-              <li>It's not that I disagree with a lot of the feedback I recieved... I knew that technically they were correct when it came to my story structure... I wanted to try something new the constant reminders
-                reinforced what the rules are... so I've got that... </li>
-              <li>Since I never settled in and tried to make one story perfect... I spent decades looking for different ways to escape the same box... giving me lot of options moving on... I've learned to keep my options open... while testing
-                the fence in every area of my creative life...</li>
-              <li>As my story telling skills fade as my mind now seems more obsessed with the visual elements over the words... so... as soon as my coding skills get up to the level that's needed to create the mixed media art that I see in my
-                head...
-                I'll already have the stories that will make up the backdrop...</li>
-              <li>I can effortlessly ramble at the keys... whether or not I'm any good is up to you to decide... but I never have writer block... making it easy to create quick content... that I hope is entertaining... as I learn to code...</li>
-              <li>My obsession with trying to solve this structure problem has led me on a quest that I hope will never end... and I did this while avoiding the social expectation for a life structure... </li>
-            </ol>
-            <p>I just wish there would have been a way for me to get to this place without so much loss... but I guess it all had to happen... I don't know how I would exist if I was still living in Seattle during this pandemic... It's weird...
-              just
-              when I started to get used to my shut-in existence... my life structure has been forced onto the rest of the world... </p>
+            <div class="blog-post">
+              <div class="blog-post-title-group">
+                <h2 class="blog-post-title">Irregular Scheduled Programming...</h2>
+                <h5 class="blog-post-meta">August 5, 2020 by
+                  <a href="http://fubunker.com/">Bunker</a>
+                  aka That One Stoner...</h5>
 
-            <h3>What now???</h3>
-            <p>
-              If you want my advice????
+                <h4>This blog post will examine how my disinterest in structure stems back to a hatred of bedtime...</h4>
 
-              <br><br>
+                <hr>
+              </div>
+              <blockquote>
+                “Learn the rules, break the rules, make up new rules, break the new rules.” ― Marvin Bell
+              </blockquote>
 
-              Use this time to learn... there are a lot of cheap options out there... especially if you would rather educate yourself for your own good... and not just a piece of paper to hang on the wall... that said... most of these cheap courses
-              provide not only knowledge... but certificates you can print!!!
+              <p>My hatred of structure goes back to when I was a little kid… to this day… I’m not a fan of hour-long television shows… In my youth… the hour-long shows started at 10:00 in the PM… just after the primetime sitcoms…</p>
 
+              <p>This change in program length meant that it was time for me to go to bed… I never liked the idea of a set time for slumber… especially back then… when I was still filled with enthusiasm about how much television there was to watch…</p>
 
+              <p>I don’t know what I hated more…</p>
 
-            </p>
-          </div><!-- /.blog-post -->
+              <ul>
+                <li>...Having to sleep based on someone else's schedule…...</li>
+                <li>...These boring-ass hour-long dramas... in the first place...</li>
+                <li>...Or seeing the cyclical patterns that rule our lives…...</li>
+              </ul>
 
-          <div class="blog-post">
-            <h2 class="blog-post-title">Why I'm Giving BootStrap Another Chance...</h2>
-            <p class="blog-post-meta">August 1, 2020 by <a href="http://fubunker.com/">Bunker</a> aka That One Stoner</p>
+              <p>Keep in mind… this is before there was an internet… when we had less control over how we experienced time… The moment I received a TV for my room… my parent lost full control of my television viewing habits… and I’ve had sleep issues ever since…
+                so I do understand that there are benefits of structure…</p>
 
-            <p>Oh yeah... I didn't quite finish what I was saying up there... good thing this BootStrap example template includes a couple of articles... and with that I'll continue on...
-              <br><br>
+              <p>That said… I feel like I’ve lived a more interesting existence by determining my guidelines on the fly… As much as I may rant and rave about my anti-structure ways… I’m by no means saying that no rules should be the new rule… In fact… I don’t mind
+                having a lack of competition when it comes to experimenting with style… it makes it much easier to stand out from the templated crowd…</p>
 
-            </p>
-          </div><!-- /.blog-post -->
+            </div>
+            <!-- /.blog-post -->
 
-          <div class="blog-post">
-            <h2 class="blog-post-title">New feature</h2>
-            <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
+            <div class="blog-post contentAd">
+              <a target="_blank" href="https://shareasale.com/r.cfm?b=922039&amp;u=2513768&amp;m=47&amp;urllink=&amp;afftrack="><img src="https://static.shareasale.com/image/47/ShareASale-728x90-B-Light.png" border="0" width="100%" height="100"/></a>
+            </div>
+            <!-- /.blog-post -->
 
-            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor
-              mauris
-              condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <ul>
-              <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-              <li>Donec id elit non mi porta gravida at eget metus.</li>
-              <li>Nulla vitae elit libero, a pharetra augue.</li>
-            </ul>
-            <p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-            <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-          </div><!-- /.blog-post -->
+            <div class=" blog-post">
+              <div class="blog-post-title-group">
+                <h2 class="blog-post-title">BootStrap Conclusions...</h2>
+                <h5 class="blog-post-meta">August 15, 2020 by
+                  <a href="http://fubunker.com/">Bunker</a>
+                  aka That One Stoner</h5>
 
-          <nav class="blog-pagination">
-            <a class="btn btn-outline-primary" href="dbi-capstone-project-one.html">Older</a>
-            <a class="btn btn-outline-primary" href="coming-soon.html" tabindex="-1" aria-disabled="true">Newer</a>
-          </nav>
+                <h4>In this blog post... I will share whether or not I plan to use Bootstrap again moving forward...</h4>
 
-        </div><!-- /.blog-main -->
+                <hr>
+              </div>
+              <blockquote>
+                “I am wary of the whole dreary deadening structured mess that we have built into such a glittering top-heavy structure that there is nothing left to see but the glitter, and the brute routines of maintaining it.” ― John D. MacDonald
+              </blockquote>
 
-        <aside class="col-md-4 blog-sidebar">
-          <div class="p-4 mb-3 bg-light rounded">
+              <p>This Bootstrap project ended up taking way longer than hoped it would… First off… I picked a template that would force me to interact with the framework language in ways that were covered by the course…</p>
+
+              <p>I spent a day or two tweaking the page to get it to look just right in the preview screen… with the false belief to Bootstrap would take care of the responsive design properly for every screen…</p>
+
+              <p>Even though the framework language sort of did its job… I was far from impressed by the results… here are a few reasons that I felt let down by the outcome…</p>
+
+              <ol>
+                <li>The blog titles would not readjust in size to avoid hideous looking line breaks…</li>
+                <li>Preview images for external articles would only show up on the max and min screen size while staying hidden in sizes between…</li>
+                <li>Every time that I thought that I fixed the page to look good no matter the size… there seemed to be another screen size unaccounted for…</li>
+                <li>No matter how much I tweaked and tweaked the layout… I never felt in control of the end results…</li>
+              </ol>
+
+              <p>Again… I can see the benefits of Bootstrap… If I were building an online store… or content aggregated site… where styling isn’t as important… I might consider using the language more… but since I’m attempting to learn to create art through code… I
+                don’t think I’ll be using this framework moving forward…</p>
+            </div>
+            <!-- /.blog-post -->
+
+            <div class="blog-post contentAd">
+              <a href="https://growbible.ilovegrowingmarijuana.com/the-marijuana-grow-bible-free-original/?aff=4847"><img src="https://www.affiliatly.com/affiliate_files/banners/21567/Banner Grow Bible 2 792x276.jpg" width="100%" height="100%" alt=""/></a>
+
+            </div>
+            <!-- /.blog-post -->
+
+            <nav class="blog-pagination">
+              <table>
+                <tr>
+                  <td>
+                    <div id="oldNewButtons">
+                      <a class="btn btn-outline-primary" id="olderButton" href="dbi-capstone-project-one.html">Older</a>
+                    </td>
+
+                    <td>
+                      <div id="timeTravel">
+
+                        <h2>Time Travel Control Center...</h2>
+                      </div>
+                    </td>
+
+                    <td>
+                      <a id="newerButton" class="btn btn-outline-primary" href="coming-soon.html" tabindex="-1" aria-disabled="true">Newer</a>
+
+                    </td>
+
+                  </div>
+
+                </tr>
+              </table>
+            </nav>
+
+          </div>
+          <!-- /.blog-main -->
+
+          <aside class="col-md-4 blog-sidebar">
             <!-- ShareThis BEGIN -->
             <div class="sharethis-inline-share-buttons "></div>
             <!-- ShareThis END -->
-            <h4 class="font-italic">About Me...</h4>
-            <p class="mb-0">Just some pothead manchild... killing time by learning... while the world collapse... and the "adults" act like all of this is normal...</p>
-          </div>
 
+            <div class="p-4 mb-3 bg-light rounded">
 
+              <h4 id="aboutMeTitle" class="font-italic">About Me...</h4>
+              <p id="aboutMe" class="mb-0">Just some pothead manchild... killing time by learning... while the world collapse... and the "adults" act like all of this is normal...</p>
+            </div>
 
-          <div class="p-4">
+            <div class="p-4 sidebarBG">
+              <a href="https://www.teepublic.com/stores/matthew-a-bunker?ref_id=8308"><img id="shirtAdImage" src="images/ads/shirtAd.webp" alt="An ad for The Wicker Store..."></a>
+            </div>
 
-            <a href="https://www.teepublic.com/stores/matthew-a-bunker?ref_id=8308"></a> <img src="images/ads/shirtAd.webp" alt="An ad for The Wicker Store..."></a>
-            <h4 class="font-italic">Other Projects...</h4>
-            <h6>Past... Present... and Future...</h6>
-            <ol class="list-unstyled mb-0">
-              <li><a href="https://isit420ornot.com/thesummarystrip.html">The First Attempt...
-                  <h6>(In Progress...)</h6></a></li>
-              <li><a href="https://isit420ornot.com/">IsIt420OrNot.com
-                  <h6>(In Progress...)</h6></a></li>
-              <li><a href="https://potheadpicasso.com/">PotheadPicasso.com
-                  <h6>(Coming Soon)</h6> </a></li>
-              <li><a href="http://isochronia.com/">Isochronia.com
-                  <h6>(Coming Soon)</h6></a></li>
-              <li><a href="https://isit420ornot.com/theofficespace.html">The Is It 420 Office Space...
-                  <h6>(In Progress...)</h6></a></li>
-              <li><a href="https://isit420ornot.com/theabode.html">The Is It 420 Abode...
-                  <h6>(Coming Soon)</h6></a></li>
-              <li><a href="https://thewickerbreaker.com/">TheWickerBreaker.com
-                  <h6>(On Hold...)</h6></a></li>
-              <li><a href="https://www.teepublic.com/stores/matthew-a-bunker?utm_campaign=8308&utm_medium=affiliate&utm_source=Matthew%2BA%2BBunker">The Wicker Store...
-                  <h6>(Open For Business...)</h6></a></li>
-              <li><a href="https://thewickerbreaker.com/see/">My Saturday Night Life...
-                  <h6>(On Hold...)</h6></a></li>
-              <li><a href="https://thewickerbreaker.com/the-daily-breaker/2017/12/31/dateline-special-new-years-edition-1-1-2018">Operation Achieve Anything...
-                  <h6>(Complete...)</h6></a></li>
-              <li><a href="https://thewickerbreaker.com/the-daily-breaker/2016/1/11/dateline-1-11-2015?rq=Dateline%201">The Dark Year...
-                  <h6>(Complete...)</h6></a>
-              </li>
-              <li><a href="https://thewickerbreaker.com/about-365-days-of-resolution/">365 Days Of Resolution...
-                  <h6>(Complete/On Hold...)</h6></a>
-              </li>
+            <div class="p-4 sidebarBG">
 
-              <li><a href="https://thewickerbreaker.com/area-52-southland-tales/2013/2/1/52-views-and-52-reviews-in-52-weeks">Area 52: 52 Southland Tales Reviews...
-                  <h6>(Complete...)</h6>
-                  <h6>
-                </a>
-              </li>
+              <h4 class="font-italic">Other Projects...</h4>
 
-              <li><a href="https://thewickerbreaker.com/blog">Old School Blog...
-                  <h6>(Complete...)</h6></a></li>
+              <h6>Past... Present... and Future...</h6>
 
-              <li><a href="https://thewickerbreaker.com/so-wait">So Wait???
-                  <h6>(Complete...)</h6></a></li>
+              <ol class="list-unstyled mb-0">
+                <li>
+                  <a href="https://isit420ornot.com/thesummarystrip.html">Attempt #1...
+                    <h5>(In Progress...)</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://isit420ornot.com/">Is It 420 Or Not
+                    <h5>(In Progress...)</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://potheadpicasso.com/">Pothead Picasso
+                    <h5>(Coming Soon)</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="http://isochronia.com/">Isochronia
+                    <h5>(Coming Soon)</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://isit420ornot.com/theofficespace.html">The Is It 420 Office Space...
+                    <h5>(In Progress...)</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://isit420ornot.com/theabode.html">The Is It 420 Abode...
+                    <h5>(Coming Soon)</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://thewickerbreaker.com/">The Wicker Breaker
+                    <h5>(On Hold...)</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.teepublic.com/stores/matthew-a-bunker?utm_campaign=8308&utm_medium=affiliate&utm_source=Matthew%2BA%2BBunker">The Wicker Store...
+                    <h5>(Open For Business...)</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://thewickerbreaker.com/see/">My Saturday Night Life...
+                    <h5>(On Hold...)</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://thewickerbreaker.com/the-daily-breaker/2017/12/31/dateline-special-new-years-edition-1-1-2018">Operation Achieve Anything...
+                    <h5>(Complete...)</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://thewickerbreaker.com/the-daily-breaker/2016/1/11/dateline-1-11-2015?rq=Dateline%201">The Dark Year...
+                    <h5>(Complete...)</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://thewickerbreaker.com/about-365-days-of-resolution/">365 Days Of Resolution...
+                    <h5>(Complete/On Hold...)</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://thewickerbreaker.com/area-52-southland-tales/2013/2/1/52-views-and-52-reviews-in-52-weeks">Area 52: 52 Southland Tales Reviews...
+                    <h5>(Complete...)</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://thewickerbreaker.com/blog">Old School Blog...
+                    <h5>(Complete...)</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://thewickerbreaker.com/so-wait">So Wait???
+                    <h5>(Complete...)</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://thewickerbreaker.com/there-might-be-insights">There Might Be Insights...
+                    <h5>(Complete...)</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://thewickerbreaker.com/stuff-i-wrote-precomputer">PreComputer Ramblings...
+                    <h5>(On Hold...)</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.isit420ornot.com/four20pi.html">420&#960;...
+                    <h5>(Coming Soon)</h5>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://isit420ornot.com/thedrawingboard.html">The Drawing Board
+                    <h5>(Coming Soon)</h5>
+                  </a>
+                </li>
+              </ol>
+            </div>
 
-              <li><a href="https://thewickerbreaker.com/there-might-be-insights">There Might Be Insights...
-                  <h6>(Complete...)</h6></a></li>
+            <div class="p-4 sidebarBG">
 
-              <li><a href="https://thewickerbreaker.com/stuff-i-wrote-precomputer">PreComputer Ramblings...
-                  <h6>(On Hold...)</h6></a></li>
+              <h4 class="font-italic">Elsewhere...</h4>
 
-              <li><a href="https://www.isit420ornot.com/four20pi.html">420&#960;...<h6>(Coming Soon)</h6></a>
-              </li>
-              <li><a href="https://isit420ornot.com/thedrawingboard.html">The Drawing Board
-                  <h6>(Coming Soon)</h6></a></li>
+              <h6>On Pages Not Built By Me...</h6>
 
-            </ol>
-          </div>
+              <ol class="list-unstyled">
+                <li>
+                  <a href="https://www.weedlife.com/my-network/isit420ornot">Weed Life...</a>
+                </li>
+                <li>
+                  <a href="https://www.pinterest.com/IsIt420OrNot/boards/">Pinterest...</a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/fubunker">Twitter...</a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/channel/UCe_BErgr6PJbHvMAxYVJZvw?view_as=subscriber">YouTube</a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/fubunker/">LinkedIn...</a>
+                </li>
+                <li>
+                  <a href="https://github.com/isit420ornot/ThatOneStoner">GitHub...</a>
+                </li>
+              </ol>
+            </div>
 
-          <div class="p-4">
-            <h4 class="font-italic">Elsewhere...</h4>
-            <h6>On Pages Not Built By Me...</h6>
-            <ol class="list-unstyled">
+            <div class="p-4 sidebarBG">
 
-              <li><a href="https://www.weedlife.com/my-network/isit420ornot">Weed Life...</a></li>
-              <li><a href="https://www.pinterest.com/IsIt420OrNot/boards/">Pinterest...</a></li>
-              <li><a href="https://twitter.com/fubunker">Twitter...</a></li>
-              <li><a href="https://www.youtube.com/channel/UCe_BErgr6PJbHvMAxYVJZvw?view_as=subscriber">YouTube</a></li>
-              <li><a href="https://www.linkedin.com/in/fubunker/">LinkedIn...</a></li>
-              <li><a href="https://github.com/isit420ornot/ThatOneStoner">GitHub...</a></li>
-            </ol>
-          </div>
+              <h4 class="font-italic">Resources...</h4>
 
-          <div class="p-4">
-            <h4 class="font-italic">Resources...</h4>
-            <h6>Online Schools I Have Used...</h6>
-            <ol class="list-unstyled">
+              <h6>Online Schools I Have Used...</h6>
 
-              <li><a href="https://www.udemy.com">Udemy...</a></li>
-              <li><a href="https://www.udacity.com">Udacity...</a></li>
-              <li><a href="https://skillshare.com">SkillShare...</a></li>
-              <li><a href="https://www.linkedin.com/learning">LinkedIn Learning...</a></li>
-              <li><a href="https://www.linkedin.com/in/fubunker/">LinkedIn...</a></li>
-              <li><a href="https://www.universalclass.com">Universal Class...</a></li>
-              <li><a href="https://www.edx.org">edX...</a></li>
+              <ol class="list-unstyled">
+                <li>
+                  <a href="https://www.udemy.com">Udemy...</a>
+                </li>
+                <li>
+                  <a href="https://www.udacity.com">Udacity...</a>
+                </li>
+                <li>
+                  <a href="https://skillshare.com">SkillShare...</a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/learning">LinkedIn Learning...</a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/fubunker/">LinkedIn...</a>
+                </li>
+                <li>
+                  <a href="https://www.universalclass.com">Universal Class...</a>
+                </li>
+                <li>
+                  <a href="https://www.edx.org">edX...</a>
+                </li>
+              </ol>
 
-            </ol>
+              <h6>Specific Coursed Used On This Project...</h6>
 
-            <h6>Specific Coursed Used On This Project...</h6>
-            <ol class="list-unstyled">
+              <ol class="list-unstyled">
+                <li>
+                  <a href="https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/">Full Stack Django Bootcamp...</a>
+                </li>
+              </ol>
 
-              <li><a href="https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/">Full Stack Django Bootcamp...</a></li>
-            </ol>
+              <h6>Free Tools...</h6>
 
-            <h6>Free Tools...</h6>
-            <ol class="list-unstyled">
+              <ol class="list-unstyled">
 
-              <li><a href="">Atom...</a></li>
-              <li><a href="">Grammarly...</a></li>
-              <li><a href="">Bootstrap...</a></li>
-            </ol>
-          </div>
+                <li>
+                  <a href="">Atom...</a>
+                </li>
+                <li>
+                  <a href="">Grammarly...</a>
+                </li>
+                <li>
+                  <a href="">Bootstrap...</a>
+                </li>
+              </ol>
+            </div>
 
+            <div class="p-4 sidebarBG">
 
+              <h4 class="font-italic">Certificates and Portfolio...</h4>
 
+              <h6>The Rewards From Being A Busy Body...</h6>
 
+              <ol class="list-unstyled">
+                <li>
+                  <a href="certificates.html">Certificates...</a>
+                </li>
+                <li>
+                  <a href="https://fubunker.html">The Portfolio...</a>
+                </li>
+              </ol>
+            </div>
 
-          <div class="p-4">
-            <h4 class="font-italic">Certificates and Portfolio...</h4>
-            <h6>The Rewards From Being A Busy Body...</h6>
-            <ol class="list-unstyled">
-              <li><a href="certificates.html">Certificates...</a></li>
-              <li><a href="https://fubunker.html">The Portfolio...</a></li>
-            </ol>
+          </aside>
+          <!-- /.blog-sidebar -->
 
-          </div>
+        </div>
+        <!-- /.row -->
 
-        </aside><!-- /.blog-sidebar -->
+      </main>
+      <!-- /.container -->
 
-      </div><!-- /.row -->
+      <footer></footer>
 
+    </body>
 
-    </main><!-- /.container -->
-
-  <footer class="blog-footer">
-
-
-
-
-  </footer>
-
-
-</body>
-
-</html>
+  </html>

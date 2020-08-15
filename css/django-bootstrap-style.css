@@ -1,166 +1,138 @@
 /*GLOBAL*/
+
 * {
   padding: 0;
-  margin: 0;
+  margin : 0;
 }
 
 body {
-  background-image: url(../images/bootstrap/seamlesspapertexture.jpg);
-  overflow-x: hidden;
+  background-image: url("../images/bootstrap/seamlesspapertexture.jpg");
+  overflow-x      : hidden;
 }
 
-p {
-  color: darkslategrey;
+#titleGroup a {
+  text-decoration: none !important;
+  text-align     : center;
 }
 
-#titleGroup{
-  text-align: center;
-  color: antiquewhite;
-}
-
-#titleGroup a{
-    text-decoration: none !important;
-
-}
-
-#titleGroup h1:hover{
-  color: olivedrab;
-}
-
-#titleGroup h2:hover{
-  color: olivedrab;
-}
-
-#titleGroup h3:hover{
-  color: olivedrab;
-}
-
-h1 {
-  font-family: 'Playfair Display SC', serif;
-  font-size: 6vw;
+#titleGroup h1 {
+  font-family: "Playfair Display SC", serif;
+  font-size  : 6vw;
   font-weight: bolder;
-  text-shadow: .25vw .25vw 0vw white;
-  color: darkslategrey;
+  text-shadow: .25vw .25vw 0 white;
+  color      : darkslategrey;
   padding-top: 2.5vw;
-
 }
 
-h2 {
-  font-weight: bold;
-  font-size: 4.5vw;
-  text-shadow: .2vw .2vw .1vw lightslategrey;
-  color: darkslategrey;
-}
-
-#titleH2 {
+#titleGroup h2 {
   font-weight: bolder;
-  text-shadow: .15vw .15vw 0vw white;
-  color: darkslategrey;
-  font-family: 'Playfair Display SC', serif;
+  text-shadow: .15vw .15vw 0 white;
+  color      : darkslategrey;
+  font-family: "Playfair Display SC", serif;
 }
 
-h3 {
-  font-family: 'Playfair Display SC', serif;
-  font-size: 3.2vw;
+#titleGroup h3 {
+  font-family: "Playfair Display SC", serif;
+  font-size  : 3.2vw;
   font-weight: bolder;
-  text-shadow: .1vw .1vw 0vw white;
-  color: darkslategrey;
+  text-shadow: .1vw .1vw 0 white;
+  color      : darkslategrey;
 }
 
-h4, h5, p {
-  font-family: 'Slabo 2.7', serif;
-}
-
-h4 {
-  font-size: 2vw;
-  font-weight: bold;
-  text-shadow: .1vw .1vw 0vw
-  font-family: 'Slabo 2.7', serif;
-}
-
-#subButt a{
-  float: left;
-  margin-top: -10vw;
-  margin-left: 4vw;
-  position: relative;
-  font-weight: bolder;
-  text-shadow: .1vw .1vw 0vw white;
+#titleGroup h1:hover {
   color: lightslategrey;
 }
 
+#titleGroup h2:hover {
+  color: lightslategrey;
+}
+
+#titleGroup h3:hover {
+  color: lightslategrey;
+}
+
+#titleGroup h4 {
+  font-size  : 2.25vw;
+  font-weight: bold;
+  font-family: "Slabo 2.7", serif;
+  text-shadow: .1vw .1vw 0 white;
+}
+
+#subButt a {
+  float      : left;
+  margin-top : -10vw;
+  margin-left: 4vw;
+  position   : relative;
+  font-weight: bolder;
+  text-shadow: .1vw .1vw 0 white;
+  color      : lightslategrey;
+}
+
 #subButt a:hover {
-  text-shadow: .1vw .1vw 0vw lightslategrey;
-  color: darkslategrey;
+  text-shadow    : .1vw .1vw 0 lightslategrey;
+  color          : darkslategrey;
   text-decoration: none !important;
 }
 
 #donateLink {
-  float: right;
-  margin-top: -11vw;
-  margin-right: 4vw;
-  padding-top: 1vw;
-  color: #ded8cc;
+  float           : right;
+  margin-top      : -11vw;
+  margin-right    : 4vw;
+  padding-top     : 1vw;
+  color           : #ded8cc;
   background-color: lightslategrey;
-
 }
 
 #donateLink:hover {
   background-color: darkslategrey;
-  color: #ded8cc ;
+  color           : #ded8cc;
 }
 
-hr {
-  border: .25vw solid darkslategrey;
-}
-
-#hr1{
+#hr1 {
   border: .5vw solid black;
-  width: 86vw;
-  margin: 0 auto;
-  margin-top: 2.5vw;
+  width : 86vw;
+  margin: 2.5vw auto 0;
 }
 
-#hr2{
+#hr2 {
   border: .5vw solid darkred;
-  width: 86vw;
-  margin: 0 auto;
-  margin-bottom: 2.5vw;
+  width : 86vw;
+  margin: 0 auto 2.5vw;
 }
 
-nav ul{
-    list-style-type: none;
-    width: 575vw;
+nav ul {
+  list-style-type: none;
+  width          : 575vw;
 }
 
-nav li a h6{
-  color: yellow;
-  font-size: 3vw;
-  text-shadow: .2vw .2vw .1vw red;
-  padding-left: 2vw;
-  padding-right: 2vw;
+nav li a h6 {
+  color           : yellow;
+  font-size       : 3vw;
+  text-shadow     : .2vw .2vw .1vw red;
+  padding-left    : 2vw;
+  padding-right   : 2vw;
   background-color: darkred;
   /* For browsers that do not support gradients */
   background-image: linear-gradient(to bottom, red, black 90%);
-  padding-top: 3vw;
-  padding-bottom: 3vw;
-  margin-left: -.5vw;
+  padding-top     : 3vw;
+  padding-bottom  : 3vw;
+  margin-left     : -.5vw;
 }
 
-nav li a h6:hover{
-  color: antiquewhite;
-  text-shadow: .25vw .25vw 0vw black;
+nav li a h6:hover {
+  color           : antiquewhite;
+  text-shadow     : .25vw .25vw 0 black;
   background-color: red;
   /* For browsers that do not support gradients */
   background-image: linear-gradient(to bottom, red, red 100%);
-  padding-top: 3vw;
-  padding-bottom: 3vw;
-
+  padding-top     : 3vw;
+  padding-bottom  : 3vw;
 }
 
-nav li a{
+nav li a {
   text-decoration: none !important;
   list-style-type: none;
-  float: left;
+  float          : left;
 }
 
 #innerwrapper {
@@ -168,25 +140,22 @@ nav li a{
 }
 
 #move {
-  animation-delay: 2s !important;
-  position: relative;
-  -webkit-animation: backandforth 90s ease 0s;
-  -webkit-animation-iteration-count:
-    infinite;
+  animation-delay                  : 2s !important;
+  position                         : relative;
+  -webkit-animation                : backandforth 90s ease 0s;
+  -webkit-animation-iteration-count: infinite;
 }
 
 .overflowHide {
   overflow: hidden;
-  height: 13vw;
-  width: 86vw;
-  margin: 0 auto;
-
+  height  : 13vw;
+  width   : 86vw;
+  margin  : 0 auto;
 }
 
 .nav-scroller::-webkit-scrollbar {
   display: none;
 }
-
 @-webkit-keyframes backandforth {
   0% {
     right: 0;
@@ -200,7 +169,6 @@ nav li a{
     right: 0;
   }
 }
-
 @keyframes backandforth {
   0% {
     right: 0;
@@ -216,261 +184,414 @@ nav li a{
 }
 
 #jumbotron {
-  background-image: url(../images/bootstrap/isit420ornot.webp);
+  background-image : url("../images/bootstrap/isit420ornot.webp");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  height: 95vw;
-  padding-top: 1vw;
-  width: 86vw;
-  margin: 0 auto;
-  margin-bottom: 5vw;
+  background-size  : 100% 100%;
+  height           : 105vw;
+  padding-top      : 1vw;
+  width            : 86vw;
+  margin           : 0 auto 5vw;
 }
 
-#in420news{
-  margin-top: -38vw;
-  color: ghostwhite;
-  padding: 5vw;
-  font-family: 'Staatliches', cursive;
-  font-size: 5.9vw;
-  text-shadow: .5vw .5vw 0vw purple;
-  text-align: justify;
+#in420news {
+  margin-top : -38vw;
+  color      : ghostwhite;
+  padding    : 5vw;
+  font-family: "Staatliches", cursive;
+  font-size  : 5.9vw;
+  text-shadow: .5vw .5vw 0 purple;
+  text-align : justify;
 }
 
-#backgroundColor1{
-  position: relative;
+#backgroundColor1 {
+  position        : relative;
   background-color: lightgreen;
-  height: 30vw;
-  width: 95%;
-  margin: 5vw auto;
-  opacity: .3;
+  height          : 30vw;
+  width           : 95%;
+  margin          : 5vw auto;
+  opacity         : .3;
 }
 
-#isItYellow{
-    color: yellow;
+#isItYellow {
+  color: yellow;
 }
 
-#backgroundColor2{
-  position: relative;
+#backgroundColor2 {
+  position        : relative;
   background-color: mediumpurple;
-  height: 45vw;
-  width: 95%;
-  margin: 5vw auto;
-  margin-top: -1vw;
-  opacity: .3;
+  height          : 45vw;
+  width           : 95%;
+  margin          : -1vw auto 5vw;
+  opacity         : .3;
 }
 
-#isItContent{
-    position: relative;
-      margin-top: -52.5vw;
+#isItContent {
+  position  : relative;
+  margin-top: -52.5vw;
 }
 
-#isItContent p{
-  color:lightgreen;
-  font-family: 'Slabo 2.7', serif;  font-size: 2.75vw;
+#isItContent p {
+  color      : lightgreen;
+  font-family: "Slabo 2.7", serif;
+  font-size  : 2.75vw;
   font-weight: bolder;
   text-shadow: .1vw .1vw .1vw yellow;
-  padding: 0 1vw;
-  text-align: justify;
-  padding: 5vw;
+  padding    : 0 1vw;
+  text-align : justify;
+  padding    : 5vw;
 }
 
-.isItContentP2{
+.isItContentP2 {
   margin-top: -9vw;
 }
 
-#more420 a{
-  font-weight:bolder;
-  margin-top: 2.5vw;
-  font-size: 3vw;
-  float: right;
-  margin-right: 2vw;
-  color: yellow;
-  text-shadow: .2vw .2vw .1vw purple;
+#more420 a {
+  font-weight    : bolder;
+  font-size      : 3vw;
+  float          : right;
+  margin-right   : 2vw;
+  color          : yellow;
+  text-shadow    : .2vw .2vw .1vw purple;
   text-decoration: none !important;
 }
 
-#more420 a:hover{
-  color: palevioletred;
+#more420 a:hover {
+  color      : palevioletred;
   text-shadow: .1vw .1vw .1vw palegoldenrod;
 }
 
-#otherArticles{
-  width: 90vw;
-  margin: 0 auto;
-  padding-left: 2vw;
+#otherArticles {
+  width        : 90vw;
+  margin       : 0 auto;
+  padding-left : 2vw;
   margin-bottom: 5vw;
 }
 
-#otherArticles h2{
-    font-size: 1.6vw;
+#otherArticles h2 {
+  font-weight  : bolder;
+  text-shadow  : .05vw .05vw 0 dodgerblue;
+  color        : deepskyblue;
+  font-family  : "Playfair Display SC", serif;
+  font-size    : 1.45vw;
+  margin-bottom: -0vw;
 }
 
-#otherArticles h3{
-    font-size: 1.1vw;
+#otherArticles h3 {
+  font-weight  : bolder;
+  color        : darkgrey;
+  font-family  : "Slabo 2.7", serif;
+  font-size    : 1.4vw;
+  margin-bottom: -.1vw;
+  text-shadow  : .05vw .05vw 0 lightgrey;
 }
 
-#otherArticles p{
-    font-size: 1.75vw;
-    margin-bottom: -.5vw;
+#otherArticles h4 {
+  color      : darkslategrey;
+  font-family: "Playfair Display SC", serif;
+  text-align : right;
+  font-size  : 1vw;
+  text-shadow: .05vw .05vw 0 grey;
 }
 
-#otherArticles img{
-  width: 19vw;
-  height: 26vw;
-  float: right;
-  margin-top: -26vw;
+#otherArticles p {
+  font-size    : 1.5vw;
+  font-family  : "Slabo 2.7", serif;
+  margin-bottom: 1vw;
+  color        : lightgray;
+  font-weight  : bolder;
+  text-shadow  : .05vw .05vw 0 whitesmoke;
+}
+
+#otherArticles a {
+  font-size      : 1.25vw;
+  font-family    : "Slabo 2.7", serif;
+  text-decoration: none !important;
+  font-weight    : bold;
+  color          : lightblue;
+  text-shadow    : .05vw .05vw .1vw black;
+}
+
+#otherArticles a:hover {
+  color: dodgerblue;
+}
+
+#otherArticles img {
+  width       : 19vw;
+  height      : 26vw;
+  float       : right;
+  margin-top  : -26vw;
   margin-right: 2vw;
 }
 
-#mySNL{
+#mySNL {
   width: 43vw;
   float: left;
 }
 
-#mySNLText{
-  width: 22vw;
-  height: 26vw;
-  background-color: beige;
-  padding: 1vw;
+#mySNLText {
+  width           : 22vw;
+  height          : 26vw;
+  background-color: lightslategray;
+  padding         : 1vw;
 }
 
-#area52{
+#area52 {
   width: 43vw;
   float: right;
 }
 
-#area52Text{
-  width: 22vw;
-  height: 26vw;
-  background-color: beige;
-  padding: 1vw;
+#area52Text {
+  width           : 22vw;
+  height          : 26vw;
+  background-color: lightslategray;
+  padding         : 1vw;
 }
 
-#dopeBoo{
-  position: inherit;
-  margin: 5vw auto;
-  width: 86vw;
+#dopeBoo {
+  position   : inherit;
+  margin     : 5vw auto;
+  width      : 86vw;
   padding-top: 5vw;
-clear: both;
+  clear      : both;
 }
-
-
-#fromText{
-  font-family: 'Playfair Display SC', serif;
-  font-size: 3.5vw;
-  font-weight: bolder;
-  text-shadow: .25vw .25vw 0vw white;
-  color: darkslategrey;
-
-}
-
-.blog-post h2{
-
-
-}
-
-.blog-post p{
-  color: black;
-  font-size: 2vw !important;
-  font-family: 'Slabo 2.7', serif;  font-size: 2.75vw;
-  font-weight: bolder;
-  text-shadow: .1vw .1vw .1vw white;
-  padding: 1vw;
-
-}
-
 
 .blog-post {
+  margin-bottom   : 2.5vw;
+  background-color: lightgrey;
+  padding         : 2.5vw;
+}
 
-  margin-bottom: .4vw;
-  background-color: beige;
-  padding: 2.5vw 5vw;
+.blog-post-title-group {
+  background-color: dimgrey;
+  padding         : 2.5vw;
+  margin          : -2.5vw;
+}
+
+#fromText {
+  font-family     : "Playfair Display SC", serif;
+  font-size       : 3vw;
+  font-weight     : bolder;
+  text-shadow     : .1vw .1vw 0 darkslategrey;
+  color           : whitesmoke;
+  background-color: darkgrey;
+  padding-top     : 2vw;
+  padding-left    : 2.5vw;
+}
+
+.blog-post h2 {
+  font-family: "Playfair Display SC", serif;
+  font-size  : 1.9vw;
+  font-weight: bold;
+  text-shadow: .1vw .1vw 0 dodgerblue;
+  color      : deepskyblue;
+}
+
+.blog-post h5 {
+  font-family: "Playfair Display SC", serif;
+  font-size  : 1.3vw;
+  font-weight: bold;
+  text-shadow: .05vw .05vw 0 deepskyblue;
+  color      : whitesmoke;
+}
+
+.blog-post-meta a {
+  font-size      : 1.5vw;
+  text-shadow    : .05vw .05vw 0 whitesmoke;
+  text-decoration: none !important;
+}
+
+.blog-post-meta a:hover {
+  color: deepskyblue;
+}
+
+.blog-post h4 {
+  font-family: "Slabo 2.7";
+  font-size  : 1.5vw;
+  font-weight: bold;
+  text-shadow: .05vw .05vw 0 whitesmoke;
+  color      : deepskyblue;
+  padding-top: 1vw;
+}
+
+.blog-post hr {
+  border: .1vw solid whitesmoke;
+  width : 100%;
+  margin: 2.5vw 0 0;
+}
+
+.blog-post blockquote {
+  font-family: "Special Elite", cursive;
+  font-size  : 1.5vw;
+  font-weight: bold;
+  text-shadow: .1vw .1vw 0 whitesmoke;
+  color      : black;
+  padding-top: 7.5vw;
+}
+
+.blog-post p {
+  font-size    : 1.5vw;
+  font-weight  : bold;
+  text-shadow  : .05vw .05vw 0 darkslategrey;
+  color        : dimgrey;
+  font-family  : "Slabo 2.7", serif;
+  padding      : 1vw;
+  margin-bottom: -.5vw;
+}
+
+.blog-post ul {
+  font-family    : "Special Elite", cursive;
+  font-size      : 1.5vw;
+  font-weight    : bolder;
+  text-shadow    : .1vw .1vw 0 whitesmoke;
+  color          : lightslategray;
+  list-style-type: none;
+  padding        : 2.5vw 2.5vw 0;
+  text-align     : center;
+}
+
+.blog-post ul li {
+  padding-top: 1vw;
+}
+
+.blog-post ol {
+  font-family  : "Special Elite", cursive;
+  font-size    : 1.5vw;
+  font-weight  : bolder;
+  text-shadow  : .1vw .1vw 0 whitesmoke;
+  color        : lightslategray;
+  padding      : 2.5vw 5vw 0 2.5vw;
+  list-style   : none;
+  counter-reset: my-awesome-counter;
+}
+
+.blog-post ol li {
+  counter-increment: my-awesome-counter;
+  padding-bottom   : 1vw;
+}
+
+.blog-post ol li::before {
+  content      : counter(my-awesome-counter) ". ";
+  font-size    : 1.75vw;
+  font-weight  : bolder;
+  text-shadow  : .1vw .1vw 0 whitesmoke;
+  color        : darkslategrey;
+  font-family  : "Special Elite", cursive;
+  padding-right: 1vw;
 }
 
 .blog-post-title {
-  font-family: 'Playfair Display SC', serif;
-  font-size: 2.5vw;
-  font-weight: bolder;
-  text-shadow: .25vw .25vw 0vw white;
-  color: darkslategrey;
+  font-family  : "Playfair Display SC", serif;
+  font-size    : 2.5vw;
+  font-weight  : bolder;
+  text-shadow  : .25vw .25vw 0 white;
+  color        : darkslategrey;
   margin-bottom: .25vw;
-  font-size: 2.5vw;
+  font-size    : 2.5vw;
 }
 
-.blog-post-meta {
-  margin-bottom: .125vw;
-  color: #999;
-  margin-top: -2vw;
-  font-size: 2vw !important;
-}
-
-
-.blog-header {
-  line-height: 1;
-  border-bottom: .1vw solid #e5e5e5;
-}
-
-.blog-header-logo {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-  font-size: 2vw;
-}
-
-.blog-header-logo:hover {
-  text-decoration: none;
-}
-
-.display-4 {
-  font-size: 2.5vw;
-}
-
-.card-img-right {
-  height: 100%;
-  border-radius: 0 .3vw .3vw 0;
-}
-
-.flex-auto {
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-}
-
-.h-250 {
-  height: 25vw;
-}
-
-/* Pagination */
 .blog-pagination {
-  margin-bottom: .4vw;
+  margin-bottom   : 2.5vw;
+  background-color: darkgrey;
+  padding         : 2.5vw;
 }
 
-.blog-pagination>.btn {
+.blog-pagination table {
+  width: 100%;
+}
+
+.contentAd {
+  background-color: darkslategrey;
+}
+
+.blog-pagination > .btn {
   border-radius: .2vw;
 }
 
-/*
- * Blog posts
- */
+#olderButton {
+  color           : #ded8cc;
+  background-color: lightslategrey;
+}
 
+#olderButton:hover {
+  background-color: darkslategrey;
+  color           : #ded8cc;
+}
+
+#newerButton {
+  background-color: darkslategrey;
+  color           : #ded8cc;
+  float           : right;
+}
+
+#newerButton:hover {
+  color           : #ded8cc;
+  background-color: lightslategrey;
+}
+
+#timeTravel {
+  font-family: "Playfair Display SC", serif;
+}
+
+#timeTravel h2 {
+  font-family: "Playfair Display SC", serif;
+  text-align : center;
+  font-size  : 1.75vw;
+  font-weight: bolder;
+  text-shadow: .05vw .05vw 0 darkslategrey;
+  color      : whitesmoke;
+}
 
 aside {
-  height: 150vw;
-}
-
-/*
- * Footer
- */
-.blog-footer {
-  padding: 2.5vw 0;
-  color: #999;
-  text-align: center;
-  background-color: #f9f9f9;
-  border-top: .005vw solid #e5e5e5;
-}
-
-.blog-footer p:last-child {
-  margin-bottom: 0;
+  height          : 100%;
+  background-color: grey;
+  padding-top     : 2.5vw;
+  padding-bottom  : 2.5vw;
 }
 
 .sharethis-inline-share-buttons {
-  color: white;
-  float: right;
+  margin-right: -15px;
+  margin-top  : -2.5vw;
+}
+
+.bg-light {
+  background-color: darkslategrey !important;
+  width           : 200px;
+  margin          : auto;
+}
+
+#aboutMeTitle {
+  color: antiquewhite;
+}
+
+#aboutMe {
+  color      : lightgrey;
+  font-weight: bolder;
+}
+
+.sidebarBG {
+  margin          : auto;
+  background-color: lightslategrey;
+  width           : 200px;
+  margin-bottom   : 2.5vw;
+}
+
+.sidebarBG h4 {
+  color: lightgray;
+}
+
+.sidebarBG h5 {
+  color: darkslategrey;
+}
+
+.sidebarBG h6 {
+  color: darkslategray;
+}
+
+.sidebarBG a {
+  color: whitesmoke;
+}
+
+.sidebarBG a:hover {
+  color          : darkgrey;
+  text-decoration: none !important;
 }
