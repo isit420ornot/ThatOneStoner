@@ -4,13 +4,14 @@
   padding: 0;
 }
 
-body{
-  background-color: black;
+body {
+  position: relative;
+  z-index: -100;
 }
 
 main a:link {
   color: #d7e337;
-  text-shadow: 0vw .1vw 0vw #f3b369;
+  text-shadow: 0 0.1vw 0 #f3b369;
 }
 
 main a:visited {
@@ -19,7 +20,7 @@ main a:visited {
 
 main a:hover {
   color: #8f1d83;
-  text-shadow: 0vw .1vw vw #94566d;
+  text-shadow: 0 0.1vw vw #94566d;
 }
 
 main a:active {
@@ -31,70 +32,71 @@ main {
   background-color: #94566d;
 }
 
-main p{
+main p {
   padding-bottom: 1.5vw;
 }
-
 /*END GLOBAL*/
 /*START HEADER GROUP START*/
-.sharethis-inline-share-buttons{
-  color: white;
-  float: right;
-    z-index: 0;
-}
-
 header {
-  width: 100%;
-
+  background-image: url("../images/headers/hangingweed.gif") !important;
+  background-size: cover;
+  position: relative;
+  z-index: 10;
+  background-repeat: no-repeat;
+  display: block;
 }
 
-#mainHeaderVideo{
-  position: absolute;
-  z-index: 0;
+#fullheader {
+  background-color: black;
   width: 100%;
-  height: auto;
+  height: 50vw;
+  opacity: 0.75;
+}
+
+.sharethis-inline-share-buttons {
+  float: right;
+}
+
+.header_text_group {
+  text-align: center;
+  font-size: 2vw;
+  width: 100%;
 }
 
 #mainTitle {
   text-align: center;
   color: #8f1d83;
-  font-family: 'Alfa Slab One', cursive;
+  font-family: "Alfa Slab One", cursive;
   font-size: 7vw;
-  padding-top:20vw;
-  text-shadow: .3vw .2vw 2vw #fdff8d;
-  z-index: 2;
-  position: relative;
+  text-shadow: 0.3vw 0.2vw 2vw #fdff8d;
+  padding-top: 15vw;
 }
 
 #mainTagLine {
   color: #d7e337;
   text-align: center;
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   font-size: 5vw;
-  text-shadow: -.3vw -.2vw 2vw #94566d;
-  z-index: 2;
-  position: relative;
+  text-shadow: -0.3vw -0.2vw 2vw #94566d;
+}
+/*START NAVBAR START*/
+nav {
 }
 
-/*START NAVBAR START*/
-nav{
-  margin-top: 19vw;
-    position: relative;
-}
 nav a:link {
   color: #d7e337;
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   font-size: 2.4vw;
-  text-shadow: .3vw .2vw 0vw #94566d;
+  text-shadow: 0.3vw 0.2vw 0 #94566d;
   padding-top: 2.5vw;
   padding-bottom: 2.5vw;
 }
 
 #homeNav {
-  font-family: 'Alfa Slab One', cursive;
+  font-family: "Alfa Slab One", cursive;
   color: #8f1d83;
   font-size: 2.5vw;
-  text-shadow: .2vw .1vw 0vw #fdff8d;
+  text-shadow: 0.2vw 0.1vw 0 #fdff8d;
 }
 
 nav ul {
@@ -106,8 +108,8 @@ nav ul {
 
 nav li {
   float: left;
-  border-right: .1vw solid #8dd49c;
-  margin-bottom: -.75vw;
+  border-right: 0.1vw solid #8dd49c;
+  margin-bottom: -0.75vw;
 }
 
 nav li:last-child {
@@ -126,7 +128,8 @@ nav li a:hover:not(.active) {
   background-color: #2eba64;
 }
 
-nav li a, .dropbtn {
+.dropbtn,
+nav li a {
   display: inline-block;
   text-align: center;
   text-decoration: none;
@@ -135,10 +138,11 @@ nav li a, .dropbtn {
   padding: 1.4vw 1.6vw;
 }
 
-nav li a:hover, .dropdown:hover .dropbtn {
+.dropdown:hover .dropbtn,
+nav li a:hover {
   background-color: #8dd49c;
   color: whitesmoke;
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
 }
 
 nav li.dropdown {
@@ -146,17 +150,17 @@ nav li.dropdown {
 }
 
 .dropdown-content {
-  margin-top: -.1vw;
-  margin-left: -.1vw;
+  margin-top: -0.1vw;
+  margin-left: -0.1vw;
   display: none;
   position: absolute;
   background-color: #427c64;
-  box-shadow: 0vw .8vw 1.6vw 0vw rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.8vw 1.6vw 0 rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   padding: 1.2vw 1.6vw;
   text-decoration: none;
   display: block;
@@ -170,21 +174,20 @@ nav li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-   
-#certTab{
+
+#certTab {
   float: right;
 }
 /*ENDNAVBAR END*/
-
 /*END HEADER GROUP END*/
-
 /*START MAIN CONTENT GROUP START*/
+
 .main_content_container {
   width: 85vw;
   background-color: #4883ad;
   height: 75vw;
   margin: auto;
-  box-shadow: .75vw .75vw .75vw #8f1d83;
+  box-shadow: 0.75vw 0.75vw 0.75vw #8f1d83;
 }
 
 #mainMe {
@@ -197,10 +200,10 @@ nav li.dropdown {
   text-align: center;
   color: #8bb091;
   margin-top: 2vw;
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   padding-bottom: 1vw;
   font-size: 2.6vw;
-  text-shadow: .3vw .2vw 0 #427c64;
+  text-shadow: 0.3vw 0.2vw 0 #427c64;
 }
 
 .main_content_group {
@@ -210,29 +213,28 @@ nav li.dropdown {
   margin-right: 2.5vw;
   background-color: #4883ad;
   color: #fef0cb;
-  font-family: 'Special Elite', cursive;
+  font-family: "Special Elite", cursive;
   font-size: 1.4vw;
   font-weight: 900;
-  text-shadow: .2vw .1vw 0vw #aa5d27;
+  text-shadow: 0.2vw 0.1vw 0 #aa5d27;
   line-height: 1.7;
 }
-
 /*END BUTTON GROUP END*/
 .myButton {
   position: absolute;
-  box-shadow: .3vw .4vw 0vw 0vw #5c2602;
+  box-shadow: 0.3vw 0.4vw 0 0 #5c2602;
   background: linear-gradient(to bottom, #ee6200 5%, #fe7a00 100%);
   background-color: #ee6200;
   border-radius: 1.8vw;
-  border: .1vw solid #aa5d27;
+  border: 0.1vw solid #aa5d27;
   display: inline-block;
   cursor: pointer;
   color: #e9dbce;
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   font-size: 1.1vw;
-  padding: 1vw 1vw;
+  padding: 1vw;
   text-decoration: none;
-  text-shadow: 0vw 2vw 0vw #612201;
+  text-shadow: 0 2vw 0 #612201;
   width: 15.5vw;
   margin-left: 10vw;
   margin-top: -2vw;
@@ -247,15 +249,14 @@ nav li.dropdown {
 
 .myButton:active {
   position: relative;
-  top: .5vw;
+  top: 0.5vw;
 }
-
 /*END BUTTON GROUP END*/
 /*END MAIN CONTENT GROUP END*/
-
 /*START FOOTER GROUP START*/
+
 footer {
-  background-image: url(../images/footers/farm.webp);
+  background-image: url("../images/footers/farm.webp");
   background-size: cover;
   height: 35vw;
   width: 100%;
@@ -313,5 +314,4 @@ footer {
 .rotator img:visted {
   opacity: 0.75;
 }
-
 /*END FOOTER GROUP END*/

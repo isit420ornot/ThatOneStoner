@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
 <channel>
-  <title>ROR Sitemap for http://thatonestoner.com/</title>
-  <link>http://thatonestoner.com/</link>
+  <title>ROR Sitemap for https://www.thatonestoner.com/</title>
+  <link>https://www.thatonestoner.com/</link>
 
 <item>
-     <link>http://thatonestoner.com/</link>
-     <title>That One Stoner</title>
-     <description>One Stoner's Guide to online education. Follow said stoner as he takes affordable online courses...</description>
+     <link>https://www.thatonestoner.com/</link>
+     <title>That One Stoner's Guide to Online Education...</title>
+     <description>Follow that one stoner as he navigates the world of affordable online education while learning to build this website in realtime... Check out what he's learned!!!</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>0</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://thatonestoner.com/index.html</link>
-     <title>That One Stoner</title>
-     <description>One Stoner's Guide to online education. Follow said stoner as he takes affordable online courses...</description>
-     <ror:updatePeriod></ror:updatePeriod>
-     <ror:sortOrder>1</ror:sortOrder>
-     <ror:resourceOf>sitemap</ror:resourceOf>
-</item>
-<item>
-     <link>http://thatonestoner.com/django-bootcamp-index.html</link>
+     <link>https://www.thatonestoner.com/django-bootcamp-index.html</link>
      <title>That One Django Bootcamp...</title>
      <description>One Stoner's Guide to online education. Follow said stoner as he navigates a Full-Stack Django Bootcamp</description>
      <ror:updatePeriod></ror:updatePeriod>
@@ -29,15 +21,15 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://thatonestoner.com/dbi-basics-html.html</link>
+     <link>https://www.thatonestoner.com/dbi-basics-html.html</link>
      <title>That One HTML Lesson...</title>
-     <description>One Stoner's Guide to online education. Follow said stoner as he show off what he learned during the HTML portion of the Full-Stack Django Bootcamp...</description>
+     <description>One Stoner's Guide to online education. Follow said stoner as he shows off what he learned during the HTML portion of the Full-Stack Django Bootcamp...</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://thatonestoner.com/dbi-basic-css.html</link>
+     <link>https://www.thatonestoner.com/dbi-basic-css.html</link>
      <title>That One CSS Lesson...</title>
      <description>One Stoner's Guide to online education. Follow said stoner as he show off what he learned during the first CSS portion of the Full-Stack Django Bootcamp...</description>
      <ror:updatePeriod></ror:updatePeriod>
@@ -45,7 +37,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://thatonestoner.com/dbi-basic-css-two.html</link>
+     <link>https://www.thatonestoner.com/dbi-basic-css-two.html</link>
      <title>That Other CSS Lesson...</title>
      <description>One Stoner's Guide to online education. Follow said stoner as he show off what he learned during the second CSS portion of the Full-Stack Django Bootcamp...</description>
      <ror:updatePeriod></ror:updatePeriod>
@@ -53,7 +45,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://thatonestoner.com/dbi-capstone-project-one.html</link>
+     <link>https://www.thatonestoner.com/dbi-capstone-project-one.html</link>
      <title>That Capstone Project...</title>
      <description>One Stoner's Guide to online education. This is said stoner's Capstone Project that highlights the HTML and CSS skills that he's learned so far...</description>
      <ror:updatePeriod></ror:updatePeriod>
@@ -61,15 +53,23 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://thatonestoner.com/coming-soon.html</link>
-     <title>Coming Soon...</title>
+     <link>https://www.thatonestoner.com/dbi-bootstrap.html</link>
+     <title>That One Stoner Learns Bootstrap...</title>
+     <description>One Stoner's Guide to online education. Follow said stoner as he show off what he learned during the Bootstrap portion of the Full-Stack Django Bootcamp...</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://www.thatonestoner.com/coming-soon.html</link>
+     <title>More Content Coming Soon...</title>
      <description>One Stoner's Guide to online education. This page will be replaced with actual content really soon...</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>http://thatonestoner.com/certificates.html</link>
+     <link>https://www.thatonestoner.com/certificates.html</link>
      <title>That One Stoner's Certificates...</title>
      <description>One Stoner's Guide to online education. Here... said stoner shows off his many certificates...</description>
      <ror:updatePeriod></ror:updatePeriod>

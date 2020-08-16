@@ -1,42 +1,41 @@
 /*GLOBAL*/
-
 * {
   padding: 0;
-  margin : 0;
+  margin: 0;
 }
 
 body {
   background-image: url("../images/bootstrap/seamlesspapertexture.jpg");
-  overflow-x      : hidden;
+  overflow-x: hidden;
 }
 
 #titleGroup a {
   text-decoration: none !important;
-  text-align     : center;
+  text-align: center;
 }
 
 #titleGroup h1 {
   font-family: "Playfair Display SC", serif;
-  font-size  : 6vw;
+  font-size: 6vw;
   font-weight: bolder;
-  text-shadow: .25vw .25vw 0 white;
-  color      : darkslategrey;
+  text-shadow: 0.25vw 0.25vw 0 white;
+  color: darkslategrey;
   padding-top: 2.5vw;
 }
 
 #titleGroup h2 {
   font-weight: bolder;
-  text-shadow: .15vw .15vw 0 white;
-  color      : darkslategrey;
+  text-shadow: 0.15vw 0.15vw 0 white;
+  color: darkslategrey;
   font-family: "Playfair Display SC", serif;
 }
 
 #titleGroup h3 {
   font-family: "Playfair Display SC", serif;
-  font-size  : 3.2vw;
+  font-size: 3.2vw;
   font-weight: bolder;
-  text-shadow: .1vw .1vw 0 white;
-  color      : darkslategrey;
+  text-shadow: 0.1vw 0.1vw 0 white;
+  color: darkslategrey;
 }
 
 #titleGroup h1:hover {
@@ -52,87 +51,87 @@ body {
 }
 
 #titleGroup h4 {
-  font-size  : 2.25vw;
+  font-size: 2.25vw;
   font-weight: bold;
   font-family: "Slabo 2.7", serif;
-  text-shadow: .1vw .1vw 0 white;
+  text-shadow: 0.1vw 0.1vw 0 white;
 }
 
 #subButt a {
-  float      : left;
-  margin-top : -10vw;
+  float: left;
+  margin-top: -10vw;
   margin-left: 4vw;
-  position   : relative;
+  position: relative;
   font-weight: bolder;
-  text-shadow: .1vw .1vw 0 white;
-  color      : lightslategrey;
+  text-shadow: 0.1vw 0.1vw 0 white;
+  color: lightslategrey;
 }
 
 #subButt a:hover {
-  text-shadow    : .1vw .1vw 0 lightslategrey;
-  color          : darkslategrey;
+  text-shadow: 0.1vw 0.1vw 0 lightslategrey;
+  color: darkslategrey;
   text-decoration: none !important;
 }
 
 #donateLink {
-  float           : right;
-  margin-top      : -11vw;
-  margin-right    : 4vw;
-  padding-top     : 1vw;
-  color           : #ded8cc;
+  float: right;
+  margin-top: -11vw;
+  margin-right: 4vw;
+  padding-top: 1vw;
+  color: #ded8cc;
   background-color: lightslategrey;
 }
 
 #donateLink:hover {
   background-color: darkslategrey;
-  color           : #ded8cc;
+  color: #ded8cc;
 }
 
 #hr1 {
-  border: .5vw solid black;
-  width : 86vw;
+  border: 0.5vw solid black;
+  width: 86vw;
   margin: 2.5vw auto 0;
 }
 
 #hr2 {
-  border: .5vw solid darkred;
-  width : 86vw;
+  border: 0.5vw solid darkred;
+  width: 86vw;
   margin: 0 auto 2.5vw;
 }
 
 nav ul {
   list-style-type: none;
-  width          : 575vw;
+  width: 575vw;
 }
 
 nav li a h6 {
-  color           : yellow;
-  font-size       : 3vw;
-  text-shadow     : .2vw .2vw .1vw red;
-  padding-left    : 2vw;
-  padding-right   : 2vw;
+  color: yellow;
+  font-size: 3vw;
+  text-shadow: 0.2vw 0.2vw 0.1vw red;
+  padding-left: 2vw;
+  padding-right: 2vw;
   background-color: darkred;
   /* For browsers that do not support gradients */
   background-image: linear-gradient(to bottom, red, black 90%);
-  padding-top     : 3vw;
-  padding-bottom  : 3vw;
-  margin-left     : -.5vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  margin-left: -0.5vw;
 }
 
 nav li a h6:hover {
-  color           : antiquewhite;
-  text-shadow     : .25vw .25vw 0 black;
+  color: antiquewhite;
+  text-shadow: 0.25vw 0.25vw 0 black;
   background-color: red;
   /* For browsers that do not support gradients */
   background-image: linear-gradient(to bottom, red, red 100%);
-  padding-top     : 3vw;
-  padding-bottom  : 3vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
 }
 
 nav li a {
   text-decoration: none !important;
   list-style-type: none;
-  float          : left;
+  float: left;
 }
 
 #innerwrapper {
@@ -140,17 +139,17 @@ nav li a {
 }
 
 #move {
-  animation-delay                  : 2s !important;
-  position                         : relative;
-  -webkit-animation                : backandforth 90s ease 0s;
+  animation-delay: 2s !important;
+  position: relative;
+  -webkit-animation: backandforth 90s ease 0s;
   -webkit-animation-iteration-count: infinite;
 }
 
 .overflowHide {
   overflow: hidden;
-  height  : 13vw;
-  width   : 86vw;
-  margin  : 0 auto;
+  height: 13vw;
+  width: 86vw;
+  margin: 0 auto;
 }
 
 .nav-scroller::-webkit-scrollbar {
@@ -184,32 +183,33 @@ nav li a {
 }
 
 #jumbotron {
-  background-image : url("../images/bootstrap/isit420ornot.webp");
+  background-image: url("../images/bootstrap/isit420ornot.webp");
   background-repeat: no-repeat;
-  background-size  : 100% 100%;
-  height           : 105vw;
-  padding-top      : 1vw;
-  width            : 86vw;
-  margin           : 0 auto 5vw;
+  background-size: 100% 100%;
+  height: 125vw;
+  padding-top: 1vw;
+  width: 86vw;
+  margin: 0 auto 5vw;
+  box-shadow: 0.5vw 0.5vw 1vw black;
 }
 
 #in420news {
-  margin-top : -38vw;
-  color      : ghostwhite;
-  padding    : 5vw;
+  margin-top: -38vw;
+  color: ghostwhite;
+  padding: 5vw;
   font-family: "Staatliches", cursive;
-  font-size  : 5.9vw;
-  text-shadow: .5vw .5vw 0 purple;
-  text-align : justify;
+  font-size: 5.9vw;
+  text-shadow: 0.5vw 0.5vw 0 purple;
+  text-align: justify;
 }
 
 #backgroundColor1 {
-  position        : relative;
+  position: relative;
   background-color: lightgreen;
-  height          : 30vw;
-  width           : 95%;
-  margin          : 5vw auto;
-  opacity         : .3;
+  height: 30vw;
+  width: 95%;
+  margin: 5vw auto;
+  opacity: 0.3;
 }
 
 #isItYellow {
@@ -217,28 +217,28 @@ nav li a {
 }
 
 #backgroundColor2 {
-  position        : relative;
+  position: relative;
   background-color: mediumpurple;
-  height          : 45vw;
-  width           : 95%;
-  margin          : -1vw auto 5vw;
-  opacity         : .3;
+  height: 45vw;
+  width: 95%;
+  margin: -1vw auto 5vw;
+  opacity: 0.3;
 }
 
 #isItContent {
-  position  : relative;
+  position: relative;
   margin-top: -52.5vw;
 }
 
 #isItContent p {
-  color      : lightgreen;
+  color: lightgreen;
   font-family: "Slabo 2.7", serif;
-  font-size  : 2.75vw;
+  font-size: 2.75vw;
   font-weight: bolder;
-  text-shadow: .1vw .1vw .1vw yellow;
-  padding    : 0 1vw;
-  text-align : justify;
-  padding    : 5vw;
+  text-shadow: 0.1vw 0.1vw 0.1vw yellow;
+  padding: 0 1vw;
+  text-align: justify;
+  padding: 5vw;
 }
 
 .isItContentP2 {
@@ -246,69 +246,70 @@ nav li a {
 }
 
 #more420 a {
-  font-weight    : bolder;
-  font-size      : 3vw;
-  float          : right;
-  margin-right   : 2vw;
-  color          : yellow;
-  text-shadow    : .2vw .2vw .1vw purple;
+  font-weight: bolder;
+  font-size: 3vw;
+  float: right;
+  margin-right: 2vw;
+  color: yellow;
+  text-shadow: 0.2vw 0.2vw 0.1vw purple;
   text-decoration: none !important;
 }
 
 #more420 a:hover {
-  color      : palevioletred;
-  text-shadow: .1vw .1vw .1vw palegoldenrod;
+  color: palevioletred;
+  text-shadow: 0.1vw 0.1vw 0.1vw palegoldenrod;
 }
 
 #otherArticles {
-  width        : 90vw;
-  margin       : 0 auto;
-  padding-left : 2vw;
+  width: 90vw;
+  margin: 0 auto;
+  padding-left: 2vw;
   margin-bottom: 5vw;
 }
 
 #otherArticles h2 {
-  font-weight  : bolder;
-  text-shadow  : .05vw .05vw 0 dodgerblue;
-  color        : deepskyblue;
-  font-family  : "Playfair Display SC", serif;
-  font-size    : 1.45vw;
+  font-weight: bolder;
+  text-shadow: 0.05vw 0.05vw 0 dodgerblue;
+  color: deepskyblue;
+  font-family: "Playfair Display SC", serif;
+  font-size: 1.45vw;
   margin-bottom: -0vw;
+  margin-top: 1vw;
 }
 
 #otherArticles h3 {
-  font-weight  : bolder;
-  color        : darkgrey;
-  font-family  : "Slabo 2.7", serif;
-  font-size    : 1.4vw;
-  margin-bottom: -.1vw;
-  text-shadow  : .05vw .05vw 0 lightgrey;
+  font-weight: bolder;
+  color: darkgrey;
+  font-family: "Slabo 2.7", serif;
+  font-size: 1.4vw;
+  margin-bottom: -0.1vw;
+  text-shadow: 0.05vw 0.05vw 0 lightgrey;
 }
 
 #otherArticles h4 {
-  color      : darkslategrey;
+  color: darkslategrey;
   font-family: "Playfair Display SC", serif;
-  text-align : right;
-  font-size  : 1vw;
-  text-shadow: .05vw .05vw 0 grey;
+  text-align: right;
+  font-size: 1vw;
+  text-shadow: 0.05vw 0.05vw 0 grey;
 }
 
 #otherArticles p {
-  font-size    : 1.5vw;
-  font-family  : "Slabo 2.7", serif;
+  font-size: 1.5vw;
+  font-family: "Slabo 2.7", serif;
   margin-bottom: 1vw;
-  color        : lightgray;
-  font-weight  : bolder;
-  text-shadow  : .05vw .05vw 0 whitesmoke;
+  color: lightgray;
+  font-weight: bolder;
+  text-shadow: 0.05vw 0.05vw 0 whitesmoke;
 }
 
 #otherArticles a {
-  font-size      : 1.25vw;
-  font-family    : "Slabo 2.7", serif;
+  font-size: 1.25vw;
+  font-family: "Slabo 2.7", serif;
   text-decoration: none !important;
-  font-weight    : bold;
-  color          : lightblue;
-  text-shadow    : .05vw .05vw .1vw black;
+  font-weight: bold;
+  color: lightblue;
+  text-shadow: 0.05vw 0.05vw 0.1vw black;
 }
 
 #otherArticles a:hover {
@@ -316,87 +317,93 @@ nav li a {
 }
 
 #otherArticles img {
-  width       : 19vw;
-  height      : 26vw;
-  float       : right;
-  margin-top  : -26vw;
-  margin-right: 2vw;
-}
-
-#mySNL {
-  width: 43vw;
-  float: left;
-}
-
-#mySNLText {
-  width           : 22vw;
-  height          : 26vw;
-  background-color: lightslategray;
-  padding         : 1vw;
-}
-
-#area52 {
-  width: 43vw;
+  width: 19vw;
+  height: 30vw;
   float: right;
 }
 
-#area52Text {
-  width           : 22vw;
-  height          : 26vw;
+#mySNL {
+  width: 41vw;
+  float: left;
+  box-shadow: 0.5vw 0.5vw 1vw black;
+}
+
+#mySNLText {
+  width: 22vw;
+  height: 30vw;
   background-color: lightslategray;
-  padding         : 1vw;
+  padding: 1vw;
+  float: left;
+}
+
+#area52 {
+  width: 41vw;
+  float: right;
+  margin-right: 2vw;
+  box-shadow: 0.5vw 0.5vw 1vw black;
+}
+
+#area52Text {
+  width: 22vw;
+  height: 30vw;
+  background-color: lightslategray;
+  padding: 1vw;
+  float: left;
 }
 
 #dopeBoo {
-  position   : inherit;
-  margin     : 5vw auto;
-  width      : 86vw;
-  padding-top: 5vw;
-  clear      : both;
+
+  margin: 5vw auto;
+  width: 86vw;
+  margin-top: 40vw;
+  box-shadow: 0.5vw 0.5vw 1vw black;
+
 }
 
 .blog-post {
-  margin-bottom   : 2.5vw;
+  margin-bottom: 2.5vw;
   background-color: lightgrey;
-  padding         : 2.5vw;
+  padding: 2.5vw;
+  box-shadow: 0.5vw 0.5vw 1vw black;
 }
 
 .blog-post-title-group {
   background-color: dimgrey;
-  padding         : 2.5vw;
-  margin          : -2.5vw;
+  padding: 2.5vw;
+  margin: -2.5vw;
 }
 
 #fromText {
-  font-family     : "Playfair Display SC", serif;
-  font-size       : 3vw;
-  font-weight     : bolder;
-  text-shadow     : .1vw .1vw 0 darkslategrey;
-  color           : whitesmoke;
+  font-family: "Playfair Display SC", serif;
+  font-size: 3vw;
+  font-weight: bolder;
+  text-shadow: 0.1vw 0.1vw 0 darkslategrey;
+  color: whitesmoke;
   background-color: darkgrey;
-  padding-top     : 2vw;
-  padding-left    : 2.5vw;
+  padding-top: 3.5vw;
+  padding-left: 2.5vw;
+  box-shadow: 0.5vw 0.5vw 1vw black;
 }
 
 .blog-post h2 {
   font-family: "Playfair Display SC", serif;
-  font-size  : 1.9vw;
+  font-size: 1.9vw;
   font-weight: bold;
-  text-shadow: .1vw .1vw 0 dodgerblue;
-  color      : deepskyblue;
+  text-shadow: 0.1vw 0.1vw 0 dodgerblue;
+  color: deepskyblue;
 }
 
 .blog-post h5 {
   font-family: "Playfair Display SC", serif;
-  font-size  : 1.3vw;
+  font-size: 1.3vw;
   font-weight: bold;
-  text-shadow: .05vw .05vw 0 deepskyblue;
-  color      : whitesmoke;
+  text-shadow: 0.05vw 0.05vw 0 deepskyblue;
+  color: whitesmoke;
 }
 
 .blog-post-meta a {
-  font-size      : 1.5vw;
-  text-shadow    : .05vw .05vw 0 whitesmoke;
+  font-size: 1.5vw;
+  text-shadow: 0.05vw 0.05vw 0 whitesmoke;
   text-decoration: none !important;
 }
 
@@ -406,47 +413,47 @@ nav li a {
 
 .blog-post h4 {
   font-family: "Slabo 2.7";
-  font-size  : 1.5vw;
+  font-size: 1.5vw;
   font-weight: bold;
-  text-shadow: .05vw .05vw 0 whitesmoke;
-  color      : deepskyblue;
+  text-shadow: 0.05vw 0.05vw 0 whitesmoke;
+  color: deepskyblue;
   padding-top: 1vw;
 }
 
 .blog-post hr {
-  border: .1vw solid whitesmoke;
-  width : 100%;
+  border: 0.1vw solid whitesmoke;
+  width: 100%;
   margin: 2.5vw 0 0;
 }
 
 .blog-post blockquote {
   font-family: "Special Elite", cursive;
-  font-size  : 1.5vw;
+  font-size: 1.5vw;
   font-weight: bold;
-  text-shadow: .1vw .1vw 0 whitesmoke;
-  color      : black;
+  text-shadow: 0.1vw 0.1vw 0 whitesmoke;
+  color: black;
   padding-top: 7.5vw;
 }
 
 .blog-post p {
-  font-size    : 1.5vw;
-  font-weight  : bold;
-  text-shadow  : .05vw .05vw 0 darkslategrey;
-  color        : dimgrey;
-  font-family  : "Slabo 2.7", serif;
-  padding      : 1vw;
-  margin-bottom: -.5vw;
+  font-size: 1.5vw;
+  font-weight: bold;
+  text-shadow: 0.05vw 0.05vw 0 darkslategrey;
+  color: dimgrey;
+  font-family: "Slabo 2.7", serif;
+  padding: 1vw;
+  margin-bottom: -0.5vw;
 }
 
 .blog-post ul {
-  font-family    : "Special Elite", cursive;
-  font-size      : 1.5vw;
-  font-weight    : bolder;
-  text-shadow    : .1vw .1vw 0 whitesmoke;
-  color          : lightslategray;
+  font-family: "Special Elite", cursive;
+  font-size: 1.5vw;
+  font-weight: bolder;
+  text-shadow: 0.1vw 0.1vw 0 whitesmoke;
+  color: lightslategray;
   list-style-type: none;
-  padding        : 2.5vw 2.5vw 0;
-  text-align     : center;
+  padding: 2.5vw 2.5vw 0;
+  text-align: center;
 }
 
 .blog-post ul li {
@@ -454,45 +461,46 @@ nav li a {
 }
 
 .blog-post ol {
-  font-family  : "Special Elite", cursive;
-  font-size    : 1.5vw;
-  font-weight  : bolder;
-  text-shadow  : .1vw .1vw 0 whitesmoke;
-  color        : lightslategray;
-  padding      : 2.5vw 5vw 0 2.5vw;
-  list-style   : none;
+  font-family: "Special Elite", cursive;
+  font-size: 1.5vw;
+  font-weight: bolder;
+  text-shadow: 0.1vw 0.1vw 0 whitesmoke;
+  color: lightslategray;
+  padding: 2.5vw 5vw 0 2.5vw;
+  list-style: none;
   counter-reset: my-awesome-counter;
 }
 
 .blog-post ol li {
   counter-increment: my-awesome-counter;
-  padding-bottom   : 1vw;
+  padding-bottom: 1vw;
 }
 
 .blog-post ol li::before {
-  content      : counter(my-awesome-counter) ". ";
-  font-size    : 1.75vw;
-  font-weight  : bolder;
-  text-shadow  : .1vw .1vw 0 whitesmoke;
-  color        : darkslategrey;
-  font-family  : "Special Elite", cursive;
+  content: counter(my-awesome-counter) ". ";
+  font-size: 1.75vw;
+  font-weight: bolder;
+  text-shadow: 0.1vw 0.1vw 0 whitesmoke;
+  color: darkslategrey;
+  font-family: "Special Elite", cursive;
   padding-right: 1vw;
 }
 
 .blog-post-title {
-  font-family  : "Playfair Display SC", serif;
-  font-size    : 2.5vw;
-  font-weight  : bolder;
-  text-shadow  : .25vw .25vw 0 white;
-  color        : darkslategrey;
-  margin-bottom: .25vw;
-  font-size    : 2.5vw;
+  font-family: "Playfair Display SC", serif;
+  font-size: 2.5vw;
+  font-weight: bolder;
+  text-shadow: 0.25vw 0.25vw 0 white;
+  color: darkslategrey;
+  margin-bottom: 0.25vw;
+  font-size: 2.5vw;
 }
 
 .blog-pagination {
-  margin-bottom   : 2.5vw;
+  margin-bottom: 2.5vw;
   background-color: darkgrey;
-  padding         : 2.5vw;
+  padding: 2.5vw;
+  box-shadow: 0.5vw 0.5vw 1vw black;
 }
 
 .blog-pagination table {
@@ -501,30 +509,31 @@ nav li a {
 
 .contentAd {
   background-color: darkslategrey;
+  box-shadow: 0.5vw 0.5vw 1vw black;
 }
 
 .blog-pagination > .btn {
-  border-radius: .2vw;
+  border-radius: 0.2vw;
 }
 
 #olderButton {
-  color           : #ded8cc;
+  color: #ded8cc;
   background-color: lightslategrey;
 }
 
 #olderButton:hover {
   background-color: darkslategrey;
-  color           : #ded8cc;
+  color: #ded8cc;
 }
 
 #newerButton {
   background-color: darkslategrey;
-  color           : #ded8cc;
-  float           : right;
+  color: #ded8cc;
+  float: right;
 }
 
 #newerButton:hover {
-  color           : #ded8cc;
+  color: #ded8cc;
   background-color: lightslategrey;
 }
 
@@ -534,29 +543,32 @@ nav li a {
 
 #timeTravel h2 {
   font-family: "Playfair Display SC", serif;
-  text-align : center;
-  font-size  : 1.75vw;
+  text-align: center;
+  font-size: 1.75vw;
   font-weight: bolder;
-  text-shadow: .05vw .05vw 0 darkslategrey;
-  color      : whitesmoke;
+  text-shadow: 0.05vw 0.05vw 0 darkslategrey;
+  color: whitesmoke;
 }
 
 aside {
-  height          : 100%;
+  height: 100%;
   background-color: grey;
-  padding-top     : 2.5vw;
-  padding-bottom  : 2.5vw;
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
+  box-shadow: 0.5vw 0.5vw 1vw black;
 }
 
 .sharethis-inline-share-buttons {
   margin-right: -15px;
-  margin-top  : -2.5vw;
+  margin-top: -2.5vw;
+
 }
 
 .bg-light {
   background-color: darkslategrey !important;
-  width           : 200px;
-  margin          : auto;
+  width: 200px;
+  margin: auto;
+  box-shadow: 0.5vw 0.5vw 1vw black;
 }
 
 #aboutMeTitle {
@@ -564,19 +576,21 @@ aside {
 }
 
 #aboutMe {
-  color      : lightgrey;
+  color: lightgrey;
   font-weight: bolder;
 }
 
 .sidebarBG {
-  margin          : auto;
+  margin: auto;
   background-color: lightslategrey;
-  width           : 200px;
-  margin-bottom   : 2.5vw;
+  width: 200px;
+  margin-bottom: 2.5vw;
+  box-shadow: 0.5vw 0.5vw 1vw black;
 }
 
 .sidebarBG h4 {
   color: lightgray;
+  font-size: 130%;
 }
 
 .sidebarBG h5 {
@@ -585,13 +599,21 @@ aside {
 
 .sidebarBG h6 {
   color: darkslategray;
+  font-size: 70%;
 }
 
 .sidebarBG a {
   color: whitesmoke;
+  font-size: 85%;
 }
 
 .sidebarBG a:hover {
-  color          : darkgrey;
+  color: darkgrey;
   text-decoration: none !important;
+}
+
+.list-unstyled p {
+  color: darkslategrey;
+  font-weight: bold;
+  font-size: 75%;
 }
