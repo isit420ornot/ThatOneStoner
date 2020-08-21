@@ -13,6 +13,8 @@ header {
   background-size: cover;
   height: 35vw;
   width: 100%;
+  position: relative;
+  z-index: 5;
 }
 .header_text_group {
   color: #d3d99d;
@@ -36,6 +38,10 @@ header {
   font-family: "Acme", sans-serif;
 }
 /*START NAVBAR START*/
+#mainNav {
+  position: relative;
+  z-index: 5;
+}
 nav a:link {
   color: #d7e337;
   font-family: "Acme", sans-serif;
@@ -136,12 +142,13 @@ nav li.dropdown {
 /*START NAVBAR START*/
 /*END HEADER JUMBOTRON GROUP END*/
 main {
-  background-image: url(../images/javascript/fullOz.png);
+  background-image: url(../images/javascript/fullOZ.png);
   width: 100%;
-  height: 100vw;
+  height: 125vw;
   padding-top: 25vw;
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  overflow-y: hidden;
 }
 #mainContainer {
   width: 76vw;
@@ -154,6 +161,7 @@ main {
   text-align: center;
   box-shadow: -1vw -1vw 5vw #d7b046, 1vw 1vw 5vw #6c8230, 1.25vw 1.25vw 1.5vw black;
   opacity: 0.85;
+  margin-top: 15vw;
 }
 #ozWelcome {
   color: #ffdb4c;
@@ -204,22 +212,39 @@ main {
   color: yellowgreen;
 }
 #descriptioncontainer {
-  width: 76vw;
-  margin: -20vw auto;
+  margin: 0vw auto;
   display: none;
+  margin-top: -10vw;
 }
 #ozContent {
   width: 100%;
   padding: 2.5vw;
-  background-color: #455b35;
-  box-shadow: 0.1vw 0.1vw 1vw black;
+  padding-top: 5vw;
+  background-color: #576844;
+  box-shadow: 2vw 2vw 5vw #68846e;
+}
+#ozContent h4 {
+  font-family: "Lobster", cursive;
+  color: yellow;
+  font-size: 7.5vw;
+  padding-bottom: 2.5vw;
+  text-shadow: 0.35vw 0.35vw 0vw black, 0.5vw 0.5vw 0vw whitesmoke;
+}
+#ozContent p {
+  font-family: "Cinzel", serif;
+  color: palegoldenrod;
+  line-height: 1.5;
+  font-weight: bolder;
+  font-size: 2.5vw;
+  padding-bottom: 2.5vw;
+  text-shadow: 0.3vw 0.3vw 0vw black, 0.35vw 0.35vw 0vw black;
 }
 #descriptioncontainer table {
   width: 76vw;
   margin: 5vw auto;
-  color: lawngreen;
+  color: #fada32;
   font-weight: bolder;
-  font-size: 4vw;
+  font-size: 5vw;
   font-family: "Acme", sans-serif;
   text-shadow: 0.5vw 0.5vw 1vw black;
 }
@@ -228,23 +253,22 @@ main {
   margin-left: 5vw;
 }
 #sure:hover {
-  color: yellow;
+  color: whitesmoke;
 }
 #sure:active {
-  color: whitesmoke;
+  color: #d68321;
 }
 #sure:visited {
   color: yellowgreen;
 }
 #nope {
   float: right;
-  margin-right: 5vw;
 }
 #nope:hover {
-  color: yellow;
+  color: whitesmoke;
 }
 #nope:active {
-  color: whitesmoke;
+  color: #d68321;
 }
 #nope:visited {
   color: yellowgreen;
@@ -258,16 +282,15 @@ main {
 #ageContent {
   width: 100%;
   margin-left: -12.5vw;
-  padding: 2.5vw;
-  background-color: green;
-  box-shadow: 0.1vw 0.1vw 1vw black;
+  padding: 3vw;
+  background-color: #40473f;
+  box-shadow: 1vw 1vw 5vw black;
 }
 #ageContent h4 {
   font-family: "Lobster", cursive;
   color: yellow;
   font-size: 5vw;
   text-shadow: 0.1vw 0.1vw 0vw whitesmoke, 0.75vw 0.75vw 1vw #d17e90;
-  margin-bottom: -3vw;
   float: left;
 }
 #ageContent h2 {
@@ -280,30 +303,30 @@ main {
 }
 #ageContent p {
   color: #d17e90;
-  margin-top: 2.5vw;
-  font-size: 2.17vw;
+  font-size: 2.6vw;
   text-align: center;
-  text-shadow: 0.05vw 0.05vw 0vw whitesmoke, 0.1vw 0.1vw .5vw black;
+  text-shadow: 0.1vw 0.1vw 0vw black;
+  font-weight: bolder;
 }
 #ageContent h6 {
-  color: lime;
+  color: #789e7d;
   font-size: 1.9vw;
   text-shadow: .07vw .07vw .1vw black;
   text-align: center;
+  padding-top: 2.5vw;
 }
 #ageButtons {
   display: none;
-  margin-left: -10vw;
-  margin-top: 2.5vw;
+  margin-left: -12.5vw;
+  margin-top: 2.75vw;
   color: #f9c52f;
   font-weight: bolder;
-  font-size: 3vw;
+  font-size: 4vw;
   font-family: "Acme", sans-serif;
   text-shadow: 0.5vw 0.5vw 1vw black;
 }
 #whyNot {
-  width: 25vw;
-  margin-left: 2.5vw;
+  width: 20vw;
 }
 #whyNot:hover {
   color: lawngreen;
@@ -315,9 +338,9 @@ main {
   color: yellow;
 }
 #noTrust {
-  width: 25vw;
+  width: 30vw;
   text-align: right;
-  margin-right: 2.5vw;
+  padding-left: 5vw;
 }
 #noTrust:hover {
   color: lawngreen;
@@ -334,8 +357,22 @@ main {
 #hallwayContent {
   width: 100%;
   padding: 2.5vw;
-  background-color: #455b35;
-  box-shadow: 0.1vw 0.1vw 1vw black;
+  background-color: #ffd72d;
+  box-shadow: 1vw 1vw 5vw goldenrod;
+}
+#hallwayContent h4 {
+  font-family: "Lobster", cursive;
+  color: purple;
+  font-size: 5vw;
+  text-shadow: 0.1vw 0.1vw 0vw whitesmoke, 0.75vw 0.75vw 1vw #d17e90;
+}
+#hallwayContent p {
+  color: darkgoldenrod;
+  font-size: 3vw;
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
+  text-shadow: 0.1vw 0.1vw 0vw purple;
+  font-weight: bolder;
 }
 #hallwayButtons {
   width: 76vw;
@@ -351,10 +388,10 @@ main {
   padding-left: 2.5vw;
 }
 #keepGoing:hover {
-  color: yellow;
+  color: whitesmoke;
 }
 #keepGoing:active {
-  color: whitesmoke;
+  color: #d17e90;
 }
 #keepGoing:visited {
   color: yellowgreen;
@@ -365,10 +402,10 @@ main {
   margin-right: 25vw;
 }
 #tooScared:hover {
-  color: yellow;
+  color: whitesmoke;
 }
 #tooScared:active {
-  color: whitesmoke;
+  color: #d17e90;
 }
 #tooScared:visited {
   color: yellowgreen;
@@ -386,13 +423,18 @@ main {
   margin-top: -15vw;
 }
 #enterTheChambers h4 {
-  color: green;
-  text-shadow: .5vw .5vw 0vw yellow;
+  font-family: "Lobster", cursive;
+  color: lawngreen;
+  font-size: 5vw;
+  text-shadow: 0.1vw 0.1vw 0vw whitesmoke, 0.25vw 0.25vw .25vw purple;
 }
 #enterTheChambers p {
   color: purple;
   font-size: 3vw;
-  text-shadow: .1vw .1vw 0vw mediumpurple;
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
+  text-shadow: 0.1vw 0.1vw 0vw black;
+  font-weight: bolder;
 }
 .speech-bubble .up-arrow {
   border-style: solid;
@@ -400,7 +442,7 @@ main {
   z-index: 1;
 }
 .top {
-  border-color: transparent transparent green transparent;
+  border-color: transparent transparent yellow transparent;
   border-width: 4.5vw 4.5vw 4.5vw 4.5vw;
   margin-top: -12.5vw;
   margin-left: 40vw;
@@ -417,49 +459,142 @@ main {
   opacity: .85;
 }
 #chamberAnswer1 {
-  display: block;
-  padding-top: 5vw;
-  color: lawngreen;
+  text-align: center;
+  color: yellow;
   font-weight: bolder;
   font-size: 4vw;
   font-family: "Acme", sans-serif;
   text-shadow: 0.5vw 0.5vw 1vw black;
-  display: block;
-}
-#chamberAnswer1 td {
-  width: 15vw;
+  margin-top: 10vw;
+  margin-left: 5vw;
+  width: 100%;
+  display: none;
 }
 #answer {
-  float: left;
+  margin-right: 5vw;
 }
 #answer:hover {
-  color: yellow;
+  color: lawngreen;
+  border: 1vw solid purple;
 }
 #answer:active {
   color: whitesmoke;
+  border: 1vw solid yellow;
 }
 #answer:visited {
-  color: yellowgreen;
+  color: purple;
+  border: 1vw solid lawngreen;
 }
 #yourBusiness {
   float: right;
 }
 #yourBusiness:hover {
-  color: yellow;
+  color: lawngreen;
+  border: 1vw solid purple;
 }
 #yourBusiness:active {
   color: whitesmoke;
+  border: 1vw solid yellow;
 }
 #yourBusiness:visited {
-  color: yellowgreen;
+  color: purple;
+  border: 1vw solid lawngreen;
+}
+#chamberAnswer2 {
+  text-align: center;
+  color: yellow;
+  font-weight: bolder;
+  font-size: 4vw;
+  font-family: "Acme", sans-serif;
+  text-shadow: 0.5vw 0.5vw 1vw black;
+  margin-top: 10vw;
+  margin-left: 5vw;
+  width: 100%;
+  display: none;
+}
+#showMe {
+  margin-right: 5vw;
+}
+#showMe:hover {
+  color: lawngreen;
+  border: 1vw solid purple;
+}
+#showMe:active {
+  color: whitesmoke;
+  border: 1vw solid yellow;
+}
+#showMe:visited {
+  color: purple;
+  border: 1vw solid lawngreen;
+}
+#imGood {
+  float: right;
+  margin-left: 10vw;
+}
+#imGood:hover {
+  color: lawngreen;
+  border: 1vw solid purple;
+}
+#imGood:active {
+  color: whitesmoke;
+  border: 1vw solid yellow;
+}
+#imGood:visited {
+  color: purple;
+  border: 1vw solid lawngreen;
+}
+#chamberAnswer3 {
+  text-align: center;
+  color: yellow;
+  font-weight: bolder;
+  font-size: 4vw;
+  font-family: "Acme", sans-serif;
+  text-shadow: 0.5vw 0.5vw 1vw black;
+  margin-top: 5vw;
+  margin-left: 10vw;
+  width: 100%;
+  display: none;
+}
+#thanks {
+  margin-right: 5vw;
+}
+#thanks:hover {
+  color: lawngreen;
+  border: 1vw solid purple;
+}
+#thanks:active {
+  color: whitesmoke;
+  border: 1vw solid yellow;
+}
+#thanks:visited {
+  color: purple;
+  border: 1vw solid lawngreen;
+}
+#whatever {
+  float: right;
+  margin-left: 10vw;
+}
+#whatever:hover {
+  color: lawngreen;
+  border: 1vw solid purple;
+}
+#whatever:active {
+  color: whitesmoke;
+  border: 1vw solid yellow;
+}
+#whatever:visited {
+  color: purple;
+  border: 1vw solid lawngreen;
 }
 .answer-bubble .down-arrow {
   border-style: solid;
   position: absolute;
   z-index: 1;
+  margin-top: 8.75vw;
+  margin-left: 2.5vw;
 }
-.answer-bubble .bottom {
-  border-color: green transparent transparent transparent;
+.bottom {
+  border-color: lawngreen transparent transparent transparent;
   border-width: 4.5vw 4.5vw 4.5vw 4.5vw;
 }
 .answer-bubble {
@@ -468,25 +603,297 @@ main {
   padding: 2.5vw;
   background-color: whitesmoke;
   border-radius: 2.5vw;
-  box-shadow: 1vw 2.5vw 0vw black, -1vw 2.5vw 0vw black, 2vw 2vw 5vw white;
-  border: 1vw solid yellow;
+  box-shadow: 0vw -2.5vw 0vw black, 0.75vw -2.5vw 0vw black, -2vw -2vw 5vw white;
+  border: 1vw solid lawngreen;
   opacity: .85;
 }
-main h4 {
-  font-family: "Lobster", cursive;
-  color: yellow;
-  font-size: 5vw;
-  padding-bottom: 2.5vw;
-  text-shadow: 0.05vw 0.05vw 0vw whitesmoke;
+#converterContainer {
+  width: 76vw;
+  margin: 0 auto;
+  background-color: purple;
+  box-shadow: 1vw 1vw 5vw whitesmoke;
+  opacity: .85;
+  margin-top: -20vw;
+  display: none;
 }
-main p {
-  font-family: "Cinzel", serif;
-  color: palegoldenrod;
-  line-height: 1.5;
-  font-weight: bolder;
-  font-size: 2.5vw;
+#theOzConverter h2 {
+  background-color: lawngreen;
+  color: yellow;
+  font-size: 7.5vw;
+  padding-top: 2.5vw;
   padding-bottom: 2.5vw;
-  text-shadow: 0.15vw 0.15vw 0vw yellow, 0.2vw 0.2vw 0.1vw black;
+  text-shadow: 0.25vw 0.25vw 0vw #d17e90, 0.5vw 0.5vw 0.5vw purple;
+  margin-bottom: 2.5vw;
+  text-align: center;
+  font-family: "Lobster", cursive;
+}
+#converterContainer table {
+  margin: 0 auto;
+}
+#theOzConverter nav button {
+  width: 9vw;
+  font-weight: bolder;
+  font-size: 2.25vw;
+  padding: .5vw;
+  background-color: lawngreen;
+  color: whitesmoke;
+  text-shadow: .25vw .25vw 0vw purple, .35vw .35vw 0vw yellow;
+  font-family: "Alfa Slab One", cursive;
+  text-align: center;
+  height: 10vw;
+}
+#theOzConverter nav button:hover {
+  background-color: yellow;
+  color: lawngreen;
+  text-shadow: .25vw .25vw 0vw purple, .35vw .35vw 0vw whitesmoke;
+  font-family: "Alfa Slab One", cursive;
+  text-align: center;
+  height: 10vw;
+}
+#theOzConverter nav button:active {
+  background-color: whitesmoke;
+  color: purple;
+  text-shadow: .25vw .25vw 0vw yellow, .35vw .35vw 0vw green;
+  font-family: "Alfa Slab One", cursive;
+  text-align: center;
+  height: 10vw;
+}
+#ozInput {
+  height: 15vw;
+  width: 15vw;
+  text-align: center;
+  font-size: 5vw;
+}
+#inputs th {
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
+}
+#ozLabel {
+  color: yellow;
+  font-size: 7.5vw;
+  padding-top: 5vw;
+  padding-bottom: 2.5vw;
+  text-shadow: 0.25vw 0.25vw 0vw black, 0.5vw 0.5vw 1vw #d17e90;
+  margin-top: 7.5vw;
+  text-align: center;
+  font-family: "Lobster", cursive;
+}
+#gramsLBSTable {
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
+}
+.otherInputs {
+  height: 7.5vw;
+  width: 7.5vw;
+  margin-bottom: 2.5vw;
+  text-align: center;
+  font-size: 3vw;
+  font-weight: bolder;
+}
+.inputLables {
+  color: whitesmoke;
+  font-size: 4vw;
+  padding-top: 5vw;
+  padding-bottom: 2.5vw;
+  text-shadow: 0.25vw 0.25vw 0vw black, 0.5vw 0.5vw 1vw #d17e90;
+  text-align: center;
+  font-family: "Lobster", cursive;
+  margin-top: 2.5vw;
+}
+#howMuchLable {
+  color: lawngreen;
+  font-size: 4vw;
+  padding-top: 5vw;
+  padding-bottom: 2.5vw;
+  text-shadow: 0.15vw 0.15vw 0vw whitesmoke, 0.25vw 0.25vw 1vw #d17e90;
+  text-align: center;
+  font-family: "Lobster", cursive;
+}
+#ammountInput {
+  margin-left: 22.5vw;
+}
+#ammountInput input {
+  text-align: center;
+  padding: 1.5vw;
+  font-size: 2vw;
+  font-weight: bolder;
+}
+#howMuch {
+  width: 100%;
+  margin-top: 5vw;
+  font-weight: bolder;
+  font-size: 2.25vw;
+  padding: .5vw;
+  background-color: lawngreen;
+  color: whitesmoke;
+  text-shadow: .25vw .25vw 0vw purple, .35vw .35vw 0vw yellow;
+  font-family: "Alfa Slab One", cursive;
+  text-align: center;
+  height: 10vw;
+}
+#howMuch:hover {
+  background-color: yellow;
+  color: lawngreen;
+  text-shadow: .25vw .25vw 0vw purple, .35vw .35vw 0vw whitesmoke;
+  font-family: "Alfa Slab One", cursive;
+  text-align: center;
+  height: 10vw;
+}
+#howMuch:active {
+  background-color: whitesmoke;
+  color: purple;
+  text-shadow: .25vw .25vw 0vw yellow, .35vw .35vw 0vw green;
+  font-family: "Alfa Slab One", cursive;
+  text-align: center;
+  height: 10vw;
+}
+#meOzHead2 {
+  display: none;
+  width: 100vw;
+  margin-top: -80vw;
+  margin-left: 5vw;
+  position: inherit;
+  z-index: 0;
+}
+#bigOops {
+  display: none;
+  position: absolute;
+  width: 30vw;
+  height: 7.5vw;
+  margin-left: 45vw;
+  text-align: center;
+}
+#bigOops .up-arrow {
+  margin-left: 10vw;
+}
+#smallOops {
+  position: absolute;
+  text-align: center;
+  color: yellow;
+  font-weight: bolder;
+  font-size: 4vw;
+  font-family: "Acme", sans-serif;
+  text-shadow: 0.5vw 0.5vw 1vw black;
+  margin-top: 25vw;
+  margin-left: 25vw;
+  padding-top: .5vw;
+  width: 20vw;
+  display: none;
+}
+#finalResults {}
+#noAttention {
+  font-size: 7.5vw;
+  color: green;
+  text-shadow: .5vw .5vw 0vw yellow;
+}
+#ignoreText {}
+#whereWereWe {
+  text-align: center;
+  color: yellow;
+  font-weight: bolder;
+  font-family: "Acme", sans-serif;
+  text-shadow: 0.5vw 0.5vw 1vw black;
+  display: none;
+}
+#backToMatterAtHand {
+  font-family: "Lobster", cursive;
+  font-size: 7.5vw;
+  color: green;
+  text-shadow: .5vw .5vw 0vw yellow;
+}
+#ohYeah {
+  color: yellow;
+  font-weight: bolder;
+  font-size: 4vw;
+  font-family: "Acme", sans-serif;
+  text-shadow: 0.5vw 0.5vw 1vw black;
+}
+#youHave {
+  font-family: "Lobster", cursive;
+  font-size: 4vw;
+  color: green;
+  text-shadow: .5vw .5vw 0vw yellow;
+}
+#yourAmmount {
+  color: yellow;
+  font-weight: bolder;
+  font-size: 5vw;
+  font-family: "Acme", sans-serif;
+  text-shadow: 0.5vw 0.5vw 1vw black;
+}
+#whichMeans {
+  font-size: 3vw;
+}
+#canAfford {
+  color: yellow;
+  font-weight: bolder;
+  font-size: 4vw;
+  font-family: "Acme", sans-serif;
+  text-shadow: 0.5vw 0.5vw 1vw black;
+}
+#affordTable th {
+  width: 25.35vw;
+  font-size: 3vw;
+  color: green;
+  text-shadow: .5vw .5vw 0vw yellow;
+}
+#affordTable {
+  font-size: 2.5vw;
+  margin: auto;
+  margin-left: -2.5vw;
+}
+#resultsRevealAnswer {
+  display: none;
+  margin: 10vw auto;
+  color: lawngreen;
+  font-weight: bolder;
+  font-size: 3vw;
+  font-family: "Acme", sans-serif;
+  text-shadow: 0.5vw 0.5vw 1vw black;
+}
+#resultsRevealAnswer .down-arrow {
+  margin-top: 11.5vw;
+}
+#youAreHim {
+  width: 30vw;
+  margin-left: -5vw;
+}
+#youAreHim:hover {
+  color: lawngreen;
+  border: 1vw solid purple;
+}
+#youAreHim:active {
+  color: whitesmoke;
+  border: 1vw solid yellow;
+}
+#youAreHim:visited {
+  color: purple;
+  border: 1vw solid lawngreen;
+}
+#youAreAStoner {
+  width: 30vw;
+  margin-left: 15vw;
+}
+#youAreAStoner:hover {
+  color: lawngreen;
+  border: 1vw solid purple;
+}
+#youAreAStoner:active {
+  color: whitesmoke;
+  border: 1vw solid yellow;
+}
+#youAreAStoner:visited {
+  color: purple;
+  border: 1vw solid lawngreen;
+}
+#youCaughtTheConverter {
+  display: none;
+}
+#youCaughtThatOneStoner {
+  display: none;
+}
+#writtenBy {
+  display: none;
 }
 .elementToFadeInAndOut {
   opacity: 0;

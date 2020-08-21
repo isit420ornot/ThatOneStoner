@@ -68,7 +68,7 @@
 
     </header>
 
-    <nav>
+    <nav id="mainNav">
       <ul>
         <li>
           <a id="navStoner" href="/">That One Stoner...</a>
@@ -174,14 +174,13 @@
 
         </div>
 
-
         <div id="hallwayAgeResults" class="container">
 
           <div id="hallwayContent">
 
             <h4>Oh... a GenZ Stoner!!!</h4>
 
-            <p>If I have a piece of advice for the youth... it would be... do get too lost in the recreational... and there are many ways to learn that don't require school...</p>
+            <p>If I have a piece of advice for the youth... it would be... don't get too lost in the recreational... and there are many ways to learn that don't require school...</p>
 
           </div>
 
@@ -197,18 +196,14 @@
 
         </div>
 
-
-
         <div id="enterTheChambers" class="container">
 
           <img id="delayAnimation" src="images/javascript/waiting.gif" alt="">
 
           <img class="elementToFadeInAndOut" id="meOzHead" src="images/javascript/meOzHead.png" alt="">
 
-
-
           <div id="ozChamberContent1" class="speech-bubble">
-            <div class="arrow bottom right"></div>
+            <div class="up-arrow top right"></div>
             <h4>Sorry for the delay!!!</h4>
             <p>I still have a thing or two to learn to get this thing working correctly...</p>
 
@@ -222,16 +217,278 @@
           </div>
 
           <div class="container" id="chamberAnswer1">
-            <div class="down-arrow bottom right"></div>
-
             <table>
               <tr>
-                <td class="answer-bubble" id="answer" onclick="answer()">Answer...</td>
-                <td class="answer-bubble" id="yourBusiness" onclick="yourBusiness()">Mind your own business...</td>
+                <td onclick="answer()">
+
+                  <div class="answer-bubble" id="answer">
+                    <div class="down-arrow bottom right"></div>
+                    Answer...
+                  </div>
+                </td>
+                <td onclick="yourBusiness()">
+
+                  <div class="answer-bubble" id="yourBusiness">
+                    <div class="down-arrow bottom right"></div>
+                    Mind your own business...
+                  </div>
+                </td>
               </tr>
             </table>
           </div>
 
+          <div id="ozChamberContent3" class="speech-bubble">
+            <div class="up-arrow top right"></div>
+            <h4>Good thing There's a strain for <span id="insertAilment"></span> </h4>
+            <p>What ailment do you seek to treat with the cannabis that requires The Converter of Oz.'s special converting powers???</p>
+
+          </div>
+
+          <div class="container" id="chamberAnswer2">
+            <table>
+              <tr>
+                <td onclick="showMe()">
+
+                  <div class="answer-bubble" id="showMe">
+                    <div class="down-arrow bottom right"></div>
+                    Show Me...
+                  </div>
+                </td>
+                <td onclick="imGood()">
+
+                  <div class="answer-bubble" id="imGood">
+                    <div class="down-arrow bottom right"></div>
+                    I'm good...
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <div id="ozChamberContent4" class="speech-bubble">
+            <div class="up-arrow top right"></div>
+            <h4>Alright Dorothy...</h4>
+            <p>you're feeling homesick... some Indica dominate... Cherry Pie... may help you image the comfort food from your youth... after consuming this strain you may find yourself all cozy in bed... and you won't even have to click your heels...
+            </p>
+
+          </div>
+
+          <div class="container" id="chamberAnswer3">
+            <table>
+              <tr>
+                <td onclick="thanks()">
+
+                  <div class="answer-bubble" id="thanks">
+                    <div class="down-arrow bottom right"></div>
+                    Thanks!!!
+                  </div>
+                </td>
+                <td onclick="whatever()">
+
+                  <div class="answer-bubble" id="whatever">
+                    <div class="down-arrow bottom right"></div>
+                    Whatever...
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="container" id="converterContainer">
+
+            <div id="theOzConverter">
+              <h2>The Converter Of Oz!!!</h2>
+              <nav>
+                <table>
+                  <tr>
+                    <td>
+                      <button onclick="dbButton()" type="button" name="button">Dime Bag</button>
+                    </td>
+                    <td>
+                      <button onclick="dsButton()" type="button" name="button">Dub Sack</button>
+                    </td>
+                    <td>
+                      <button onclick="eighthButton()" type="button" name="button">1/8</button>
+                    </td>
+                    <td>
+                      <button onclick="qButton()" type="button" name="button">1/4</button>
+                    </td>
+                    <td>
+                      <button onclick="halfButton()" type="button" name="button">1/2</button>
+                    </td>
+                    <td>
+                      <button onclick="lidButton()" type="button" name="button">Lid</button>
+                    </td>
+                    <td>
+                      <button onclick="zipButton()" type="button" name="button">Zip</button>
+                    </td>
+                    <td>
+                      <button onclick="kiloButton()" type="button" name="button">Kilo</button>
+                    </td>
+                  </tr>
+                </table>
+              </nav>
+
+              <div id="inputs">
+                <table>
+                  <tr>
+                    <th><input onchange="convertOz()" id="ozInput" type="float" name="oz" placeholder="???"></th>
+                    <th>
+                      <h2 id="ozLabel">Oz.</h2>
+                    </th>
+                  </tr>
+                </table>
+                <hr>
+                <table id="gramsLBSTable">
+                  <tr>
+                    <td> <input onchange="convertGrams()" id="gramsInput" class="otherInputs" type="float" name="grams" placeholder="???"> </td>
+                    <td>
+                      <h3 class="inputLables">Grams...</h3>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input onchange="convertLbs()" id="lbsInput" class="otherInputs" type="float" name="lbs" placeholder="???">
+                    </td>
+                    <td>
+                      <h3 class=" inputLables">Lb.s...</h3>
+                    </td>
+                  </tr>
+                </table>
+                <hr>
+              </div>
+
+              <h3 id="howMuchLable">How much are you looking to spend...</h3>
+
+              <div id="ammountInput">
+
+                <input id="ammountToSpend" type="float" name="ammount" placeholder="$$$ Ammount $$$">
+
+              </div>
+
+              <button onclick="howMuch()" id="howMuch" type="button" name="button">How Much Can I Get???</button>
+
+            </div>
+
+
+
+
+
+          </div>
+
+          <div class="container" id="oopsDiv">
+
+            <img class="elementToFadeInAndOut" id="meOzHead2" src="images/javascript/meOzHead.png" alt="">
+
+            <div id="bigOops" class="speech-bubble">
+              <div class="up-arrow top right"></div>
+              <h4>Oops!!!</h4>
+            </div>
+
+            <div class="answer-bubble" id="smallOops">
+              <div class="down-arrow bottom right"></div>
+              Oops!!!
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+        <div class="container" id="finalResults">
+
+          <div id="ignoreText" class="speech-bubble">
+            <div class="up-arrow top right"></div>
+            <h4 id="noAttention">Pay no attention to that man behind the curtain!!!</h4>
+          </div>
+
+          <div id="whereWereWe" class="speech-bubble">
+            <div class="up-arrow top right"></div>
+
+            <h5><span id="backToMatterAtHand">Where were we...</span>
+              <br><span id="ohYeah">...oh yeah</span> <span id="youHave"> ...you have...
+                <br>...<span id="yourAmmount"></span>...
+                <br><span id="whichMeans">...which means...</span>
+                <span id="canAfford">You can afford...</span> </h5>
+
+
+
+
+
+            <table id="affordTable">
+              <tr>
+                <th>Ammount...</th>
+                <th>...Qauality...</th>
+                <th>...Per Ounce...</th>
+              </tr>
+              <tr>
+                <td id="topShelfAmmount">""</td>
+                <td>Top-Shelf...</td>
+                <td>$350.00</td>
+              </tr>
+              <tr>
+                <td id="midShelfAmmount">""</td>
+                <td>Mid-Shelf...</td>
+                <td>$200.00</td>
+              </tr>
+              <tr>
+                <td id="bottomShelfAmmount">""</td>
+                <td>Bottom-Shelf...</td>
+                <td>$100.00</td>
+              </tr>
+            </table>
+
+          </div>
+          <div class="container" id="resultsRevealAnswer">
+            <table>
+              <tr>
+                <td onclick="youAreHim()">
+
+                  <div class="answer-bubble" id="youAreHim">
+                    <div class="down-arrow bottom right"></div>
+                    Wait... You're The Great Converter???
+                  </div>
+                </td>
+                <td onclick="youAreAStoner()">
+
+                  <div class="answer-bubble" id="youAreAStoner">
+                    <div class="down-arrow bottom right"></div>
+                    Wait... You're just That One Stoner...
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="container" id="youCaughtTheConverter">
+            <h2>Alright... you caught me... I'm actually the converter of Oz.!!!</h2>
+            <p>Thanks for playing along as I learned a thing or two about JavaScript... Stay tuned because I will be back really soon for the JavaScript Level Two Assignment... See you then!!!</p>
+
+            <button onclick="bye()" type="button" name="seeYaConverter">Godspeed Converter!!!</button>
+
+          </div>
+
+          <div class="container" id="youCaughtThatOneStoner">
+            <h2>Alright... you caught me... I'm just That One Stoner!!!</h2>
+            <p>Thanks for playing along as I learned a thing or two about JavaScript... Stay tuned because I will be back really soon for the JavaScript Level Two Assignment... See you then!!!</p>
+
+            <button onclick="bye()" type="button" name="seeYaConverter">Godspeed Stoner!!!</button>
+          </div>
+
+        </div>
+
+        <div id="writtenBy">
+          <h3>Written By:</h3>
+          <h2>Bunker</h2>
+          <h4>fubunker.com</h4>
+
+          <button onclick="window.location.href='coming-soon.html';" type="button" name="js2">Take Me To JavaScript Lesson II!!!</button>
 
         </div>
 

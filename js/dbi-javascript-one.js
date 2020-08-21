@@ -1,5 +1,5 @@
 var age = null;
-var ailment = null;
+var ailment = "heart";
 var ailment2 = null;
 var recommendation = null;
 var path = null;
@@ -55,10 +55,6 @@ function noTrust() {
 }
 
 
-
-
-
-
 function keepGoing() {
   mainMain.style.backgroundImage = "url(images/javascript/preshowChamber.png)";
 
@@ -87,21 +83,302 @@ function keepGoing() {
     document.getElementById("ozChamberContent2").style.display = "block";
   }, 5);
 
-
-
-
+  setTimeout(() => {
+    document.getElementById("chamberAnswer1").style.display = "block";
+  }, 6);
 
 }
+
+function yourBusiness() {
+  alert("What... does it have something to do with you butt... or your junk... something you're too ashamed to admit to???");
+}
+
+function answer() {
+  alert("This will be an prompt for the real deal")
+
+  document.getElementById("ozChamberContent2").style.display = "none";
+
+  setTimeout(() => {
+    document.getElementById("chamberAnswer1").style.display = "none";
+  }, 6);
+
+  document.getElementById('insertAilment').textContent = ailment;
+
+  document.getElementById("ozChamberContent3").style.display = "block";
+
+  setTimeout(() => {
+    document.getElementById("chamberAnswer2").style.display = "block";
+  }, 12);
+}
+
 
 function tooScared() {
   alert("Yeah yeah yeah... of course you'd be the one to chicken out right before getting to the goal... I bet you've been trying to leave this entire time??? You know where the address bar is located... well... at least most of you generations do...");
 }
 
+function showMe() {
+  document.getElementById("ozChamberContent3").style.display = "none";
+
+  setTimeout(() => {
+    document.getElementById("chamberAnswer2").style.display = "none";
+  }, 12);
+
+  document.getElementById("ozChamberContent4").style.display = "block";
+
+  setTimeout(() => {
+    document.getElementById("chamberAnswer3").style.display = "block";
+  }, 12);
+}
+
+function imGood() {
+  alert("Again... why are you even here??? And how did you get this far just to give up???")
+}
 
 
 
+function thanks() {
+
+  document.getElementById("meOzHead").style.display = "none";
+
+  mainMain.style.backgroundImage = "url(images/javascript/theTrueConverter.png)";
+
+  document.getElementById("ozChamberContent4").style.display = "none";
+
+  setTimeout(() => {
+    document.getElementById("chamberAnswer3").style.display = "none";
+  }, 12);
+
+  document.getElementById("converterContainer").style.display = "block";
 
 
+}
+
+function whatever() {
+  alert("Fine... let's just get to the conversion in order to get this interaction over with...")
+
+  document.getElementById("ozChamberContent4").style.display = "none";
+
+  setTimeout(() => {
+    document.getElementById("chamberAnswer3").style.display = "none";
+  }, 12);
+
+}
+
+function dbButton() {
+  var lbs = document.getElementById('lbsInput').value = null;
+  var oz = document.getElementById('ozInput').value = null;
+  var grams = document.getElementById('gramsInput').value = null;
+  document.getElementsByName('oz')[0].placeholder = '.035';
+  document.getElementsByName('grams')[0].placeholder = '1';
+  document.getElementsByName('lbs')[0].placeholder = '.002';
+}
+
+function dsButton() {
+  var lbs = document.getElementById('lbsInput').value = null;
+  var oz = document.getElementById('ozInput').value = null;
+  var grams = document.getElementById('gramsInput').value = null;
+  document.getElementsByName('oz')[0].placeholder = '.07';
+  document.getElementsByName('grams')[0].placeholder = '2';
+  document.getElementsByName('lbs')[0].placeholder = '.004';
+}
+
+function eighthButton() {
+  var lbs = document.getElementById('lbsInput').value = null;
+  var oz = document.getElementById('ozInput').value = null;
+  var grams = document.getElementById('gramsInput').value = null;
+  document.getElementsByName('oz')[0].placeholder = '1.25';
+  document.getElementsByName('grams')[0].placeholder = '3.5';
+  document.getElementsByName('lbs')[0].placeholder = '.007';
+}
+
+function qButton() {
+  var lbs = document.getElementById('lbsInput').value = null;
+  var oz = document.getElementById('ozInput').value = null;
+  var grams = document.getElementById('gramsInput').value = null;
+  document.getElementsByName('oz')[0].placeholder = '.25';
+  document.getElementsByName('grams')[0].placeholder = '7';
+  document.getElementsByName('lbs')[0].placeholder = '.015';
+}
+
+function halfButton() {
+  var lbs = document.getElementById('lbsInput').value = null;
+  var oz = document.getElementById('ozInput').value = null;
+  var grams = document.getElementById('gramsInput').value = null;
+  document.getElementsByName('oz')[0].placeholder = '.5';
+  document.getElementsByName('grams')[0].placeholder = '14';
+  document.getElementsByName('lbs')[0].placeholder = '.03';
+}
+
+function lidButton() {
+  var lbs = document.getElementById('lbsInput').value = null;
+  var oz = document.getElementById('ozInput').value = null;
+  var grams = document.getElementById('gramsInput').value = null;
+  document.getElementsByName('oz')[0].placeholder = '1';
+  document.getElementsByName('grams')[0].placeholder = '28';
+  document.getElementsByName('lbs')[0].placeholder = '.062';
+}
+
+function zipButton() {
+  var lbs = document.getElementById('lbsInput').value = null;
+  var oz = document.getElementById('ozInput').value = null;
+  var grams = document.getElementById('gramsInput').value = null;
+  document.getElementsByName('oz')[0].placeholder = '16';
+  document.getElementsByName('grams')[0].placeholder = '453';
+  document.getElementsByName('lbs')[0].placeholder = '1';
+}
+
+function kiloButton() {
+  var lbs = document.getElementById('lbsInput').value = null;
+  var oz = document.getElementById('ozInput').value = null;
+  var grams = document.getElementById('gramsInput').value = null;
+  document.getElementsByName('oz')[0].placeholder = '35.27';
+  document.getElementsByName('grams')[0].placeholder = '1000';
+  document.getElementsByName('lbs')[0].placeholder = '2.2';
+}
+
+function convertOz() {
+  var grams = document.getElementById('gramsInput').value = null;
+  var lbs = document.getElementById('lbsInput').value = null;
+
+  var oz = document.getElementById('ozInput').value;
+
+
+
+  var grams = oz * 28.35;
+  var lbs = oz * 0.0625;
+
+  document.getElementsByName('grams')[0].placeholder = grams;
+  document.getElementsByName('lbs')[0].placeholder = lbs;
+
+}
+
+function convertGrams() {
+  var lbs = document.getElementById('lbsInput').value = null;
+  var oz = document.getElementById('ozInput').value = null;
+  var grams = document.getElementById('gramsInput').value;
+
+
+  var oz = grams * 0.03527396195;
+  var lbs = grams * 0.002205;
+
+  document.getElementsByName('oz')[0].placeholder = oz;
+  document.getElementsByName('lbs')[0].placeholder = lbs;
+
+
+}
+
+function convertLbs() {
+  var grams = document.getElementById('gramsInput').value = null;
+  var oz = document.getElementById('ozInput').value = null;
+  var lbs = document.getElementById('lbsInput').value;
+
+
+  var oz = lbs * 16;
+  var grams = lbs * 453.59237;
+
+  document.getElementsByName('oz')[0].placeholder = oz;
+  document.getElementsByName('grams')[0].placeholder = grams;
+
+}
+
+function howMuch() {
+
+  mainMain.style.backgroundImage = "url(images/javascript/behindTheCurtain.png)";
+
+  document.getElementById("converterContainer").style.display = "none";
+
+  document.getElementById("meOzHead2").style.display = "block";
+
+  setTimeout(() => {
+    document.getElementById("smallOops").style.display = "block";
+  }, 100);
+
+  setTimeout(() => {
+    document.getElementById("bigOops").style.display = "block";
+  }, 100);
+
+  setTimeout(() => {
+    document.getElementById("smallOops").style.display = "none";
+  }, 300);
+
+  setTimeout(() => {
+    document.getElementById("bigOops").style.display = "none";
+  }, 300);
+
+  setTimeout(() => {
+    document.getElementById("meOzHead2").style.display = "none";
+  }, 100);
+
+  var spendingAmount = document.getElementById('ammountToSpend').value;
+  var topShelf = spendingAmount / 350;
+  var midShelf = spendingAmount / 200;
+  var bottomShelf = spendingAmount / 100;
+
+  setTimeout(() => {
+    mainMain.style.backgroundImage = "url(images/javascript/preshowChamber.png)";
+  }, 300);
+
+  setTimeout(() => {
+    document.getElementById("meOzHead").style.display = "block";
+  }, 300);
+
+  setTimeout(() => {
+    document.getElementById("ignoreText").style.display = "block";
+  }, 300);
+
+  setTimeout(() => {
+    document.getElementById("ignoreText").style.display = "none";
+  }, 400);
+
+  setTimeout(() => {
+    document.getElementById("whereWereWe").style.display = "block";
+  }, 500);
+
+  setTimeout(() => {
+    document.getElementById("resultsRevealAnswer").style.display = "block";
+  }, 500);
+
+  document.getElementById('yourAmmount').textContent = "$" + spendingAmount;
+  document.getElementById('topShelfAmmount').textContent = topShelf + "Oz.s...";
+  document.getElementById('midShelfAmmount').textContent = midShelf + "Oz.s...";
+  document.getElementById('bottomShelfAmmount').textContent = bottomShelf + "Oz.s...";
+}
+
+function youAreHim() {
+  mainMain.style.backgroundImage = "url(images/javascript/javaOZbg.png)";
+
+  document.getElementById("meOzHead").style.display = "none";
+
+  document.getElementById("whereWereWe").style.display = "none";
+
+  document.getElementById("resultsRevealAnswer").style.display = "none";
+
+  document.getElementById("youCaughtTheConverter").style.display = "block";
+
+}
+
+function youAreAStoner() {
+  mainMain.style.backgroundImage = "url(images/javascript/javaOZbg.png)";
+
+  document.getElementById("meOzHead").style.display = "none";
+
+  document.getElementById("whereWereWe").style.display = "none";
+
+  document.getElementById("resultsRevealAnswer").style.display = "none";
+
+  document.getElementById("youCaughtThatOneStoner").style.display = "block";
+}
+
+function bye() {
+  mainMain.style.backgroundImage = "url(images/javascript/goodbye.png)";
+
+  document.getElementById("writtenBy").style.display = "block";
+
+  document.getElementById("youCaughtTheConverter").style.display = "none";
+
+  document.getElementById("youCaughtThatOneStoner").style.display = "none";
+
+}
 
 
 function myFunction() {
