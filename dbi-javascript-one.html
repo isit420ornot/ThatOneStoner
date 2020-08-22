@@ -178,9 +178,11 @@
 
           <div id="hallwayContent">
 
-            <h4>Oh... a GenZ Stoner!!!</h4>
+            <h4><span id="generationSpan"></span></h4>
 
-            <p>If I have a piece of advice for the youth... it would be... don't get too lost in the recreational... and there are many ways to learn that don't require school...</p>
+            <h3><span id="generationGreeting"></span></h3>
+
+            <p id="areYouReady">Are you ready to do this???</p>
 
           </div>
 
@@ -212,7 +214,7 @@
           <div id="ozChamberContent2" class="speech-bubble">
             <div class="up-arrow top right"></div>
             <h4>Wait... no... I mean...</h4>
-            <p>What ailment do you seek to treat with the cannabis that requires The Converter of Oz.'s special converting powers???</p>
+            <p>What do you seek to treat with the cannabis that requires The Converter of Oz.'s special converting powers???</p>
 
           </div>
 
@@ -239,8 +241,8 @@
 
           <div id="ozChamberContent3" class="speech-bubble">
             <div class="up-arrow top right"></div>
-            <h4>Good thing There's a strain for <span id="insertAilment"></span> </h4>
-            <p>What ailment do you seek to treat with the cannabis that requires The Converter of Oz.'s special converting powers???</p>
+            <h4>Ah... perfect... there just happens to be a strain for... <span id="insertAilment">!!!</span> </h4>
+            <p>Would you like to see my recommendation before we get to the conversion???</p>
 
           </div>
 
@@ -267,10 +269,26 @@
 
           <div id="ozChamberContent4" class="speech-bubble">
             <div class="up-arrow top right"></div>
-            <h4>Alright Dorothy...</h4>
-            <p>you're feeling homesick... some Indica dominate... Cherry Pie... may help you image the comfort food from your youth... after consuming this strain you may find yourself all cozy in bed... and you won't even have to click your heels...
-            </p>
+            <h4 id="characterGuess"></h4>
+            <h5 id="characterRecommendation">
+            </h5>
 
+            <div id="tryRec">
+              <h2 id="recIntro">Would you like to learn more about growing your own <span id="strainRec"></span>???</h2>
+
+
+              <a id="recLink" href="" target="_blank">
+                <div id="recommendImage">
+
+                </div>
+              </a>
+              <h3> <a href="#"></a> </h3>
+
+
+              <h6 id="letsConvert">Now lets get to some converting!!!</h6>
+
+
+            </div>
           </div>
 
           <div class="container" id="chamberAnswer3">
@@ -334,7 +352,7 @@
                   <tr>
                     <th><input onchange="convertOz()" id="ozInput" type="float" name="oz" placeholder="???"></th>
                     <th>
-                      <h2 id="ozLabel">Oz.</h2>
+                      <h3 id="ozLabel">Oz.</h3>
                     </th>
                   </tr>
                 </table>
@@ -405,7 +423,7 @@
 
           <div id="ignoreText" class="speech-bubble">
             <div class="up-arrow top right"></div>
-            <h4 id="noAttention">Pay no attention to that man behind the curtain!!!</h4>
+            <h4 id="noAttention">Pay no attention to that stoner behind the curtain!!!</h4>
           </div>
 
           <div id="whereWereWe" class="speech-bubble">
@@ -467,18 +485,33 @@
           </div>
 
           <div class="container" id="youCaughtTheConverter">
-            <h2>Alright... you caught me... I'm actually the converter of Oz.!!!</h2>
-            <p>Thanks for playing along as I learned a thing or two about JavaScript... Stay tuned because I will be back really soon for the JavaScript Level Two Assignment... See you then!!!</p>
+            <h3>Alright...
+              <br>...you caught me...
+              <br>...I actually am...
+            </h3>
+            <h2>The Converter of Oz.!!!</h2>
+            <p>Thanks for playing along as I learned a thing or two about JavaScript...</p>
 
-            <button onclick="bye()" type="button" name="seeYaConverter">Godspeed Converter!!!</button>
+            <p>Stay tuned because I will be moving on to the JavaScript Level Two Assignment as soom as this balloon lands me back home...</p>
+
+            <p>See you then!!!</p>
+
+            <button id="godspeedConverter" onclick="bye()" type="button" name="seeYaConverter">Godspeed Converter!!!</button>
 
           </div>
 
           <div class="container" id="youCaughtThatOneStoner">
-            <h2>Alright... you caught me... I'm just That One Stoner!!!</h2>
-            <p>Thanks for playing along as I learned a thing or two about JavaScript... Stay tuned because I will be back really soon for the JavaScript Level Two Assignment... See you then!!!</p>
+            <h3>Alright...
+              <br>...you caught me...
+              <br>...I'm just...</h3>
+            <h2>That One Stoner!!!</h2>
+            <p>Thanks for playing along as I learned a thing or two about JavaScript...</p>
 
-            <button onclick="bye()" type="button" name="seeYaConverter">Godspeed Stoner!!!</button>
+            <p>Stay tuned because I will be moving on to the JavaScript Level Two Assignment as soom as this balloon lands me back home...</p>
+
+            <p>See you then!!!</p>
+
+            <button id="godspeedStoner" onclick="bye()" type="button" name="seeYaStoner">Godspeed Stoner!!!</button>
           </div>
 
         </div>
@@ -486,9 +519,9 @@
         <div id="writtenBy">
           <h3>Written By:</h3>
           <h2>Bunker</h2>
-          <h4>fubunker.com</h4>
+          <h4><a href="https://www.fubunker.com">fubunker.com</a></h4>
 
-          <button onclick="window.location.href='coming-soon.html';" type="button" name="js2">Take Me To JavaScript Lesson II!!!</button>
+          <button id="javaIIButton" onclick="window.location.href='coming-soon.html';" type="button" name="js2">Take Me To JavaScript Lesson Two!!!</button>
 
         </div>
 
