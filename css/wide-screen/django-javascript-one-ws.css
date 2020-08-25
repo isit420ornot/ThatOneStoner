@@ -9,7 +9,7 @@
   float: right;
 }
 header {
-  background-image: url("../images/headers/potphotoheader.webp");
+  background-image: url("../../images/headers/potphotoheader.webp");
   background-size: cover;
   height: 35vw;
   width: 100%;
@@ -141,52 +141,57 @@ nav li.dropdown {
 }
 /*START NAVBAR START*/
 /*END HEADER JUMBOTRON GROUP END*/
+body {
+  background-image: url(../../images/javascript/widescreenBG.png);
+}
 main {
-  background-image: url(../images/javascript/fullOz.png);
-  width: 100%;
-  height: 125vw;
-  padding-top: 25vw;
+  background-image: url(../../images/javascript/fullOz.png);
+  width: 860px;
+  margin: 0 auto;
+  height: 1250px;
+  padding-top: 250px;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   overflow-y: hidden;
+  box-shadow: 5px 0px 10px black, 25px 0px 50px darkgoldenrod, -5px 0px 10px black, -25px 0px 50px darkgoldenrod;
 }
 #mainContainer {
-  width: 76vw;
+  width: 700px;
   margin: 0 auto;
 }
 #introContainter {
   display: block;
   background-color: purple;
-  padding: 5vw;
+  padding: 50px;
   text-align: center;
-  box-shadow: -1vw -1vw 5vw #d7b046, 1vw 1vw 5vw #6c8230, 1.25vw 1.25vw 1.5vw black;
+  box-shadow: -10px -10px 50px #d7b046, 10px 10px 50px #6c8230, 12.5px 12.5px 15px black;
   opacity: 0.85;
-  margin-top: 15vw;
+  margin-top: 150px;
 }
 #ozWelcome {
   color: #ffdb4c;
-  font-size: 5vw;
-  text-shadow: 0.75vw 0.75vw 0.75vw #951318, 0.5vw 0.5vw 1vw black;
+  font-size: 50px;
+  text-shadow: 7.5px 7.5px 7.5px #951318, 5px 5px 10px black;
   font-family: "Alfa Slab One", cursive;
 }
 #ozTitle {
   color: whitesmoke;
-  font-size: 7.5vw;
-  text-shadow: 0.25vw 0.25vw 0vw #d17e90, 0.5vw 0.5vw 1vw black;
+  font-size: 70px;
+  text-shadow: 2.5px 2.5px 0px #d17e90, 5px 5px 10px black;
   font-family: "Lobster", cursive;
 }
 #enterLeave table {
-  padding-top: 5vw;
+  padding-top: 50px;
   color: lawngreen;
   font-weight: bolder;
-  font-size: 4vw;
+  font-size: 40px;
   font-family: "Acme", sans-serif;
-  text-shadow: 0.5vw 0.5vw 1vw black;
+  text-shadow: 5px 5px 10px black;
   display: block;
 }
 #enter {
-  width: 38vw;
-  padding-left: 5vw;
+  width: 380px;
+  padding-left: 50px;
 }
 #enter:hover {
   color: yellow;
@@ -198,9 +203,9 @@ main {
   color: yellowgreen;
 }
 #leave {
-  width: 38vw;
+  width: 380px;
   text-align: right;
-  padding-right: 5vw;
+  padding-right: 50px;
 }
 #leave:hover {
   color: yellow;
@@ -213,44 +218,43 @@ main {
 }
 #descriptioncontainer {
   display: none;
-  margin-top: -10vw;
+  margin-top: -100px;
 }
 #ozContent {
-  margin: 0 auto;
-  width: 66vw;
-  padding: 2.5vw;
-  padding-top: 5vw;
+  width: 600px;
+  padding: 50px;
+  padding-top: 50px;
   background-color: #576844;
-  box-shadow: 2vw 2vw 5vw #68846e;
+  box-shadow: 10px 5px 25px #68846e;
 }
 #ozContent h4 {
   font-family: "Lobster", cursive;
   color: yellow;
-  font-size: 7.5vw;
-  padding-bottom: 2.5vw;
-  text-shadow: 0.35vw 0.35vw 0vw black, 0.5vw 0.5vw 0vw whitesmoke;
+  font-size: 60px;
+  padding-bottom: 50px;
+  text-shadow: 3.5px 3.5px 0px black, 5px 5px 0px whitesmoke;
 }
 #ozContent p {
   font-family: "Cinzel", serif;
   color: palegoldenrod;
   line-height: 1.5;
   font-weight: bolder;
-  font-size: 2.5vw;
-  padding-bottom: 2.5vw;
-  text-shadow: 0.3vw 0.3vw 0vw black, 0.35vw 0.35vw 0vw black;
+  font-size: 22.5px;
+  padding-bottom: 25px;
+  text-shadow: 3px 3px 0px black, 3.5px 3.5px 0px black;
 }
 #descriptioncontainer table {
-  width: 76vw;
-  margin: 5vw auto;
+  width: 600px;
+  margin: 50px auto;
   color: #fada32;
   font-weight: bolder;
-  font-size: 5vw;
+  font-size: 50px;
   font-family: "Acme", sans-serif;
-  text-shadow: 0.5vw 0.5vw 1vw black;
+  text-shadow: 5px 5px 10px black;
 }
 #sure {
+  margin-left: -10px;
   float: left;
-  margin-left: 5vw;
 }
 #sure:hover {
   color: whitesmoke;
@@ -274,55 +278,56 @@ main {
   color: yellowgreen;
 }
 #ageContainer {
-  display: none;
-  width: 50vw;
-  margin-left: -7.5vw;
-  margin-top: 10vw;
-  padding: 3vw;
   background-color: #40473f;
-  box-shadow: 1vw 1vw 5vw black;
+  width: 450px;
+  margin-left: -50px;
+  box-shadow: 10px 10px 50px black;
+  padding: 25px;
+  margin-top: 5vw;
 }
 #ageContainer h4 {
   font-family: "Lobster", cursive;
   color: yellow;
-  font-size: 5vw;
-  text-shadow: 0.1vw 0.1vw 0vw whitesmoke, 0.25vw 0.25vw 0vw #d17e90;
-  float: left;
+  font-size: 50px;
+  text-shadow: 1px 1px 0px whitesmoke, 2.5px 2.5px 0px #d17e90;
 }
 #ageContainer h2 {
-  clear: both;
   color: whitesmoke;
-  font-size: 5vw;
+  font-size: 50px;
   text-align: right;
-  text-shadow: 0.25vw 0.25vw 0vw #d17e90, 0.5vw 0.5vw 1vw black;
+  text-shadow: 2.5px 2.5px 0px #d17e90, 5px 5px 10px black;
   font-family: "Lobster", cursive;
+  margin-bottom: 2.5vw;
 }
 #ageContainer p {
   color: #d17e90;
-  font-size: 2.6vw;
+  font-size: 22px;
   text-align: center;
-  text-shadow: 0.1vw 0.1vw 0vw black;
+  text-shadow: 1px 1px 0px black;
   font-weight: bolder;
 }
 #ageContainer h6 {
   color: #789e7d;
-  font-size: 1.9vw;
-  text-shadow: .07vw .07vw .1vw black;
+  font-size: 15px;
+  text-shadow: .7px .7px 1px black;
   text-align: center;
-  padding-top: 2.5vw;
 }
 #ageButtons {
   display: none;
-  margin-top: 2.75vw;
-  margin-left: -7.5vw;
+  width: 480px;
+  margin-top: 25px;
   color: #f9c52f;
   font-weight: bolder;
-  font-size: 4vw;
+  font-size: 30px;
   font-family: "Acme", sans-serif;
-  text-shadow: 0.5vw 0.5vw 1vw black;
+  text-shadow: 5px 5px 10px black;
+  margin-left: -40px;
+}
+#ageButtons td {
+  width: 250px;
 }
 #whyNot {
-  width: 20vw;
+  width: 150px;
 }
 #whyNot:hover {
   color: lawngreen;
@@ -334,9 +339,8 @@ main {
   color: yellow;
 }
 #noTrust {
-  width: 30vw;
-  text-align: right;
-  padding-left: 5vw;
+  width: 250px;
+  padding-left: 25px;
 }
 #noTrust:hover {
   color: lawngreen;
@@ -349,50 +353,52 @@ main {
 }
 #hallwayAgeResults {
   display: none;
+  margin-top: -175px;
 }
 #hallwayContent {
-  margin-top: -15vw;
-  width: 100%;
-  padding: 5vw;
+  width: 600px;
+  margin: 0 auto;
+  padding: 50px;
   background-color: #ffd72d;
-  box-shadow: 1vw 1vw 5vw goldenrod;
+  box-shadow: 10px 10px 50px goldenrod;
 }
 #hallwayContent h4 {
   font-family: "Lobster", cursive;
   color: purple;
-  font-size: 4.5vw;
-  text-shadow: 0.1vw 0.1vw 0vw whitesmoke, 0.75vw 0.75vw 1vw #d17e90;
-  padding-bottom: 2.5vw;
+  font-size: 45px;
+  text-shadow: 1px 1px 0px whitesmoke, 7.5px 7.5px 10px #d17e90;
+  padding-bottom: 25px;
 }
 #hallwayContent h3 {
   color: darkgoldenrod;
-  font-size: 3vw;
-  padding-top: 2.5vw;
-  padding-bottom: 2.5vw;
-  text-shadow: 0.1vw 0.1vw 0vw purple;
+  font-size: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-shadow: 1px 1px 0px purple;
   font-weight: bolder;
 }
 #areYouReady {
   color: whitesmoke;
-  font-size: 3vw;
-  padding-top: 2.5vw;
-  padding-bottom: 2.5vw;
-  text-shadow: 0.1vw 0.1vw 0vw purple;
+  font-size: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-shadow: 1.5px 1.5px 0px purple;
   font-weight: bolder;
   font-family: "Acme", sans-serif;
 }
 #hallwayButtons {
-  width: 76vw;
-  margin: 5vw auto;
+  width: 650px;
+  margin: 75px auto;
   color: lawngreen;
   font-weight: bolder;
-  font-size: 4vw;
+  font-size: 40px;
   font-family: "Acme", sans-serif;
-  text-shadow: 0.5vw 0.5vw 1vw black;
+  text-shadow: 5px 5px 10px black;
+  margin-top: 25px;
 }
 #keepGoing {
-  width: 38vw;
-  padding-left: 2.5vw;
+  width: 380px;
+  padding-left: 10px;
 }
 #keepGoing:hover {
   color: whitesmoke;
@@ -404,9 +410,9 @@ main {
   color: yellowgreen;
 }
 #tooScared {
-  width: 38vw;
+  width: 380px;
   text-align: right;
-  margin-right: 25vw;
+  margin-right: 250px;
 }
 #tooScared:hover {
   color: whitesmoke;
@@ -419,28 +425,28 @@ main {
 }
 #delayAnimation {
   display: none;
-  width: 10vw;
+  width: 100px;
   margin: auto;
-  margin-top: 25vw;
+  margin-top: 250px;
 }
 #meOzHead {
   display: none;
-  width: 50vw;
+  width: 500px;
   margin: auto;
-  margin-top: -15vw;
+  margin-top: -150px;
 }
 #enterTheChambers h4 {
   font-family: "Lobster", cursive;
   color: lawngreen;
-  font-size: 5vw;
-  text-shadow: 0.1vw 0.1vw 0vw whitesmoke, 0.25vw 0.25vw .25vw purple;
+  font-size: 40px;
+  text-shadow: 1px 1px 0px whitesmoke, 2.5px 2.5px 2.5px purple;
 }
 #enterTheChambers p {
   color: yellow;
-  font-size: 3vw;
-  padding-top: 2.5vw;
-  padding-bottom: 2.5vw;
-  text-shadow: 0.2vw 0.2vw 0.3vw black;
+  font-size: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-shadow: 2px 2px 3px black;
   font-weight: bolder;
 }
 .speech-bubble .up-arrow {
@@ -450,18 +456,19 @@ main {
 }
 .top {
   border-color: transparent transparent purple transparent;
-  border-width: 4.5vw 4.5vw 4.5vw 4.5vw;
-  margin-top: -12.5vw;
-  margin-left: 40vw;
+  border-width: 45px 45px 45px 45px;
+  margin-top: -125px;
+  margin-left: 400px;
 }
 .speech-bubble {
   display: none;
-  width: 100%;
-  padding: 2.5vw;
+  width: 600px;
+  margin: 0 auto;
+  padding: 25px;
   background-color: floralwhite;
-  border-radius: 2.5vw;
-  box-shadow: 1vw 2.5vw 0vw black, -1vw 2.5vw 0vw black, 2vw 2vw 5vw white;
-  border: 1vw solid purple;
+  border-radius: 25px;
+  box-shadow: 10px 25px 0px black, -10px 25px 0px black, 20px 20px 50px white;
+  border: 10px solid purple;
   z-index: 0;
   opacity: .85;
 }
@@ -469,61 +476,58 @@ main {
   text-align: center;
   color: yellow;
   font-weight: bolder;
-  font-size: 4vw;
+  font-size: 30px;
   font-family: "Acme", sans-serif;
-  text-shadow: 0.5vw 0.5vw 1vw black;
-  margin-top: 10vw;
-  margin-left: 5vw;
+  text-shadow: 5px 5px 10px black;
+  margin-top: 100px;
+  margin-left: 25px;
   width: 100%;
   display: none;
 }
 #fire {
-  width: 100%;
+  width: 860px;
   position: absolute;
-  margin-top: -35vw;
+  margin-top: -350px;
   display: none;
 }
 #leftFire {
   float: left;
-  width: 40vw;
-  margin-top: 50vw;
-  margin-left: -13vw;
+  width: 400px;
+  margin-top: 490px;
+  margin-left: -120px;
 }
 #rightFire {
   float: right;
-  width: 40vw;
-  margin-top: 44vw;
-  margin-right: 8vw;
-}
-#answer {
-  margin-right: 5vw;
+  width: 400px;
+  margin-top: 425px;
+  margin-right: 25px;
 }
 #answer:hover {
   color: lawngreen;
-  border: 1vw solid purple;
+  border: 10px solid purple;
 }
 #answer:active {
   color: whitesmoke;
-  border: 1vw solid yellow;
+  border: 10px solid yellow;
 }
 #answer:visited {
   color: purple;
-  border: 1vw solid lawngreen;
+  border: 10px solid lawngreen;
 }
 #yourBusiness {
   float: right;
 }
 #yourBusiness:hover {
   color: lawngreen;
-  border: 1vw solid purple;
+  border: 10px solid purple;
 }
 #yourBusiness:active {
   color: whitesmoke;
-  border: 1vw solid yellow;
+  border: 10px solid yellow;
 }
 #yourBusiness:visited {
   color: purple;
-  border: 1vw solid lawngreen;
+  border: 10px solid lawngreen;
 }
 #ozChamberContent3 {
   display: none;
@@ -532,51 +536,51 @@ main {
   text-align: center;
   color: yellow;
   font-weight: bolder;
-  font-size: 4vw;
+  font-size: 30px;
   font-family: "Acme", sans-serif;
-  text-shadow: 0.5vw 0.5vw 1vw black;
-  margin-top: 10vw;
-  margin-left: 5vw;
+  text-shadow: 5px 5px 10px black;
+  margin-top: 100px;
+  margin-left: 50px;
   width: 100%;
   display: none;
 }
 #showMe {
-  margin-right: 5vw;
+  margin-right: 50px;
 }
 #showMe:hover {
   color: lawngreen;
-  border: 1vw solid purple;
+  border: 10px solid purple;
 }
 #showMe:active {
   color: whitesmoke;
-  border: 1vw solid yellow;
+  border: 10px solid yellow;
 }
 #showMe:visited {
   color: purple;
-  border: 1vw solid lawngreen;
+  border: 10px solid lawngreen;
 }
 #imGood {
   float: right;
-  margin-left: 10vw;
+  margin-left: 100px;
 }
 #imGood:hover {
   color: lawngreen;
-  border: 1vw solid purple;
+  border: 10px solid purple;
 }
 #imGood:active {
   color: whitesmoke;
-  border: 1vw solid yellow;
+  border: 10px solid yellow;
 }
 #imGood:visited {
   color: purple;
-  border: 1vw solid lawngreen;
+  border: 10px solid lawngreen;
 }
 #characterRecommendation {
   color: yellow;
-  font-size: 3vw;
-  padding-top: 2.5vw;
-  padding-bottom: 2.5vw;
-  text-shadow: 0.2vw 0.2vw 0.3vw black;
+  font-size: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-shadow: 2px 2px 3px black;
   font-weight: bolder;
 }
 #tryRec {
@@ -585,29 +589,29 @@ main {
 #recIntro {
   font-family: "Lobster", cursive;
   color: lawngreen;
-  font-size: 5vw;
-  text-shadow: 0.1vw 0.1vw 0vw whitesmoke, 0.25vw 0.25vw .25vw purple;
+  font-size: 50px;
+  text-shadow: 1px 1px 0px whitesmoke, 2px 2px 1px purple;
 }
 #letsConvert {
   color: purple;
-  text-shadow: .25vw .25vw 0vw yellow, .35vw .35vw 0vw green;
+  text-shadow: 1px 1px 0px yellow, 2px 2px 1px green;
   font-family: "Alfa Slab One", cursive;
   text-align: center;
-  font-size: 2.5vw;
+  font-size: 25px;
   display: none;
 }
 #strainRec {
   color: forestgreen;
 }
 #recommendImage {
-  height: 15vw;
-  width: 30vw;
+  height: 150px;
+  width: 300px;
   background-size: 100% 100%;
-  background-image: url(../images/javascript/CherryPieStrain.jpg);
-  box-shadow: 1vw 1vw 5vw black;
+  background-image: url(../../images/javascript/CherryPieStrain.jpg);
+  box-shadow: 10px 10px 50px black;
   margin: auto;
-  margin-top: 2.5vw;
-  margin-bottom: 2.5vw;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 #ozChamberContent4 {
   display: none;
@@ -616,83 +620,83 @@ main {
   text-align: center;
   color: yellow;
   font-weight: bolder;
-  font-size: 4vw;
+  font-size: 30px;
   font-family: "Acme", sans-serif;
-  text-shadow: 0.5vw 0.5vw 1vw black;
-  margin-top: 5vw;
-  margin-left: 10vw;
+  text-shadow: 5px 5px 10px black;
+  margin-top: 50px;
+  margin-left: 100px;
   width: 100%;
   display: none;
 }
 #thanks {
-  margin-right: 5vw;
+  margin-right: 50px;
 }
 #thanks:hover {
   color: lawngreen;
-  border: 1vw solid purple;
+  border: 10px solid purple;
 }
 #thanks:active {
   color: whitesmoke;
-  border: 1vw solid yellow;
+  border: 10px solid yellow;
 }
 #thanks:visited {
   color: purple;
-  border: 1vw solid lawngreen;
+  border: 10px solid lawngreen;
 }
 #whatever {
   float: right;
-  margin-left: 10vw;
+  margin-left: 100px;
 }
 #whatever:hover {
   color: lawngreen;
-  border: 1vw solid purple;
+  border: 10px solid purple;
 }
 #whatever:active {
   color: whitesmoke;
-  border: 1vw solid yellow;
+  border: 10px solid yellow;
 }
 #whatever:visited {
   color: purple;
-  border: 1vw solid lawngreen;
+  border: 10px solid lawngreen;
 }
 .answer-bubble .down-arrow {
   border-style: solid;
   position: absolute;
   z-index: 1;
-  margin-top: 8.5vw;
-  margin-left: 2.5vw;
+  margin-top: 75px;
+  margin-left: 25px;
 }
 .bottom {
   border-color: lawngreen transparent transparent transparent;
-  border-width: 4.5vw 4.5vw 4.5vw 4.5vw;
+  border-width: 45px 45px 45px 45px;
 }
 .answer-bubble {
   text-align: center;
   display: block;
-  padding: 2.5vw;
+  padding: 27.5px;
   background-color: whitesmoke;
-  border-radius: 2.5vw;
-  box-shadow: 0vw -2.5vw 0vw black, 0.75vw -2.5vw 0vw black, -2vw -2vw 5vw white;
-  border: 1vw solid lawngreen;
+  border-radius: 25px;
+  box-shadow: 0px -25px 0px black, 7.5px -25px 0px black, -20px -20px 50px white;
+  border: 10px solid lawngreen;
   opacity: .85;
 }
 #converterContainer {
-  width: 76vw;
+  width: 700px;
   margin: 0 auto;
   background-color: purple;
-  box-shadow: 1vw 1vw 5vw whitesmoke;
+  box-shadow: 10px 10px 50px whitesmoke;
   opacity: .85;
-  margin-top: -20vw;
+  margin-top: -150px;
   display: none;
 }
 #theOzConverter h2 {
   background-color: lawngreen;
   color: yellow;
-  font-size: 7.5vw;
-  padding-top: 2.5vw;
-  padding-bottom: 2.5vw;
-  text-shadow: 0.25vw 0.25vw 0vw #d17e90, 0.5vw 0.5vw 0.5vw purple;
-  margin-bottom: 2.5vw;
+  font-size: 75px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-shadow: 2.5px 2.5px 0px #d17e90, 5px 5px 5px purple;
+  margin-bottom: 25px;
   text-align: center;
   font-family: "Lobster", cursive;
 }
@@ -700,160 +704,163 @@ main {
   margin: 0 auto;
 }
 #theOzConverter nav button {
-  width: 9vw;
+  width: 85px;
   font-weight: bolder;
-  font-size: 2.25vw;
-  padding: .5vw;
+  font-size: 22.5px;
+  padding: 5px;
   background-color: lawngreen;
   color: whitesmoke;
-  text-shadow: .25vw .25vw 0vw purple, .35vw .35vw 0vw yellow;
+  text-shadow: 2.5px 2.5px 0px purple, 3.5px 3.5px 0px yellow;
   font-family: "Alfa Slab One", cursive;
   text-align: center;
-  height: 10vw;
+  height: 75px;
+  vertical-align: middle;
 }
 #theOzConverter nav button:hover {
   background-color: yellow;
   color: lawngreen;
-  text-shadow: .25vw .25vw 0vw purple, .35vw .35vw 0vw whitesmoke;
+  text-shadow: 2.5px 2.5px 0px purple, 3.5px 3.5px 0px whitesmoke;
   font-family: "Alfa Slab One", cursive;
   text-align: center;
-  height: 10vw;
+  height: 75px;
+  vertical-align: middle;
 }
 #theOzConverter nav button:active {
   background-color: whitesmoke;
   color: purple;
-  text-shadow: .25vw .25vw 0vw yellow, .35vw .35vw 0vw green;
+  text-shadow: 2.5px 2.5px 0px yellow, 3.5px 3.5px 0px green;
   font-family: "Alfa Slab One", cursive;
   text-align: center;
-  height: 10vw;
+  height: 75px;
+  vertical-align: middle;
 }
 #ozInput {
-  height: 15vw;
-  width: 15vw;
+  height: 150px;
+  width: 150px;
   text-align: center;
-  font-size: 5vw;
+  font-size: 50px;
 }
 #inputs th {
-  padding-top: 2.5vw;
-  padding-bottom: 2.5vw;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 #ozLabel {
   color: yellow;
-  font-size: 7.5vw;
-  padding-top: 5vw;
-  padding-bottom: 2.5vw;
-  text-shadow: 0.25vw 0.25vw 0vw black, 0.5vw 0.5vw 1vw #d17e90;
-  margin-top: 7.5vw;
+  font-size: 75px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  text-shadow: 2.5px 2.5px 0px black, 5px 5px 10px #d17e90;
+  margin-top: 75px;
   text-align: center;
   font-family: "Lobster", cursive;
 }
 #gramsLBSTable {
-  padding-top: 2.5vw;
-  padding-bottom: 2.5vw;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .otherInputs {
-  height: 7.5vw;
-  width: 7.5vw;
-  margin-bottom: 2.5vw;
+  height: 75px;
+  width: 75px;
+  margin-bottom: 25px;
   text-align: center;
-  font-size: 3vw;
+  font-size: 30px;
   font-weight: bolder;
 }
 .inputLables {
   color: whitesmoke;
-  font-size: 4vw;
-  padding-top: 5vw;
-  padding-bottom: 2.5vw;
-  text-shadow: 0.25vw 0.25vw 0vw black, 0.5vw 0.5vw 1vw #d17e90;
+  font-size: 40px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  text-shadow: 2.5px 2.5px 0px black, 5px 5px 10px #d17e90;
   text-align: center;
   font-family: "Lobster", cursive;
-  margin-top: 2.5vw;
+  margin-top: 25px;
 }
 #howMuchLable {
   color: lawngreen;
-  font-size: 4vw;
-  padding-top: 5vw;
-  padding-bottom: 2.5vw;
-  text-shadow: 0.15vw 0.15vw 0vw whitesmoke, 0.25vw 0.25vw 1vw #d17e90;
+  font-size: 40px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  text-shadow: 1.5px 1.5px 0px whitesmoke, 2.5px 2.5px 10px #d17e90;
   text-align: center;
   font-family: "Lobster", cursive;
 }
 #ammountInput {
-  margin-left: 22.5vw;
+  margin-left: 225px;
 }
 #ammountInput input {
   text-align: center;
-  padding: 1.5vw;
-  font-size: 2vw;
+  padding: 15px;
+  font-size: 20px;
   font-weight: bolder;
 }
 #howMuch {
   width: 100%;
-  margin-top: 5vw;
+  margin-top: 50px;
   font-weight: bolder;
-  font-size: 2.25vw;
-  padding: .5vw;
+  font-size: 22.5px;
+  padding: 5px;
   background-color: lawngreen;
   color: whitesmoke;
-  text-shadow: .25vw .25vw 0vw purple, .35vw .35vw 0vw yellow;
+  text-shadow: 2.5px 2.5px 0px purple, 3.5px 3.5px 0px yellow;
   font-family: "Alfa Slab One", cursive;
   text-align: center;
-  height: 10vw;
+  height: 100px;
 }
 #howMuch:hover {
   background-color: yellow;
   color: lawngreen;
-  text-shadow: .25vw .25vw 0vw purple, .35vw .35vw 0vw whitesmoke;
+  text-shadow: 2.5px 2.5px 0px purple, 3.5px 3.5px 0px whitesmoke;
   font-family: "Alfa Slab One", cursive;
   text-align: center;
-  height: 10vw;
+  height: 100px;
 }
 #howMuch:active {
   background-color: whitesmoke;
   color: purple;
-  text-shadow: .25vw .25vw 0vw yellow, .35vw .35vw 0vw green;
+  text-shadow: 2.5px 2.5px 0px yellow, 3.5px 3.5px 0px green;
   font-family: "Alfa Slab One", cursive;
   text-align: center;
-  height: 10vw;
+  height: 100px;
 }
 #meOzHead2 {
   display: none;
-  width: 100vw;
-  margin-top: -80vw;
-  margin-left: 5vw;
+  width: 1000px;
+  margin-top: -800px;
+  margin-left: 50px;
   position: inherit;
   z-index: 0;
 }
 #bigOops {
   display: none;
   position: absolute;
-  width: 30vw;
-  height: 7.5vw;
-  margin-left: 45vw;
+  width: 300px;
+  height: 75px;
+  margin-left: 250px;
   text-align: center;
 }
 #bigOops .up-arrow {
-  margin-left: 10vw;
+  margin-left: 100px;
 }
 #smallOops {
   position: absolute;
   text-align: center;
   color: yellow;
   font-weight: bolder;
-  font-size: 4vw;
+  font-size: 40px;
   font-family: "Acme", sans-serif;
-  text-shadow: 0.5vw 0.5vw 1vw black;
-  margin-top: 25vw;
-  margin-left: 25vw;
-  padding-top: .5vw;
-  width: 20vw;
+  text-shadow: 5px 5px 10px black;
+  margin-top: 250px;
+  margin-left: 250px;
+  padding-top: 5px;
+  width: 200px;
   display: none;
 }
 #finalResults {}
 #noAttention {
-  font-size: 5vw;
+  font-size: 50px;
   color: green;
-  text-shadow: .5vw .5vw 0vw yellow;
+  text-shadow: 5px 5px 0px yellow;
 }
 #ignoreText {}
 #whereWereWe {
@@ -861,222 +868,222 @@ main {
   color: yellow;
   font-weight: bolder;
   font-family: "Acme", sans-serif;
-  text-shadow: 0.5vw 0.5vw 1vw black;
+  text-shadow: 5px 5px 10px black;
   display: none;
 }
 #backToMatterAtHand {
   font-family: "Lobster", cursive;
-  font-size: 7.5vw;
+  font-size: 75px;
   color: green;
-  text-shadow: .5vw .5vw 0vw yellow;
+  text-shadow: 5px 5px 0px yellow;
 }
 #ohYeah {
   color: yellow;
   font-weight: bolder;
-  font-size: 4vw;
+  font-size: 40px;
   font-family: "Acme", sans-serif;
-  text-shadow: 0.5vw 0.5vw 1vw black;
+  text-shadow: 5px 5px 10px black;
 }
 #youHave {
   font-family: "Lobster", cursive;
-  font-size: 4vw;
+  font-size: 40px;
   color: green;
-  text-shadow: .5vw .5vw 0vw yellow;
+  text-shadow: 5px 5px 0px yellow;
 }
 #yourAmmount {
   color: yellow;
   font-weight: bolder;
-  font-size: 5vw;
+  font-size: 50px;
   font-family: "Acme", sans-serif;
-  text-shadow: 0.5vw 0.5vw 1vw black;
+  text-shadow: 5px 5px 10px black;
 }
 #whichMeans {
-  font-size: 3vw;
+  font-size: 30px;
 }
 #canAfford {
   color: yellow;
   font-weight: bolder;
-  font-size: 4vw;
+  font-size: 40px;
   font-family: "Acme", sans-serif;
-  text-shadow: 0.5vw 0.5vw 1vw black;
+  text-shadow: 5px 5px 10px black;
 }
 #affordTable th {
-  width: 25.35vw;
-  font-size: 3vw;
+  width: 253.5px;
+  font-size: 30px;
   color: green;
-  text-shadow: .5vw .5vw 0vw yellow;
+  text-shadow: 5px 5px 0px yellow;
 }
 #affordTable {
-  font-size: 2.5vw;
+  font-size: 25px;
   margin: auto;
-  margin-left: -2.5vw;
+  margin-left: -25px;
 }
 #resultsRevealAnswer {
   display: none;
-  margin: 10vw auto;
+  margin: 100px auto;
   color: lawngreen;
   font-weight: bolder;
-  font-size: 3vw;
+  font-size: 30px;
   font-family: "Acme", sans-serif;
-  text-shadow: 0.5vw 0.5vw 1vw black;
+  text-shadow: 5px 5px 10px black;
 }
 #resultsRevealAnswer .down-arrow {
-  margin-top: 11.5vw;
+  margin-top: 115px;
 }
 #youAreHim {
-  width: 30vw;
-  margin-left: -5vw;
+  width: 275px;
+  margin-left: -50px;
 }
 #youAreHim:hover {
   color: lawngreen;
-  border: 1vw solid purple;
+  border: 10px solid purple;
 }
 #youAreHim:active {
   color: whitesmoke;
-  border: 1vw solid yellow;
+  border: 10px solid yellow;
 }
 #youAreHim:visited {
   color: purple;
-  border: 1vw solid lawngreen;
+  border: 10px solid lawngreen;
 }
 #youAreAStoner {
-  width: 30vw;
-  margin-left: 15vw;
+  width: 275px;
+  margin-left: 50px;
 }
 #youAreAStoner:hover {
   color: lawngreen;
-  border: 1vw solid purple;
+  border: 10px solid purple;
 }
 #youAreAStoner:active {
   color: whitesmoke;
-  border: 1vw solid yellow;
+  border: 10px solid yellow;
 }
 #youAreAStoner:visited {
   color: purple;
-  border: 1vw solid lawngreen;
+  border: 10px solid lawngreen;
 }
 #youCaughtTheConverter {
   display: none;
-  margin-right: -7.5vw;
-  width: 40vw;
+  margin-right: -75px;
+  width: 400px;
   background-color: #70b463;
-  padding: 5vw;
+  padding: 50px;
   float: right;
-  box-shadow: 1vw 1vw 5vw #84f692;
+  box-shadow: 10px 10px 50px #84f692;
 }
 #youCaughtTheConverter h3 {
   text-align: center;
   color: yellow;
-  font-size: 4vw;
-  text-shadow: 0.4vw 0.4vw 0vw black;
+  font-size: 40px;
+  text-shadow: 4px 4px 0px black;
   font-family: "Alfa Slab One", cursive;
   background-color: #3a5a3b;
-  padding: 5vw;
-  margin: -5vw;
+  padding: 50px;
+  margin: -50px;
 }
 #youCaughtTheConverter h2 {
   color: whitesmoke;
-  font-size: 6.5vw;
-  text-shadow: 0.25vw 0.25vw 0vw #d17e90, 0.5vw 0.5vw 1vw black;
+  font-size: 65px;
+  text-shadow: 2.5px 2.5px 0px #d17e90, 5px 5px 10px black;
   font-family: "Lobster", cursive;
   text-align: center;
-  margin-bottom: 2.5vw;
+  margin-bottom: 25px;
   background-color: #3a5a3b;
-  padding: 5vw;
-  margin: -5vw;
-  margin-top: -7.5vw;
-  margin-bottom: 5vw;
+  padding: 50px;
+  margin: -50px;
+  margin-top: -75px;
+  margin-bottom: 50px;
 }
 #youCaughtTheConverter p {
   font-family: "Cinzel", serif;
   color: yellow;
   line-height: 1.5;
   font-weight: bolder;
-  font-size: 2.5vw;
-  padding-bottom: 2.5vw;
-  text-shadow: 0.3vw 0.3vw 0vw black, 0.35vw 0.35vw 0vw black;
+  font-size: 25px;
+  padding-bottom: 25px;
+  text-shadow: 3px 3px 0px black, 3.5px 3.5px 0px black;
 }
 #godspeedConverter {
-  margin-top: 5vw;
-  padding: 2.5vw;
+  margin-top: 50px;
+  padding: 25px;
   text-align: center;
   color: yellow;
-  font-size: 3vw;
-  text-shadow: 0.4vw 0.4vw 0vw green;
+  font-size: 30px;
+  text-shadow: 4px 4px 0px green;
   background-color: #3a5a3b;
   font-family: "Acme", sans-serif;
   width: 100%;
 }
 #godspeedConverter:hover {
   color: green;
-  text-shadow: 0.4vw 0.4vw 0vw whitesmoke;
+  text-shadow: 4px 4px 0px whitesmoke;
   background-color: yellow;
 }
 #godspeedConverter:active {
   color: purple;
-  text-shadow: 0.1vw 0.1vw 0vw black;
+  text-shadow: 1px 1px 0px black;
   background-color: whitesmoke;
 }
 #youCaughtThatOneStoner {
   display: none;
-  margin-right: -7.5vw;
-  width: 40vw;
+  margin-right: -75px;
+  width: 400px;
   background-color: #70b463;
-  padding: 5vw;
+  padding: 50px;
   float: right;
-  box-shadow: 1vw 1vw 5vw #84f692;
+  box-shadow: 10px 10px 50px #84f692;
 }
 #youCaughtThatOneStoner h3 {
   text-align: center;
   color: yellow;
-  font-size: 3.5vw;
-  text-shadow: 0.4vw 0.4vw 0vw black;
+  font-size: 35px;
+  text-shadow: 4px 4px 0px black;
   font-family: "Alfa Slab One", cursive;
   background-color: #3a5a3b;
-  padding: 5vw;
-  margin: -5vw;
+  padding: 50px;
+  margin: -50px;
 }
 #youCaughtThatOneStoner h2 {
   color: whitesmoke;
-  font-size: 5.5vw;
-  text-shadow: 0.25vw 0.25vw 0vw #d17e90, 0.5vw 0.5vw 1vw black;
+  font-size: 55px;
+  text-shadow: 2.5px 2.5px 0px #d17e90, 5px 5px 10px black;
   font-family: "Lobster", cursive;
   text-align: center;
-  margin-bottom: 2.5vw;
+  margin-bottom: 25px;
   background-color: #3a5a3b;
-  padding: 5vw;
-  margin: -5vw;
-  margin-top: -7.5vw;
-  margin-bottom: 5vw;
+  padding: 50px;
+  margin: -50px;
+  margin-top: -75px;
+  margin-bottom: 50px;
 }
 #youCaughtThatOneStoner p {
   font-family: "Cinzel", serif;
   color: yellow;
   line-height: 1.5;
   font-weight: bolder;
-  font-size: 2.5vw;
-  padding-bottom: 2.5vw;
-  text-shadow: 0.3vw 0.3vw 0vw black, 0.35vw 0.35vw 0vw black;
+  font-size: 25px;
+  padding-bottom: 25px;
+  text-shadow: 3px 3px 0px black, 3.5px 3.5px 0px black;
 }
 #godspeedStoner {
-  margin-top: 5vw;
-  padding: 2.5vw;
+  margin-top: 50px;
+  padding: 25px;
   text-align: center;
   color: yellow;
-  font-size: 3vw;
-  text-shadow: 0.4vw 0.4vw 0vw green;
+  font-size: 30px;
+  text-shadow: 4px 4px 0px green;
   background-color: #3a5a3b;
   font-family: "Acme", sans-serif;
   width: 100%;
 }
 #godspeedStoner:hover {
   color: green;
-  text-shadow: 0.4vw 0.4vw 0vw whitesmoke;
+  text-shadow: 4px 4px 0px whitesmoke;
   background-color: yellow;
 }
 #godspeedStoner:active {
   color: purple;
-  text-shadow: 0.1vw 0.1vw 0vw black;
+  text-shadow: 1px 1px 0px black;
   background-color: whitesmoke;
 }
 #writtenBy {
@@ -1085,26 +1092,26 @@ main {
 #writtenBy h3 {
   color: whitesmoke;
   font-family: "Alfa Slab One", cursive;
-  text-shadow: .25vw .25vw 0vw blue;
+  text-shadow: 2.5px 2.5px 0px blue;
 }
 #writtenBy h2 {
   color: whitesmoke;
-  font-size: 6vw;
+  font-size: 60px;
   font-family: "Alfa Slab One", cursive;
-  text-shadow: .25vw .25vw 0vw blue;
+  text-shadow: 2.5px 2.5px 0px blue;
 }
 #writtenBy a {
   color: yellow;
-  font-size: 5vw;
+  font-size: 50px;
   font-family: "Lobster", cursive;
-  text-shadow: .25vw .25vw 0vw black;
+  text-shadow: 2.5px 2.5px 0px black;
   text-decoration: none;
 }
 #javaIIButton {
-  margin-top: 40vw;
-  margin-left: 50vw;
-  width: 35vw;
-  padding: 2.5vw;
+  margin-top: 400px;
+  margin-left: 400px;
+  width: 350px;
+  padding: 25px;
   background-color: #184b2d;
   color: #fee160;
   font-family: "Acme", sans-serif;
@@ -1123,43 +1130,43 @@ main {
 }
 #secretInput {
   float: left;
-  margin-top: -2.5vw;
-  width: 20vw;
-  margin-left: -10vw;
+  margin-top: -25px;
+  width: 200px;
+  margin-left: -50px;
   opacity: .5;
   background-color: gold;
   color: green;
   font-weight: bolder;
-  font-size: 3vw;
+  font-size: 30px;
 }
 #secretInput::placeholder {
   color: green;
   font-weight: bolder;
-  font-size: 3vw;
+  font-size: 30px;
 }
 #secretButton {
   float: left;
-  margin-top: 1vw;
-  width: 20vw;
-  margin-left: -20vw;
+  margin-top: 10px;
+  width: 205px;
+  padding: 10px;
+  margin-left: -202.5px;
   opacity: .5;
-  padding: 1vw;
   background-color: darkolivegreen;
   color: whitesmoke;
   display: none;
 }
 #videoSize {
-  margin-top: 10vw;
-  width: 76vw;
-  height: 40vw;
+  margin-top: 100px;
+  width: 760px;
+  height: 400px;
   background-size: 100% 100%;
 }
 #video487 {
   display: none;
 }
 #video487 iframe {
-  width: 76vw;
-  height: 40vw;
+  width: 760px;
+  height: 400px;
 }
 .elementToFadeInAndOut {
   opacity: 0;
@@ -1176,7 +1183,7 @@ main {
 /*START FOOTER GROUP START*/
 footer {
   position: relative;
-  background-image: url("../images/footers/basicpotheadfooter.webp");
+  background-image: url("../../images/footers/basicpotheadfooter.webp");
   background-size: cover;
   height: 35vw;
   width: 100%;

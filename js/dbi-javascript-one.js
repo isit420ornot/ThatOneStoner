@@ -27,7 +27,7 @@ function sure() {
 
   document.getElementById("descriptioncontainer").style.display = "none";
 
-  document.getElementById("ageQuestion").style.display = "block";
+  document.getElementById("ageContainer").style.display = "block";
 
   document.getElementById("ageButtons").style.display = "block";
 }
@@ -46,7 +46,7 @@ function whyNot() {
 
   age = prompt("Are you even old enough to be on this site???");
 
-  document.getElementById("ageQuestion").style.display = "none";
+  document.getElementById("ageContainer").style.display = "none";
 
   document.getElementById("ageButtons").style.display = "none";
 
@@ -59,7 +59,7 @@ function whyNot() {
 
     console.log("I'm sure if you're under 18 and found this log... you are ready for weed... and probably are high while reading this...");
 
-    document.getElementById("ageQuestion").style.display = "block";
+    document.getElementById("ageContainer").style.display = "block";
 
     document.getElementById("ageButtons").style.display = "block";
 
@@ -131,7 +131,7 @@ function whyNot() {
 
     alert("Did you even use a number??? Let's try this again...");
 
-    document.getElementById("ageQuestion").style.display = "block";
+    document.getElementById("ageContainer").style.display = "block";
 
     document.getElementById("ageButtons").style.display = "block";
 
@@ -184,10 +184,20 @@ function keepGoing() {
     document.getElementById("ozChamberContent1").style.display = "none";
   }, 12500);
 
+  setTimeout(() => {
+    document.getElementById("fire").style.display = "block";
+  }, 12550);
+
   //INSERT FLAMES HERE
   setTimeout(() => {
     console.log("FIRE!!!");
-  }, 13500);
+  }, 13200);
+
+  setTimeout(() => {
+    document.getElementById("fire").style.display = "none";
+  }, 14950);
+
+
 
   setTimeout(() => {
     document.getElementById("ozChamberContent2").style.display = "block";
@@ -493,7 +503,7 @@ function showMe() {
 
     document.getElementById('characterGuess').textContent = "Hm... you must be either Toto... or a Munchkin???";
 
-    document.getElementById('characterRecommendation').textContent = "Either way... I lied... because... at this time... I'm unfamiliar with way to relieve " + ailment + " at this time... might I recommend you try a variety pack of seeds that may have the perfect strain inside!!!";
+    document.getElementById('characterRecommendation').textContent = "Either way... I lied... at this time... I'm unfamiliar with way to relieve " + ailment + " at this time... might I recommend you try a variety pack of seeds that may have the perfect strain inside!!!";
 
     setTimeout(() => {
       document.getElementById("ozChamberContent4").style.display = "none";
@@ -778,27 +788,27 @@ function howMuch() {
 
   setTimeout(() => {
     document.getElementById("smallOops").style.display = "block";
-  }, 500);
+  }, 1500);
 
   setTimeout(() => {
     document.getElementById("bigOops").style.display = "block";
-  }, 2000);
-
-  setTimeout(() => {
-    document.getElementById("smallOops").style.display = "none";
-  }, 2250);
-
-  setTimeout(() => {
-    document.getElementById("bigOops").style.display = "none";
-  }, 2500);
-
-  setTimeout(() => {
-    document.getElementById("meOzHead2").style.display = "none";
   }, 3000);
 
   setTimeout(() => {
+    document.getElementById("smallOops").style.display = "none";
+  }, 4000);
+
+  setTimeout(() => {
+    document.getElementById("bigOops").style.display = "none";
+  }, 4000);
+
+  setTimeout(() => {
+    document.getElementById("meOzHead2").style.display = "none";
+  }, 4000);
+
+  setTimeout(() => {
     console.log("I try to keep things interest...");
-  }, 2750);
+  }, 4250);
 
   var spendingAmount = document.getElementById('ammountToSpend').value;
   var topShelf = spendingAmount / 350;
@@ -807,32 +817,46 @@ function howMuch() {
 
   setTimeout(() => {
     mainMain.style.backgroundImage = "url(images/javascript/preshowChamber.png)";
-  }, 3000);
+  }, 4000);
 
 
   setTimeout(() => {
     document.getElementById("meOzHead").style.display = "block";
-  }, 3000);
+  }, 4250);
 
   setTimeout(() => {
     document.getElementById("ignoreText").style.display = "block";
-  }, 3250);
+  }, 4750);
 
   setTimeout(() => {
     document.getElementById("ignoreText").style.display = "none";
-  }, 5000);
+  }, 8000);
+
+  setTimeout(() => {
+    document.getElementById("fire").style.display = "block";
+  }, 8050);
+
+  //INSERT FLAMES HERE
+  setTimeout(() => {
+    console.log("FIRE!!!");
+  }, 8100);
+
+  setTimeout(() => {
+    document.getElementById("fire").style.display = "none";
+  }, 9450);
+
 
   setTimeout(() => {
     document.getElementById("whereWereWe").style.display = "block";
-  }, 5500);
+  }, 9500);
 
   setTimeout(() => {
     document.getElementById("resultsRevealAnswer").style.display = "block";
-  }, 6500);
+  }, 11500);
 
   setTimeout(() => {
     console.log("If you're a broke ass like me... you'll be looking down at the bottom shelf...");
-  }, 6500);
+  }, 10000);
 
 
   document.getElementById('yourAmmount').textContent = "$" + spendingAmount;

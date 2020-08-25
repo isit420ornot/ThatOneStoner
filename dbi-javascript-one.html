@@ -40,6 +40,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
     <title>That One Stoner learns JavaScript One...</title>
     <link type="text/css" rel="stylesheet" href="css/django-javascript-one.css">
+    <link type="text/css" rel="stylesheet" media="screen and (min-width: 900px)" href="css/wide-screen/django-javascript-one-ws.css">
     <link href="https://fonts.googleapis.com/css2?family=Acme&family=Alfa+Slab+One&family=Cinzel:wght@400;700;900&family=Lobster&family=Special+Elite&display=swap" rel="stylesheet">
     <link rel="icon" href="images/signage/icon.webp">
     <link rel="apple-touch-icon" href="images/signage/icon.webp">
@@ -149,30 +150,25 @@
           </table>
         </div>
 
-        <div class="container" id="ageQuestion">
+        <div id="ageContainer" class="container">
 
-          <div id="ageContent">
-            <h4>Before We Get To</h4>
-            <h2>The Converter of Oz...</h2>
+          <h4>Before We Get To</h4>
+          <h2>The Converter of Oz...</h2>
 
-            <p>Would you mind if I asked you your age???</p>
+          <p>Would you mind if I asked you your age???</p>
 
-            <h6>Don't worry...<br> ...haven't learned to store information yet...<br> ...this is to test "if else" statements!!!</h6>
+          <h6>Don't worry...<br> ...haven't learned to store information yet...<br> ...this is to test "if else" statements!!!</h6>
 
-          </div>
 
-          <div id="ageButtons">
-
-            <table>
-              <tr>
-                <td id="whyNot" onclick="whyNot()">Why Not???</td>
-                <td id="noTrust" onclick="noTrust()">I Don't Trust You...</td>
-              </tr>
-            </table>
-
-          </div>
 
         </div>
+
+        <table id="ageButtons">
+          <tr>
+            <td id="whyNot" onclick="whyNot()">Why Not???</td>
+            <td id="noTrust" onclick="noTrust()">I Don't Trust You...</td>
+          </tr>
+        </table>
 
         <div id="hallwayAgeResults" class="container">
 
@@ -211,6 +207,15 @@
 
           </div>
 
+          <div id="fire">
+            <div>
+              <img id="leftFire" src="images/javascript/leftFlame.png" alt="">
+            </div>
+            <div>
+              <img id="rightFire" src="images/javascript/rightFlame.png" alt="">
+            </div>
+          </div>
+
           <div id="ozChamberContent2" class="speech-bubble">
             <div class="up-arrow top right"></div>
             <h4>Wait... no... I mean...</h4>
@@ -228,8 +233,8 @@
                     Answer...
                   </div>
                 </td>
-                <td onclick="yourBusiness()">
 
+                <td onclick="yourBusiness()">
                   <div class="answer-bubble" id="yourBusiness">
                     <div class="down-arrow bottom right"></div>
                     Mind your own business...
@@ -408,14 +413,7 @@
               Oops!!!
             </div>
           </div>
-
-
         </div>
-
-
-
-
-
 
 
 
@@ -470,14 +468,16 @@
 
                   <div class="answer-bubble" id="youAreHim">
                     <div class="down-arrow bottom right"></div>
-                    Wait... You're The Great Converter???
+                    Wait... You're...
+                    <br>The Great Converter???
                   </div>
                 </td>
                 <td onclick="youAreAStoner()">
 
                   <div class="answer-bubble" id="youAreAStoner">
                     <div class="down-arrow bottom right"></div>
-                    Wait... You're just That One Stoner...
+                    Wait... You're just...
+                    <br>That One Stoner...
                   </div>
                 </td>
               </tr>
