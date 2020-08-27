@@ -6,6 +6,7 @@
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-2MPC6YZ79H"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
+
       function gtag() {
         dataLayer.push(arguments);
       }
@@ -15,14 +16,17 @@
     </script>
     <!-- Google Tag Manager -->
     <script>
-      (function (w, d, s, l, i) {
+      (function(w, d, s, l, i) {
         w[l] = w[l] || [];
-        w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+        w[l].push({
+          'gtm.start': new Date().getTime(),
+          event: 'gtm.js'
+        });
         var f = d.getElementsByTagName(s)[0],
           j = d.createElement(s),
-          dl = l != 'dataLayer'
-            ? '&l=' + l
-            : '';
+          dl = l != 'dataLayer' ?
+          '&l=' + l :
+          '';
         j.async = true;
         j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
         f.parentNode.insertBefore(j, f);
@@ -76,7 +80,7 @@
             <a href="dbi-basic-css-two.html">CSS Pt Deux...</a>
             <a href="dbi-capstone-project-one.html">Capstone Project One...</a>
             <a href="dbi-bootstrap.html">BootStrap...</a>
-            <a href="coming-soon.html">JavaScript One...</a>
+            <a href="dbi-javascript-one.html">JavaScript One...</a>
             <a href="coming-soon.html">JavaScript Two...</a>
             <a href="coming-soon.html">Document Object Model...</a>
             <a href="coming-soon.html">jQuery...</a>

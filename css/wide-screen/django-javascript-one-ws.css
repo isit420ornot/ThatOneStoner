@@ -142,10 +142,10 @@ nav li.dropdown {
 /*START NAVBAR START*/
 /*END HEADER JUMBOTRON GROUP END*/
 body {
-  background-image: url(../../images/javascript/widescreenBG.png);
+  background-image: url(../../images/javascript/widescreenBG.webp);
 }
 main {
-  background-image: url(../../images/javascript/fullOz.png);
+  background-image: url(../../images/javascript/fullOz.webp);
   width: 860px;
   margin: 0 auto;
   height: 1250px;
@@ -607,7 +607,7 @@ main {
   height: 150px;
   width: 300px;
   background-size: 100% 100%;
-  background-image: url(../../images/javascript/CherryPieStrain.jpg);
+  background-image: url(../../images/javascript/CherryPieStrain.webp);
   box-shadow: 10px 10px 50px black;
   margin: auto;
   margin-top: 25px;

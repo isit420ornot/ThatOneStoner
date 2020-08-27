@@ -9,13 +9,13 @@ function enter() {
 
   document.getElementById("descriptioncontainer").style.display = "block";
 
-  mainMain.style.backgroundImage = "url(images/javascript/closerOz.png)";
+  mainMain.style.backgroundImage = "url(images/javascript/closerOz.webp)";
 
-  console.log("Here we go again... let's see if this pothead will will find the secret code?!?!");
+  console.log("Here we go again... let's see if this pothead will find the secret code?!?!");
 }
 
 function leave() {
-  alert("Well this is awkward... I didn't count on anyone clicking leave... I guess you should either rethink your answer or navigate to where ever you'd rather be...")
+  alert("Well this is awkward... I didn't count on anyone clicking leave... I guess you should either rethink your answer or navigate to wherever you'd rather be...")
 
   console.log("Or are you just testing each button so that you can see what's going on in the logs???");
 }
@@ -23,7 +23,7 @@ function leave() {
 function sure() {
   console.log("I wonder if that threw any casual viewers of the trail... Of course... you... reading this... are completely aware of the fact that The Converter of Oz. is for a class...");
 
-  mainMain.style.backgroundImage = "url(images/javascript/ageGuard.png)";
+  mainMain.style.backgroundImage = "url(images/javascript/ageGuard.webp)";
 
   document.getElementById("descriptioncontainer").style.display = "none";
 
@@ -33,7 +33,7 @@ function sure() {
 }
 
 function nope() {
-  alert("Why are you even here??? Once again... I didn't plan on any one to give up this early... you must really suck at choose your own adventure books...")
+  alert("Why are you even here??? Once again... I didn't plan on anyone to give up this early... you must really suck at Choose Your Own Adventure Books...")
 
   console.log("If you're not just checking links... Go on... LEAVE... I'm not going to write the code to send you to a different page...");
 }
@@ -42,7 +42,7 @@ function whyNot() {
 
   var age = null;
 
-  console.log("I don't know how this site could be age inappropriate... being that it's about education after all... but the way people get these days... you never know???");
+  console.log("I don't know how this site could be age-inappropriate... being that it's about education after all... but the way people get these days... you never know???");
 
   age = prompt("Are you even old enough to be on this site???");
 
@@ -52,10 +52,10 @@ function whyNot() {
 
   document.getElementById("hallwayAgeResults").style.display = "block";
 
-  mainMain.style.backgroundImage = "url(images/javascript/hallway.png)";
+  mainMain.style.backgroundImage = "url(images/javascript/hallway.webp)";
 
   if (age < 18) {
-    alert("You move along now... this site mentions the use of a medicinal plant that grows right out of the ground... I'd hate for a child to find out that there are healthier options than dangerous pharmacuticals... that also may be recreational...");
+    alert("You move along now... this site mentions the use of a medicinal plant that grows right out of the ground... I'd hate for a child to find out that there are healthier options than dangerous pharmaceuticals... that also may be recreational...");
 
     console.log("I'm sure if you're under 18 and found this log... you are ready for weed... and probably are high while reading this...");
 
@@ -65,7 +65,7 @@ function whyNot() {
 
     document.getElementById("hallwayAgeResults").style.display = "none";
 
-    mainMain.style.backgroundImage = "url(images/javascript/ageGuard.png)";
+    mainMain.style.backgroundImage = "url(images/javascript/ageGuard.webp)";
 
   } else if (age >= 18 && age <= 23) {
 
@@ -80,14 +80,14 @@ function whyNot() {
     }, 2500);
 
   } else if (age >= 24 && age <= 39) {
-    console.log("I always found it odd that the biggest bashers of the millenial generation are the generations who raised them... I'm sure they'll get the reference... and understand why they just may not care...");
+    console.log("I always found it odd that the biggest bashers of the millennial generation are the generations who raised them... I'm sure they'll get the reference... and understand why they just may not care...");
 
-    document.getElementById('generationSpan').textContent = "Greetings Millenial Marijuana Smokers!!!";
+    document.getElementById('generationSpan').textContent = "Greetings millennial Marijuana Smokers!!!";
 
     document.getElementById('generationGreeting').textContent = "I can't believe that you've gotten so old... it's also hard to believe that the oldest of you are my peers... so what's the deal with people hating on avocado toast???";
 
     setTimeout(() => {
-      console.log("I'm also willing to bet that outside of the class... a millenial will be the first to discover this conversation taking place in the console log...");
+      console.log("I'm also willing to bet that outside of the class... a millennial will be the first to discover this conversation taking place in the console log...");
     }, 2500);
 
   } else if (age >= 40 && age <= 55) {
@@ -96,10 +96,10 @@ function whyNot() {
 
     document.getElementById('generationSpan').textContent = "Greetings Kindred GenX Toker!!!";
 
-    document.getElementById('generationGreeting').textContent = "If you really are a peer... then you now smoke to cope with joint pain and a need for sleep over anything recreational any more... but... we still try!!!";
+    document.getElementById('generationGreeting').textContent = "If you really are a peer... then you now smoke to cope with joint pain and a need for sleep... over anything recreational any more... but... we still try!!!";
 
     setTimeout(() => {
-      console.log("I bet the kids who saw post 9/11 America to be normal enough to settle in to the prime influential time of their lives and will now have to readjust to a post-pandemic life will also understand...");
+      console.log("I bet the kids who saw post 9/11 America to be normal enough to settle into the prime influential time of their lives and will now have to readjust to a post-pandemic life will also understand...");
     }, 2500);
 
   } else if (age >= 56 && age <= 74) {
@@ -108,15 +108,15 @@ function whyNot() {
 
     document.getElementById('generationSpan').textContent = "Okay... Still Hip... Boomer!!!";
 
-    document.getElementById('generationGreeting').textContent = "You managed to find this site... probably on your child's computer... oh wait... grandchild's computer... if that is not the case... and you found the site on you own... the you too can play along... just stop reminding us what weed used to cost...";
+    document.getElementById('generationGreeting').textContent = "You managed to find this site... probably on your child's computer... oh wait... grandchild's computer... if that is not the case... and you found the site on you own... then you too can play along... just stop reminding us what weed used to cost...";
 
     setTimeout(() => {
-      console.log("I find it odd that my aging punk rock friends are more likely to be vegan and growing their own food... than any of the elders who like to brang about their hippy youth...");
+      console.log("I find it odd that my aging punk rock friends are more likely to be vegan and growing their own food... than any of the elders who like to brag about their hippy youth...");
     }, 2500);
 
   } else if (age > 74) {
 
-    console.log("Alright... some dinosaur may stumble on the this stoner themed site thinking it's caveman related... and they need someone to fix their boulder abode... but there is no way anyone this old will stumble upon the log section of this page...");
+    console.log("Alright... some dinosaur may stumble on to this stoner themed site thinking it's caveman related... and they need someone to fix their boulder abode... but there is no way anyone this old will stumble upon the log section of this page...");
 
     document.getElementById('generationSpan').textContent = "Yeah Right... A Member Of... The Greatest Generation... On This Site!?!?";
 
@@ -137,7 +137,7 @@ function whyNot() {
 
     document.getElementById("hallwayAgeResults").style.display = "none";
 
-    mainMain.style.backgroundImage = "url(images/javascript/ageGuard.png)";
+    mainMain.style.backgroundImage = "url(images/javascript/ageGuard.webp)";
   }
 }
 
@@ -148,7 +148,7 @@ function noTrust() {
 }
 
 function keepGoing() {
-  mainMain.style.backgroundImage = "url(images/javascript/preshowChamber.png)";
+  mainMain.style.backgroundImage = "url(images/javascript/preshowChamber.webp)";
 
   console.log("Don't worry... there actually is a converter.... you just have to sit through That One Stoner's attempt to add a little entertainment value to this blog??? site??? Whatever this is???");
 
@@ -177,7 +177,7 @@ function keepGoing() {
   }, 7500);
 
   setTimeout(() => {
-    console.log("See... having to resort to a gif for the delay instead of programing it in... is clear proof that I'm not doing thing correctly... but this is how I learn!!!");
+    console.log("See... having to resort to a gif for the delay instead of programming it in... is clear proof that I'm not doing thing correctly... but this is how I learn!!!");
   }, 8500);
 
   setTimeout(() => {
@@ -204,7 +204,7 @@ function keepGoing() {
   }, 15000);
 
   setTimeout(() => {
-    console.log("This is where this conversion assignment originally started... I was just going to ask for a condition that can be treated with weed  so that I could recommend an affiliate ad as a recomendation... between the Oz. being the key weight when buying weed... and the fact that JavaScript works behind the scenes... I couldn't help but make the connection...");
+    console.log("This is where this conversion assignment originally started... I was just going to ask for a condition that can be treated with weed... so that I could recommend an affiliate ad as a recommendation... between the Oz. being the key weight when buying weed... and the fact that JavaScript works behind the scenes... I couldn't help but make the connection...");
   }, 16000);
 
   setTimeout(() => {
@@ -221,7 +221,7 @@ function yourBusiness() {
   alert("What??? Does it have something to do with your butt... or your junk... something you're too ashamed to admit to???");
 
   setTimeout(() => {
-    console.log("If it is butt or junk stuff... might I recommend you try the The Heavy Hitter Mix Pack??? https://shop.ilovegrowingmarijuana.com/collections/mixpacks/products/heavy-hitters-mixpack?aff=4847... it might not be fit for you condition... but it will get you really high!!!");
+    console.log("If it is butt or junk stuff... might I recommend you try the Heavy Hitter Mix Pack??? https://shop.ilovegrowingmarijuana.com/collections/mixpacks/products/heavy-hitters-mixpack?aff=4847... it might not be fit for you condition... but it will get you really high!!!");
   }, 2500);
 }
 
@@ -245,7 +245,7 @@ function answer() {
   if (ailment.search(/home/i) != -1) {
 
     setTimeout(() => {
-      console.log("Home is where the heart aches for some... at least it's good to see this is not the case with you...");
+      console.log("Home is where the heartaches for some... at least it's good to see this is not the case with you...");
     }, 500);
 
 
@@ -271,7 +271,7 @@ function answer() {
   } else if (ailment.search(/courage/i) != -1) {
 
     setTimeout(() => {
-      console.log("I hear ya... some times it takes all the courage that I've got left... just to get out of bed...");
+      console.log("I hear ya... sometimes it takes all the courage that I've got left... just to get out of bed...");
     }, 500);
 
     path = "courage";
@@ -280,7 +280,7 @@ function answer() {
   } else {
 
     setTimeout(() => {
-      console.log("Maybe someday I'll learn how to make this fully functional where I can have The Converter of Oz. make real customized recomendations...");
+      console.log("Maybe someday I'll learn how to make this fully functional where I can have The Converter of Oz. make real customized recommendations...");
     }, 500);
     path = "toto";
   }
@@ -290,7 +290,7 @@ function answer() {
 function tooScared() {
   alert("Yeah yeah yeah... of course you'd be the one to chicken out right before getting to the goal... I bet you've been trying to leave this entire time??? You know where the address bar is located... well... at least most of you generations do...");
 
-  console.log("Again... unless you are testing each button to read the logs... how did you get this far??? In life... or on this site... just clicking away only to bale out right before the main feature...");
+  console.log("Again... unless you are testing each button to read the logs... how did you get this far??? In life... or on this site... just clicking away only to bail out right before the main feature...");
 }
 
 function showMe() {
@@ -334,7 +334,7 @@ function showMe() {
 
     document.getElementById('strainRec').textContent = "Cherry Pie";
 
-    recommendImage.style.backgroundImage = "url(images/javascript/CherryPieStrain.jpg)";
+    recommendImage.style.backgroundImage = "url(images/javascript/CherryPieStrain.webp)";
 
     var yourElement = document.getElementById('recLink');
     yourElement.setAttribute('href', 'https://www.ilovegrowingmarijuana.com/cherry-pie/?aff=4847');
@@ -357,7 +357,7 @@ function showMe() {
 
   } else if (path == "heart") {
 
-    console.log("Whether your heart ache from a condition or over reasons of love... Green Crack is might be a good strain for your heart issues...");
+    console.log("Whether your heartache from a condition or over reasons of love... Green Crack is might be a good strain for your heart issues...");
 
     document.getElementById('characterGuess').textContent = "Alright Tin Man...";
 
@@ -381,7 +381,7 @@ function showMe() {
 
     document.getElementById('strainRec').textContent = "Green Crack";
 
-    recommendImage.style.backgroundImage = "url(images/javascript/GreenCrackStrain.jpg)";
+    recommendImage.style.backgroundImage = "url(images/javascript/GreenCrackStrain.webp)";
 
     var yourElement = document.getElementById('recLink');
     yourElement.setAttribute('href', 'https://shop.ilovegrowingmarijuana.com/products/green-crack-feminized-seeds?aff=4847');
@@ -428,7 +428,7 @@ function showMe() {
 
     document.getElementById('strainRec').textContent = "Blue Dream";
 
-    recommendImage.style.backgroundImage = "url(images/javascript/BlueDreamStrain.jpg)";
+    recommendImage.style.backgroundImage = "url(images/javascript/BlueDreamStrain.webp)";
 
     var yourElement = document.getElementById('recLink');
     yourElement.setAttribute('href', 'https://shop.ilovegrowingmarijuana.com/products/blue-dream-feminized-seeds?aff=4847');
@@ -475,7 +475,7 @@ function showMe() {
 
     document.getElementById('strainRec').textContent = "Critical Mass";
 
-    recommendImage.style.backgroundImage = "url(images/javascript/CriticalMassStrain.jpg)";
+    recommendImage.style.backgroundImage = "url(images/javascript/CriticalMassStrain.webp)";
 
     var yourElement = document.getElementById('recLink');
     yourElement.setAttribute('href', 'https://shop.ilovegrowingmarijuana.com/products/critical-mass-feminized-seeds?aff=4847');
@@ -498,7 +498,7 @@ function showMe() {
 
   } else if (path == "toto") {
 
-    console.log("Alright... you caught me... I am just JavaScript and not really AI... there are a few specific words that I am looking for... think why others might have visited my next door neighbor... The Wiz!!! Note: This is when I decided to commit to the Oz theme...");
+    console.log("Alright... you caught me... I am just JavaScript and not really AI... there are a few specific words that I am looking for... think why others might have visited my next-door neighbor... The Wiz!!! Note: This is when I decided to commit to the Oz theme...");
 
 
     document.getElementById('characterGuess').textContent = "Hm... you must be either Toto... or a Munchkin???";
@@ -523,7 +523,7 @@ function showMe() {
 
     document.getElementById('strainRec').textContent = "Variety Pack";
 
-    recommendImage.style.backgroundImage = "url(images/javascript/variety.jpg)";
+    recommendImage.style.backgroundImage = "url(images/javascript/variety.webp)";
 
     var yourElement = document.getElementById('recLink');
     yourElement.setAttribute('href', 'https://shop.ilovegrowingmarijuana.com/collections/mixpacks?page=1&aff=4847');
@@ -546,7 +546,7 @@ function showMe() {
 
   } else {
 
-    alert("I have no idea what you answered to trigger this response... I though for sure that I caught everything in my if else statement");
+    alert("I have no idea what you answered to trigger this response... I thought for sure that I caught everything in my if-else statement");
 
     return;
   }
@@ -564,7 +564,7 @@ function thanks() {
 
   console.log("And now for the Main Event!!!");
 
-  mainMain.style.backgroundImage = "url(images/javascript/theTrueConverter.png)";
+  mainMain.style.backgroundImage = "url(images/javascript/theTrueConverter.webp)";
 
   document.getElementById("ozChamberContent4").style.display = "none";
 
@@ -581,7 +581,7 @@ function whatever() {
 
   console.log("And now for the Main Event!!!");
 
-  mainMain.style.backgroundImage = "url(images/javascript/theTrueConverter.png)";
+  mainMain.style.backgroundImage = "url(images/javascript/theTrueConverter.webp)";
 
   document.getElementById("ozChamberContent4").style.display = "none";
 
@@ -778,7 +778,7 @@ function convertLbs() {
 
 function howMuch() {
 
-  mainMain.style.backgroundImage = "url(images/javascript/behindTheCurtain.png)";
+  mainMain.style.backgroundImage = "url(images/javascript/behindTheCurtain.webp)";
 
   console.log("Please excuse the sloppy choreography...");
 
@@ -816,7 +816,7 @@ function howMuch() {
   var bottomShelf = spendingAmount / 100;
 
   setTimeout(() => {
-    mainMain.style.backgroundImage = "url(images/javascript/preshowChamber.png)";
+    mainMain.style.backgroundImage = "url(images/javascript/preshowChamber.webp)";
   }, 4000);
 
 
@@ -855,7 +855,7 @@ function howMuch() {
   }, 11500);
 
   setTimeout(() => {
-    console.log("If you're a broke ass like me... you'll be looking down at the bottom shelf...");
+    console.log("If you're a broke-ass like me... you'll be looking down at the bottom shelf...");
   }, 10000);
 
 
@@ -866,7 +866,7 @@ function howMuch() {
 }
 
 function youAreHim() {
-  mainMain.style.backgroundImage = "url(images/javascript/javaOZbg.png)";
+  mainMain.style.backgroundImage = "url(images/javascript/javaOZbg.webp)";
 
   document.getElementById("meOzHead").style.display = "none";
 
@@ -884,7 +884,7 @@ function youAreHim() {
 }
 
 function youAreAStoner() {
-  mainMain.style.backgroundImage = "url(images/javascript/javaOZbg.png)";
+  mainMain.style.backgroundImage = "url(images/javascript/javaOZbg.webp)";
 
   document.getElementById("meOzHead").style.display = "none";
 
@@ -898,7 +898,7 @@ function youAreAStoner() {
 }
 
 function bye() {
-  mainMain.style.backgroundImage = "url(images/javascript/goodbye.png)";
+  mainMain.style.backgroundImage = "url(images/javascript/goodbye.webp)";
 
   console.log("See you in JavaScript Level Two... which I'll start after a day off or two!!!");
 
@@ -927,7 +927,7 @@ function isit487() {
     console.log("I hope you enjoy this short film that I wrote many years ago...");
 
     document.getElementById("video487").style.display = "block";
-    alert("enjoy")
+    alert("Thank you for digging deep in the logs... I hope you enjoy this short film that I wrote as your reward!!!")
 
   } else {
     alert("Nope... try again...")

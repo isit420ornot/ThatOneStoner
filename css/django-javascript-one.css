@@ -142,7 +142,7 @@ nav li.dropdown {
 /*START NAVBAR START*/
 /*END HEADER JUMBOTRON GROUP END*/
 main {
-  background-image: url(../images/javascript/fullOz.png);
+  background-image: url(../images/javascript/fullOz.webp);
   width: 100%;
   height: 125vw;
   padding-top: 25vw;
@@ -603,7 +603,7 @@ main {
   height: 15vw;
   width: 30vw;
   background-size: 100% 100%;
-  background-image: url(../images/javascript/CherryPieStrain.jpg);
+  background-image: url(../images/javascript/CherryPieStrain.webp);
   box-shadow: 1vw 1vw 5vw black;
   margin: auto;
   margin-top: 2.5vw;
